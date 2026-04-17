@@ -28,7 +28,7 @@ export default function Header() {
 
         {/* Desktop links */}
         <nav className="hidden md:flex gap-6 items-center">
-          <a href="/#about" className="hover:text-gray-500">About</a>
+          <a href="/#about" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>About</a>
           
           {/* 🔽 Research Dropdown */}
           <div className="relative">
@@ -41,20 +41,20 @@ export default function Header() {
 
             {openResearch && (
               <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-xl p-4 flex flex-col gap-2 min-w-[220px] z-50">
-                <a href="#research-interests">Research Interests</a>
-                <a href="#publications">Publications</a>
-                <a href="/research/projects">Research Projects</a>
-                <a href="/research/lexicon">Lexicon</a>
+                <Link href="#research-interests" onClick={() => setOpenResearch(false)}>Research Interests</Link>
+                <Link href="#publications" onClick={() => setOpenResearch(false)}>Publications</Link>
+                <Link href="/research/projects" onClick={() => setOpenResearch(false)}>Research Projects</Link>
+                <Link href="/research/lexicon" onClick={() => setOpenResearch(false)}>Lexicon</Link>
               </div>
             )}
           </div>
 
-          <a href="/#skills" className="hover:text-gray-500">Skills</a>
-          <a href="/#services" className="hover:text-gray-500">Services</a>
-          <Link href="/news" className="hover:text-gray-500">
+          <a href="/#skills" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>Skills</a>
+          <a href="/#services" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>Services</a>
+          <Link href="/news" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>
             News
           </Link>
-          <a href="/#contact" className="hover:text-gray-500">Contact</a>
+          <a href="/#contact" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>Contact</a>
         </nav>
       </div>
 
@@ -74,14 +74,14 @@ export default function Header() {
               {openResearch && (
                 <ul className="flex flex-col gap-2 mt-2 pl-8">
                   <li>
-                    <a href="/#research-interests" onClick={() => setOpen(false)}>
+                    <Link href="/#research-interests" onClick={() => setOpen(false)}>
                       Research Interests
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/#publications" onClick={() => setOpen(false)}>
+                    <Link href="/#publications" onClick={() => setOpen(false)}>
                       Publications
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/research/projects" onClick={() => setOpen(false)}>
