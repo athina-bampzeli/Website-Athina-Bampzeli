@@ -25,11 +25,11 @@ export const metadata = {
     title: "Athina Bampzeli",
     description:
       "Chemical Engineer focused on process systems engineering and machine learning.",
-    url: "https://your-domain.com",
+    url: "https://athinabampzeli.com",
     siteName: "Athina Bampzeli Portfolio",
     images: [
       {
-        url: "https://your-domain.com/profile.jpg", 
+        url: "https://athinabampzeli.com/profile.jpg", 
         width: 800,
         height: 800,
       },
@@ -42,7 +42,7 @@ export const metadata = {
     title: "Athina Bampzeli",
     description:
       "Chemical Engineer focused on process systems engineering and machine learning.",
-    images: ["https://your-domain.com/profile.jpg"],
+    images: ["https://athinabampzeli.com/profile.jpg"],
   },
 };
 
@@ -55,15 +55,15 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         
-        {/* ✅ Navbar visible everywhere */}
+        {/* Header visible everywhere */}
         <Header />
 
-        {/* ✅ Page content */}
+        {/* Page content */}
         <main className="flex-1">
           {children}
         </main>
 
-        {/* ✅ Footer everywhere */}
+        {/* Footer visible everywhere */}
         <Footer />
 
       </body>

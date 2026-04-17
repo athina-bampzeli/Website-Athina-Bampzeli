@@ -77,13 +77,11 @@ export default function Home() {
 
   return (
     <>
-      {/* <Navbar /> */}
-
       {/* Home screen */}
       <main id="home" className="px-6 py-30 flex flex-col md:flex-row md:items-center justify-start md:justify-center pt-6 md:pt-24 px-6">
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
           
-          {/* Left: Image */}
+          {/* Home screen left image */}
           <div className="flex justify-center">
             <Image
               src="/profile.jpg"
@@ -94,7 +92,7 @@ export default function Home() {
             />
           </div>
 
-          {/* Right: Text */}
+          {/* Home screen right text */}
           <div>
             <h1 className="text-4xl font-bold mb-4">
               Athina Bampzeli
@@ -105,6 +103,7 @@ export default function Home() {
               engineer from Thessaloniki looking for opportunities in research end education.
             </p>
 
+            {/* Home screen right icons */}
             <div className="flex flex-wrap gap-4 max-w-[240px] justify-center md:justify-start">
               <a
                 href="/cv.pdf"
@@ -151,7 +150,6 @@ export default function Home() {
                 <SiOrcid size={24} />
               </a>
 
-              {/* ResearchGate */}
               <a
                 href="https://www.researchgate.net/profile/Athina-Bampzeli"
                 target="_blank"
@@ -161,7 +159,6 @@ export default function Home() {
                 <ResearchGateIcon size={24} />
               </a>
 
-              {/* Google Scholar */}
               <a
                 href="https://scholar.google.com/citations?hl=en&authuser=1&user=JnwBfVAAAAAJ"
                 target="_blank"
@@ -187,7 +184,7 @@ export default function Home() {
         </div>
       </main>
 
-      {/* About section */}
+      {/* About me section */}
       <section id="about" className="px-6 py-30 bg-gray-50 scroll-mt-24">
         <div className="max-w-6xl mx-auto text-center">
           
@@ -276,7 +273,7 @@ export default function Home() {
               </li>
             </ul>
 
-            {/* 🔽 Image below publication */}
+            {/* Image below publication */}
             <div className="mt-8 flex justify-center">
               <Image
                 src="/publication.png"   
@@ -393,37 +390,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6">Services</h2>
 
           <div className="flex justify-center">
-            <div className="grid md:grid-cols-2 gap-10 max-w-4xl w-full">
-              
+            <div className="grid md:grid-cols-2 gap-20 max-w-4xl w-full">
 
-              {/* Teaching courses */}
-              {/* <div className="group [perspective:1000px]">
-                <div className="relative h-90 w-90 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  
-                  
-                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl shadow-sm group-hover:shadow-md">
-                    <h3 className="text-2xl font-semibold">Teaching Courses</h3>
-                  </div>
-
-                  
-                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
-                    <p className="text-gray-700">I support students from the Chemical Engineering department of Aristotle University of Thessaloniki with understanding and passing exams on the courses </p>
-                      <ul className="list-disc pl-6 text-gray-700 space-y-2">
-                        <li>Technical Production Sceduling</li>
-                        <li>Prgramming Languages</li>
-                        <li>Chemical Reactor Design</li>
-                        <li>Advanced Methods for Design, Synthesis and Optimization of Processes</li>
-                        <li>Chemical Plant Design</li>
-                        <li>Techno-economic Study</li>
-                      </ul>
-                    <p className="text-gray-700">I can help in formulating project/assignment/presentation if needed but not do the work </p>
-
-                  </div>
-
-                </div>
-              </div> */}
-
-            {/* Research collaboration */}
+              {/* Research collaboration */}
               <FlipCard
                 front={
                   <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm text-center gap-3">
@@ -527,7 +496,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact section */}
+      {/* Contact me section */}
       <section id="contact" className="px-6 py-30 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
 

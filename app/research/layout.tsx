@@ -8,7 +8,6 @@ export const metadata = {
 export default function ResearchLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {/* <Navbar /> */}
       <div>{children}</div>
     </>
   );

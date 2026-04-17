@@ -30,7 +30,7 @@ export default function Header() {
         <nav className="hidden md:flex gap-6 items-center">
           <a href="/#about" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>About</a>
           
-          {/* 🔽 Research Dropdown */}
+          {/* Research Dropdown */}
           <div className="relative">
             <button
               className="hover:text-gray-500"
