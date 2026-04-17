@@ -31,28 +31,22 @@ export default function Header() {
           <a href="/#about" className="hover:text-gray-500">About</a>
           
           {/* 🔽 Research Dropdown */}
-          <div className="relative group">
-            <button className="hover:text-gray-500">
+          <div className="relative">
+            <button
+              className="hover:text-gray-500"
+              onClick={() => setOpenResearch(!openResearch)}
+            >
               Research
             </button>
 
-            <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-xl p-4 flex flex-col gap-2 min-w-[220px]
-            opacity-0 invisible translate-y-2
-            group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
-            transition-all duration-200 z-50">
-              <a href="/#research-interests" className="hover:text-blue-600">
-                Research Interests
-              </a>
-              <a href="/#publications" className="hover:text-blue-600">
-                Publications
-              </a>
-              <Link href="/research/projects" className="hover:text-blue-600">
-                Research Projects
-              </Link>
-              <Link href="/research/lexicon" className="hover:text-blue-600">
-                Lexicon
-              </Link>
-            </div>
+            {openResearch && (
+              <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-xl p-4 flex flex-col gap-2 min-w-[220px] z-50">
+                <a href="#research-interests">Research Interests</a>
+                <a href="#publications">Publications</a>
+                <a href="/research/projects">Research Projects</a>
+                <a href="/research/lexicon">Lexicon</a>
+              </div>
+            )}
           </div>
 
           <a href="/#skills" className="hover:text-gray-500">Skills</a>
@@ -68,7 +62,7 @@ export default function Header() {
       {open && (
         <div className="md:hidden bg-white shadow-md border-t border-gray-200">
           <ul className="flex flex-col gap-4 p-4">
-            <li><a href="#about" onClick={() => setOpen(false)}>About</a></li>
+            <li><a href="/#about" onClick={() => setOpen(false)}>About</a></li>
             <li>
               <button
                 className="w-full text-left px-0 py-2 hover:text-gray-500 focus:outline-none"
@@ -103,14 +97,14 @@ export default function Header() {
               )}
             </li>
 
-            <li><a href="#skills" onClick={() => setOpen(false)}>Skills</a></li>
-            <li><a href="#services" onClick={() => setOpen(false)}>Services</a></li>
+            <li><a href="/#skills" onClick={() => setOpen(false)}>Skills</a></li>
+            <li><a href="/#services" onClick={() => setOpen(false)}>Services</a></li>
             <li>
               <Link href="/news" onClick={() => setOpen(false)}>
                 News
               </Link>
             </li>
-            <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
+            <li><a href="/#contact" onClick={() => setOpen(false)}>Contact</a></li>
           </ul>
         </div>
       )}
