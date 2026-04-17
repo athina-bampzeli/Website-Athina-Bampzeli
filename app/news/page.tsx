@@ -1,5 +1,7 @@
 // app/news/page.tsx
 
+import FlipCard from "@/components/FlipCard";
+
 export default function News() {
   return (
     <main className="px-6 py-30 bg-gray-50">
@@ -12,10 +14,10 @@ export default function News() {
 
         
             {/* pesxm15 */}
-            <div className="group [perspective:1000px]">
-              <div className="relative h-120 w-90 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <FlipCard
+              front={
                 
-                {/* FRONT */}
+                
                 <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm group-hover:shadow-md p-4 text-center">
                   <h3 className="text-2xl font-semibold">
                     15th Panhellenic Scientific Conference on Chemical Engineering
@@ -26,9 +28,11 @@ export default function News() {
                     </div>
                   </h3>
                 </div>
+              }
+              back={
 
-                {/* BACK */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
+                
+                <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                   <p className="text-gray-700">The conference will focus on highlighting interdisciplinary areas
                     of Chemical Engineering, as
                     well as current trends, recent developments, and research in fields such as Biochemical
@@ -53,8 +57,9 @@ export default function News() {
                   
                 </div>
 
-              </div>
-            </div>
+              }
+            />
+            
           </div>
         </div>
         

@@ -1,5 +1,7 @@
 // app/research/projects/page.tsx
 
+import FlipCard from "@/components/FlipCard";
+
 export default function Projects() {
   return (
     <main className="px-6 py-30 bg-gray-50">
@@ -11,28 +13,28 @@ export default function Projects() {
 
         
             {/* Thesis */}
-            <div className="group [perspective:1000px]">
-              <div className="relative h-150 w-90 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <FlipCard
+              height="h-150"
+              width="w-90"
+              front={
                 
-                {/* FRONT */}
                 <div className="absolute inset-0 border rounded-xl shadow-sm overflow-hidden group-hover:shadow-md">
 
-                  {/* Image */}
                   <img
                     src="/thesis.png"
                     alt="Thesis"
                     className="w-full h-full object-contain"
                   />
 
-                  {/* Title overlay (bottom) */}
                   <div className="absolute bottom-0 left-0 w-full bg-black/60 text-white p-3">
                     <h3 className="text-lg font-semibold">Diploma Thesis</h3>
                   </div>
 
                 </div>
+              }
+              back={
 
-                {/* BACK */}
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
+                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                   <p className="text-gray-700">This thesis presents a dynamic, integrated process design 
                   and simulation framework for the pasteurization and membrane filtration sections of a
                   dairy plant producing milk powder. The aim is to evaluate how key physicochemical and
@@ -54,33 +56,34 @@ export default function Projects() {
                     for more.
                   </p>
                 </div>
+              }
+            />
 
-              </div>
-            </div>
+        
 
             {/* Capstone Design Project */}
-            <div className="group [perspective:1000px]">
-              <div className="relative h-150 w-90 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <FlipCard
+              height="h-150"
+              width="w-90"
+              front={
                 
-                {/* FRONT */}
                 <div className="absolute inset-0 border rounded-xl shadow-sm overflow-hidden group-hover:shadow-md">
 
-                  {/* Image */}
                   <img
                     src="/technoeconomic.png"
                     alt="Technoeconomic"
                     className="w-full h-full object-contain"
                   />
 
-                  {/* Title overlay (bottom) */}
                   <div className="absolute bottom-0 left-0 w-full bg-black/60 text-white p-3">
                     <h3 className="text-lg font-semibold">Capstone Design Project</h3>
                   </div>
 
                 </div>
+              }
+              back={
 
-                {/* BACK */}
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
+                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                   <p className="text-gray-700">This techno-economic study investigates the production
                     of high-purity propylene ({'>'}99 wt%) from methanol using the Lurgi MTP process.
                     The proposed plant, located in Sindos Industrial Area, processes 252,500 kg/h of methanol
@@ -105,32 +108,30 @@ export default function Projects() {
                   </p>
                 </div>
 
-              </div>
-            </div>
+              }
+            />
 
             {/* Thermal Engineer */}
-            <div className="group [perspective:1000px]">
-              <div className="relative h-120 w-90 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                
-                {/* FRONT */}
+            <FlipCard
+              front={
+ 
                 <div className="absolute inset-0 border rounded-xl shadow-sm overflow-hidden group-hover:shadow-md">
 
-                  {/* Image */}
                   <img
                     src="/thermal.png"
                     alt="Thermal Engineer"
                     className="w-full h-full object-contain"
                   />
 
-                  {/* Title overlay (bottom) */}
                   <div className="absolute bottom-0 left-0 w-full bg-black/60 text-white p-3">
                     <h3 className="text-lg font-semibold">Thermal Engineer</h3>
                   </div>
 
                 </div>
+              }
+              back={
 
-                {/* BACK */}
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
+                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                   <p className="text-gray-700">As a Thermal Engineer at the AcubeSAT project of{" "}
 
                     <a
@@ -172,32 +173,30 @@ export default function Projects() {
                     {" "}to support knowledge sharing.</p>
                 </div>
 
-              </div>
-            </div>
+              }
+            />
             
             {/* Ecotrophelia */}
-            <div className="group [perspective:1000px]">
-              <div className="relative h-120 w-90 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                
-                {/* FRONT */}
+            <FlipCard
+              front={
+
                 <div className="absolute inset-0 border rounded-xl shadow-sm overflow-hidden group-hover:shadow-md">
 
-                  {/* Image */}
                   <img
                     src="/ecotrophelia.jpeg"
                     alt="Ecotrophelia"
                     className="w-full h-full object-contain"
                   />
 
-                  {/* Title overlay (bottom) */}
                   <div className="absolute bottom-0 left-0 w-full bg-black/60 text-white p-3">
                     <h3 className="text-lg font-semibold">Ecotrophelia</h3>
                   </div>
 
                 </div>
+              }
+              back={
 
-                {/* BACK */}
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
+                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                   <p className="text-gray-700">The competition organised by Hellenic Food Industries Association
                   was about developing innovative food and beverages that are produced, packaged and transported
                   in an eco-friendly and economic way. The product that we developed was an effervescent tonic
@@ -208,8 +207,8 @@ export default function Projects() {
                   for the attendees at the competition to try.</p>
                 </div>
 
-              </div>
-            </div>
+              }
+            />
 
           </div>
         </div>

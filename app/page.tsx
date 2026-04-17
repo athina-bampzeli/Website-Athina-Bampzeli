@@ -8,6 +8,7 @@ import { FaGithub, FaLinkedin, FaGitlab, FaGraduationCap } from "react-icons/fa"
 import { SiOrcid } from "react-icons/si";
 import { ResearchGateIcon, ScopusIcon } from "@/components/Icons";
 import { useEffect } from "react";
+import FlipCard from "@/components/FlipCard";
 
 const skillstech = [
   "Mechanistic Modeling",
@@ -423,104 +424,89 @@ export default function Home() {
               </div> */}
 
             {/* Research collaboration */}
-              <div className="group [perspective:1000px]">
-                <div className="relative h-90 w-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  
-                  {/* FRONT */}
-                  <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm group-hover:shadow-md text-center gap-3">
-
-
-                    {/* Image */}
+              <FlipCard
+                front={
+                  <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm text-center gap-3">
                     <img
                       src="/collaboration.png"
                       alt="collaboration"
-                
                     />
-
-                    {/* Title overlay (bottom) */}
-                    <h3 className="text-2xl font-semibold">Research Collaboration</h3>
-                    
+                    <h3 className="text-2xl font-semibold">
+                      Research Collaboration
+                    </h3>
                   </div>
-                  
-
-                  {/* BACK */}
-                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
-                    <p>Collaborating on academic projects and publications in the fields of process systems
+                }
+                back={
+                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                    <p>
+                      Collaborating on academic projects and publications in the fields of process systems
                       engineering and machine learning. You can explore some of my coding projects in Python
                       focused on{" "}
-            
-                    <a
-                      href="https://github.com/athina-bampzeli/Programming-Languages-1"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
-                    >
-                      data analysis
-                    </a>
 
-                    ,{" "}
+                      <a
+                        href="https://github.com/athina-bampzeli/Programming-Languages-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        data analysis
+                      </a>
 
-                    <a
-                      href="https://github.com/athina-bampzeli/Programming-Languages-2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
-                    >
-                      machine learning
-                    </a>
+                      ,{" "}
 
-                    {" "}and{" "}
+                      <a
+                        href="https://github.com/athina-bampzeli/Programming-Languages-2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        machine learning
+                      </a>
 
-                    <a
-                      href="https://github.com/athina-bampzeli/Titer-Prediction"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
-                    >
-                      predictive modeling
-                    </a>
+                      {" "}and{" "}
 
-                    ,{" "}as well as educational presentations on{" "}
+                      <a
+                        href="https://github.com/athina-bampzeli/Titer-Prediction"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        predictive modeling
+                      </a>
 
-                    <a
-                      href="https://github.com/athina-bampzeli/Cybersecurity-Presentations"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
-                    >
-                      cybersecurity
-                    </a>
+                      ,{" "}as well as educational presentations on{" "}
 
-                    .
-
+                      <a
+                        href="https://github.com/athina-bampzeli/Cybersecurity-Presentations"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        cybersecurity
+                      </a>.
                     </p>
                   </div>
-
-                </div>
-              </div>
+                }
+              />
 
               {/* Career Development */}
-              <div className="group [perspective:1000px]">
-                <div className="relative h-90 w-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                  
-                  {/* FRONT */}
+              <FlipCard
+                front={
+                                   
                   <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm group-hover:shadow-md text-center gap-3">
-
-
-                    {/* Image */}
+                  
                     <img
                       src="/career.png"
                       alt="career"
-                
-                    />
-
-                    {/* Title overlay (bottom) */}
+                    />                    
                     <h3 className="text-2xl font-semibold">Career Development</h3>
                     
                   </div>
+                }
 
-                  {/* BACK */}
-                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 [transform:rotateY(180deg)] backface-hidden p-4 text-center">
+                back={
+                  
+                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                     <p className="text-gray-700">Providing tailored guidance on preparing high-quality CVs and motivational/cover
                                                  letters for industrial and academic positions in Greece and internationally,
                                                  along with detailed, constructive feedback on your documents.
@@ -533,8 +519,8 @@ export default function Home() {
                                                  your communication skills and boost your confidence.</p>
                   </div>
 
-                </div>
-              </div>
+                }
+              />
 
             </div>
           </div>
