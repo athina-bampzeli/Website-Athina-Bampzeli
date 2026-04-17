@@ -108,7 +108,7 @@ export default function Home() {
               <a
                 href="/cv.pdf"
                 target="_blank"
-                className="px-4 py-3 bg-black text-white rounded-xl text-center flex-shrink-0 hover:bg-gray-800 transition"
+                className="px-3 py-3 bg-black text-white rounded-xl text-center flex-shrink-0 hover:bg-gray-800 transition"
               >
                 CV
               </a>
