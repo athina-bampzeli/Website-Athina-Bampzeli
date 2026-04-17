@@ -1,0 +1,3 @@
+Personal webpage under development...
+
+This project is licensed under the MIT License. Please give credit to Athina Bampzeli if you use or adapt this template.
