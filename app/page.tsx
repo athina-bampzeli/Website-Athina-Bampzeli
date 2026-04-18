@@ -98,6 +98,10 @@ export default function Home() {
               Athina Bampzeli
             </h1>
 
+            <h2 className="text-1xl font-bold mb-4">
+              Chemical Engineer | Researcher | Hybrid Modeling
+            </h2>
+
             <p className="text-gray-600 mb-6">
               Hello! Welcome to my website. I am Athina, a Chemical
               Engineer from Thessaloniki looking for opportunities in research end education.

@@ -18,11 +18,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Athina Bampzeli",
+  title: "Athina Bampzeli | Chemical Engineer & Researcher",
   description:
-    "Chemical Engineer focused on process systems engineering and machine learning.",
+    "Official portfolio of Athina Bampzeli, Chemical Engineer specializing in process systems engineering, machine learning, and research projects.",
 
-  openGraph: {
+  keywords: [
+    "Athina Bampzeli",
+    "Athina Babzeli",
+    "Αθηνά Μπαμπζέλη",
+    "Athina Bampzeli chemical engineer",
+    "Athina Bampzeli researcher",
+    "Athina Bampzeli portfolio",
+    "chemical engineer machine learning",
+    "χημικός μηχανικός μηχανική μάθηση",
+  ],
+    openGraph: {
     title: "Athina Bampzeli",
     description:
       "Chemical Engineer focused on process systems engineering and machine learning.",
