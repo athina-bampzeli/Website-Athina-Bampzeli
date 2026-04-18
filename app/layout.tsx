@@ -71,7 +71,6 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* Cookie banner + Analytics */}
         <CookieBanner />
       </body>
     </html>

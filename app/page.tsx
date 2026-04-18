@@ -189,7 +189,7 @@ export default function Home() {
       </main>
 
       {/* About me section */}
-      <section id="about" className="px-6 py-30 bg-gray-50 scroll-mt-24">
+      <section id="about" className="px-6 py-30 scroll-mt-24">
         <div className="max-w-6xl mx-auto text-center">
           
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
@@ -323,7 +323,7 @@ export default function Home() {
       </section>
 
       {/* Skills section */}
-      <section id="skills" className="px-6 py-30 bg-gray-50">
+      <section id="skills" className="px-6 py-30">
         <div className="max-w-6xl mx-auto text-center">
 
           <h2 className="text-3xl font-bold mb-6">Technical Skills</h2>
@@ -410,7 +410,7 @@ export default function Home() {
                   </div>
                 }
                 back={
-                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                  <div className="absolute inset-0 flex items-center bg-white justify-center border rounded-xl p-4 text-center">
                     <p>
                       Collaborating on academic projects and publications in the fields of process systems
                       engineering and machine learning. You can explore some of my coding projects in Python
@@ -479,7 +479,7 @@ export default function Home() {
 
                 back={
                   
-                  <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                  <div className="absolute inset-0 flex items-center bg-white justify-center border rounded-xl p-4 text-center">
                     <p className="text-gray-700">Providing tailored guidance on preparing high-quality CVs and motivational/cover
                                                  letters for industrial and academic positions in Greece and internationally,
                                                  along with detailed, constructive feedback on your documents.
@@ -501,7 +501,7 @@ export default function Home() {
       </section>
 
       {/* Contact me section */}
-      <section id="contact" className="px-6 py-30 bg-gray-50">
+      <section id="contact" className="px-6 py-30">
         <div className="max-w-4xl mx-auto text-center">
 
           <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
