@@ -410,7 +410,7 @@ export default function Home() {
                   </div>
                 }
                 back={
-                  <div className="absolute inset-0 flex items-center bg-white justify-center border rounded-xl p-4 text-center">
+                  <div className="absolute inset-0 flex items-center bg-gray-100 justify-center border rounded-xl p-4 text-center">
                     <p>
                       Collaborating on academic projects and publications in the fields of process systems
                       engineering and machine learning. You can explore some of my coding projects in Python
@@ -479,7 +479,7 @@ export default function Home() {
 
                 back={
                   
-                  <div className="absolute inset-0 flex items-center bg-white justify-center border rounded-xl p-4 text-center">
+                  <div className="absolute inset-0 flex items-center bg-gray-100 justify-center border rounded-xl p-4 text-center">
                     <p className="text-gray-700">Providing tailored guidance on preparing high-quality CVs and motivational/cover
                                                  letters for industrial and academic positions in Greece and internationally,
                                                  along with detailed, constructive feedback on your documents.
