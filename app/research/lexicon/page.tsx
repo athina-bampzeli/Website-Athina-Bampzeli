@@ -2,7 +2,7 @@
 
 export default function Lexicon() {
   return (
-    <main className="px-6 py-30 bg-gray-50">
+    <main className="px-6 py-30 ">
       <div className="max-w-6xl mx-auto text-center">
 
         <h2 className="text-3xl font-bold mb-6">Lexicon</h2>
