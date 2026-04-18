@@ -14,6 +14,8 @@ website/
 │── app/
     │── news/
         │── page.tsx
+    │── privacy/
+        │── page.tsx
     │── research/
         │── lexicon/
             │── page.tsx
@@ -24,6 +26,7 @@ website/
     │── layout.tsx
     │── page.tsx
 │── components/
+    │── CookieBanner.tsx
     │── FlipCard.tsx
     │── Footer.tsx
     │── Icons.tsx
@@ -156,6 +159,12 @@ Defines the layout shared by the research projects and lexicon pages.
 
 ---
 
+### `app/privacy/page.tsx`
+
+Privacy policy page. Read more on Privacy & Cookie Compliance.
+
+---
+
 ## `components/`
 
 This folder contains **reusable UI components** used throughout the site.
@@ -235,6 +244,12 @@ This component centralizes share link generation logic instead of repeating it i
 
 ---
 
+### `components/CookieBanner.tsx`
+
+Where google analytics scripts are loaded. Read more on Privacy & Cookie Compliance.
+
+---
+
 ## `public/`
 
 Stores **static assets** served directly by Next.js.
@@ -282,6 +297,48 @@ md:hidden
 ```
 
 to hide elements on medium screens and above.
+
+---
+
+## Privacy & Cookie Compliance
+
+This website uses **Google Analytics** to understand visitor traffic and improve website performance.
+
+### Analytics data collected
+
+The analytics service may collect anonymized information such as:
+
+* visited pages
+* time spent on pages
+* browser type
+* device type
+* approximate region
+* referral source
+
+### Privacy protections
+
+To improve privacy compliance:
+
+* IP anonymization is enabled
+* analytics scripts load only after user consent
+* users can withdraw consent through the cookie settings button
+
+### Cookie duration
+
+Analytics cookies may remain active for up to **2 years**, unless deleted by the user.
+
+### Privacy policy
+
+A dedicated privacy policy page is available at:
+
+* `app/privacy/page.tsx`
+
+The policy explains:
+
+* what data is collected
+* why it is collected
+* how users can opt out
+* Google Analytics privacy information
 
 ---
 
