@@ -32,7 +32,7 @@ export default function News() {
               back={
 
                 
-                <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl bg-white p-4 text-center">
+                <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
                   <p className="text-gray-700">The conference will focus on highlighting interdisciplinary areas
                     of Chemical Engineering, as
                     well as current trends, recent developments, and research in fields such as Biochemical
