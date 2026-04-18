@@ -99,8 +99,8 @@ export default function Home() {
             </h1>
 
             <p className="text-gray-600 mb-6">
-              Hello! Welcome to my website :) I am Athina, a chemical
-              engineer from Thessaloniki looking for opportunities in research end education.
+              Hello! Welcome to my website. I am Athina, a Chemical
+              Engineer from Thessaloniki looking for opportunities in research end education.
             </p>
 
             {/* Home screen right icons */}

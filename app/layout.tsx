@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Navbar";
+import CookieBanner from "@/components/CookieBanner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,18 +55,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
-        
-        {/* Header visible everywhere */}
         <Header />
 
-        {/* Page content */}
-        <main className="flex-1">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
 
-        {/* Footer visible everywhere */}
         <Footer />
 
+        {/* Cookie banner + Analytics */}
+        <CookieBanner />
       </body>
     </html>
   );

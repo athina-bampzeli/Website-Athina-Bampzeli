@@ -1,6 +1,7 @@
 // components/Footer.tsx
 
 import ShareButtons from "./ShareButtons";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -22,7 +23,13 @@ export default function Footer() {
           <ShareButtons />
         </div>
 
+        {/* Privacy Policy */}
+        <Link href="/privacy" className="text-sm text-gray-600 hover:underline">
+          Privacy Policy
+        </Link>
+
       </div>
+      
     </footer>
   );
 }
