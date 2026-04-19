@@ -4,6 +4,7 @@
 
 import { useEffect, useState } from "react";
 import Script from "next/script";
+import { GiCookie } from "react-icons/gi";
 
 export default function CookieBanner() {
   const [consent, setConsent] = useState<string | null>(null);
@@ -78,9 +79,10 @@ export default function CookieBanner() {
       {consent && (
         <button
           onClick={resetConsent}
-          className="fixed bottom-4 right-4 bg-gray-800 text-white px-3 py-2 rounded-lg text-sm z-50"
+          className="fixed bottom-4 right-4 text-gray-700 p-3 hover:bg-gray-100 z-50"
+          aria-label="Cookie Settings"
         >
-          Cookie Settings
+          <GiCookie className="w-7 h-7" />
         </button>
       )}
     </>
