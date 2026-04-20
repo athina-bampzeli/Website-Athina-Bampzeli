@@ -75,7 +75,6 @@ export default function CookieBanner() {
         </div>
       )}
 
-
       {consent && (
         <button
           onClick={resetConsent}

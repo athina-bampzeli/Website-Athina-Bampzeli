@@ -1,5 +1,9 @@
 // app/research/lexicon/page.tsx
 
+export const metadata = {
+  title: "Lexicon | Athina Bampzeli",
+};
+
 export default function Lexicon() {
   return (
     <main className="px-6 py-30 ">
