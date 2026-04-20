@@ -41,10 +41,10 @@ export default function Header() {
 
             {openResearch && (
               <div className="absolute top-full left-0 mt-2 bg-white shadow-lg rounded-xl p-4 flex flex-col gap-2 min-w-[220px] z-50">
-                <Link href="#research-interests" onClick={() => setOpenResearch(false)}>Research Interests</Link>
-                <Link href="#publications" onClick={() => setOpenResearch(false)}>Publications</Link>
-                <Link href="/research/projects" onClick={() => setOpenResearch(false)}>Research Projects</Link>
-                <Link href="/research/lexicon" onClick={() => setOpenResearch(false)}>Lexicon</Link>
+                <a href="/#research-interests" onClick={() => setOpenResearch(false)}>Research Interests</a>
+                <a href="/#publications" onClick={() => setOpenResearch(false)}>Publications</a>
+                <a href="/research/projects" onClick={() => setOpenResearch(false)}>Research Projects</a>
+                <a href="/research/lexicon" onClick={() => setOpenResearch(false)}>Lexicon</a>
               </div>
             )}
           </div>

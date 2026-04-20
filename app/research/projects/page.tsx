@@ -2,6 +2,10 @@
 
 import FlipCard from "@/components/FlipCard";
 
+export const metadata = {
+  title: "Research Projects | Athina Bampzeli",
+};
+
 export default function Projects() {
   return (
     <main className="px-6 py-30">
@@ -159,7 +163,7 @@ export default function Projects() {
                     </a>
                     {" "}(Thermal Vacuum Chamber) conducted at ESA facilities in Belgium.
                     In addition, I created a training video on the use of ESATAN and documented
-                    all work on and{" "}
+                    all work on{" "}
 
                     <a
                       href="https://gitlab.com/Athina_Bampzeli"

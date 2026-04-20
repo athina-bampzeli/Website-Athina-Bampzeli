@@ -6,6 +6,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Navbar";
 import CookieBanner from "@/components/CookieBanner";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +19,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Athina Bampzeli | Chemical Engineer & Researcher",
+  title: {
+    default: "Athina Bampzeli | Chemical Engineer & Researcher",
+    template: "%s | Athina Bampzeli",
+  },
   description:
     "Official portfolio of Athina Bampzeli, Chemical Engineer specializing in process systems engineering, machine learning, and research projects.",
 
@@ -48,6 +52,11 @@ export const metadata = {
     type: "website",
   },
 
+  robots: {
+    index: true,
+    follow: true,
+  },
+
   twitter: {
     card: "summary_large_image",
     title: "Athina Bampzeli",
@@ -70,6 +79,8 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
 
         <Footer />
+
+        <Analytics />
 
         <CookieBanner />
       </body>

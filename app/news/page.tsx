@@ -2,6 +2,10 @@
 
 import FlipCard from "@/components/FlipCard";
 
+export const metadata = {
+  title: "News",
+};
+
 export default function News() {
   return (
     <main className="px-6 py-30">
