@@ -19,9 +19,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://athinabampzeli.com"),
   title: {
     default: "Athina Bampzeli | Chemical Engineer & Researcher",
     template: "%s | Athina Bampzeli",
+  },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
   description:
     "Official portfolio of Athina Bampzeli, Chemical Engineer specializing in process systems engineering, machine learning, and research projects.",
@@ -36,15 +42,15 @@ export const metadata = {
     "chemical engineer machine learning",
     "χημικός μηχανικός μηχανική μάθηση",
   ],
-    openGraph: {
-    title: "Athina Bampzeli",
+  openGraph: {
+    title: "Athina Bampzeli | Chemical Engineer & Researcher",
     description:
       "Chemical Engineer focused on process systems engineering and machine learning.",
     url: "https://athinabampzeli.com",
     siteName: "Athina Bampzeli Portfolio",
     images: [
       {
-        url: "https://athinabampzeli.com/profile.jpg", 
+        url: "/profile.jpg", 
         width: 800,
         height: 800,
       },
@@ -64,6 +70,9 @@ export const metadata = {
       "Chemical Engineer focused on process systems engineering and machine learning.",
     images: ["https://athinabampzeli.com/profile.jpg"],
   },
+  alternates: {
+  canonical: "/",
+},
 };
 
 export default function RootLayout({
