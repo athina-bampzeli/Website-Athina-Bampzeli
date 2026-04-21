@@ -25,6 +25,7 @@ website/
     │── globals.css
     │── layout.tsx
     │── page.tsx
+    │── sitemap.ts
 │── components/
     │── CookieBanner.tsx
     │── FlipCard.tsx
