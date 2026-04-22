@@ -14,6 +14,8 @@ website/
 │── app/
     │── news/
         │── page.tsx
+    │── photos/
+        │── page.tsx
     │── privacy/
         │── page.tsx
     │── research/
@@ -22,9 +24,8 @@ website/
         │── projects/
             │── page.tsx
         │── layout.
-    │── photos/
-        │── page.tsx
     │── globals.css
+    │── icon.png
     │── layout.tsx
     │── page.tsx
     │── sitemap.ts
@@ -120,6 +121,18 @@ It is used for:
 
 ---
 
+### `app/sitemap.ts`
+
+Defines a default exported function that generates the website's sitemap. Search engines use sitemaps to understand:
+
+* what pages exist on your site
+* when each page changed
+* what should be indexed
+
+That can help SEO and crawling.
+
+---
+
 ### `app/news/page.tsx`
 
 Defines the **News page**, where updates and announcements are displayed.
@@ -129,12 +142,28 @@ Route:
 ```bash
 /news
 ```
+---
+
+### `app/photos/page.tsx`
+
+Defines the **Photos page**, where photos are displayed.
+
+Route:
+
+```bash
+/photos
+```
+---
+
+### `app/privacy/page.tsx`
+
+Privacy policy page. Read more on Privacy & Cookie Compliance.
 
 ---
 
 ### `app/research/projects/page.tsx`
 
-Defines the **Research Projects page**.
+Defines the **Research Projects page**, which provides research projects.
 
 Route:
 
@@ -162,15 +191,46 @@ Defines the layout shared by the research projects and lexicon pages.
 
 ---
 
-### `app/privacy/page.tsx`
-
-Privacy policy page. Read more on Privacy & Cookie Compliance.
-
----
-
 ## `components/`
 
 This folder contains **reusable UI components** used throughout the site.
+
+---
+
+### `components/CookieBanner.tsx`
+
+Where google analytics scripts are loaded. Read more on Privacy & Cookie Compliance.
+
+---
+
+### `components/FlipCard.tsx`
+
+Reusable **flip-card component** used in the services, research projects, photos and news section.
+
+Features:
+
+* front side with title/image
+* back side with description
+* click to flip
+
+This keeps cards modular and reusable.
+
+---
+
+### `components/Footer.tsx`
+
+Displays the footer section of the site.
+
+Contains:
+
+* copyright
+* share links
+
+---
+
+### `components/Icons.tsx`
+
+Reusable component file that stores **custom SVG icon components** used across the website.
 
 ---
 
@@ -201,37 +261,6 @@ This component enables navigation between:
 
 ---
 
-### `components/Footer.tsx`
-
-Displays the footer section of the site.
-
-Contains:
-
-* copyright
-* share links
-
----
-
-### `components/FlipCard.tsx`
-
-Reusable **flip-card component** used in the services, research projects and news section.
-
-Features:
-
-* front side with title/image
-* back side with description
-* click to flip
-
-This keeps cards modular and reusable.
-
----
-
-### `components/Icons.tsx`
-
-Reusable component file that stores **custom SVG icon components** used across the website.
-
----
-
 ### `components/ShareButtons.tsx`
 
 Reusable component for rendering **social sharing buttons**.
@@ -244,12 +273,6 @@ It allows users to share pages or content to external platforms such as:
 * Email
 
 This component centralizes share link generation logic instead of repeating it in each page.
-
----
-
-### `components/CookieBanner.tsx`
-
-Where google analytics scripts are loaded. Read more on Privacy & Cookie Compliance.
 
 ---
 
@@ -305,7 +328,7 @@ to hide elements on medium screens and above.
 
 ## Privacy & Cookie Compliance
 
-This website uses **Google Analytics** to understand visitor traffic and improve website performance.
+This website uses **Google Analytics** and **Vercel Analytics** to understand visitor traffic and improve website performance.
 
 ### Analytics data collected
 
