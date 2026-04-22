@@ -10,8 +10,20 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-3 text-center">
 
         {/* Copyright */}
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-gray-600">
           © {new Date().getFullYear()} Athina Bampzeli. All rights reserved.
+        </p>
+        <p className="text-sm text-gray-600">Template by{" "}
+
+                    <a
+                      href="https://github.com/athina-bampzeli/Website-Athina-Bampzeli"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-600 hover:underline"
+                    >
+                      Athina Bampzeli
+                    </a>
+
         </p>
 
         {/* Share row */}
