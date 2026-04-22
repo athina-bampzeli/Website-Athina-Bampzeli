@@ -21,7 +21,9 @@ website/
             │── page.tsx
         │── projects/
             │── page.tsx
-        │── layout.tsx
+        │── layout.
+    │── photos/
+        │── page.tsx
     │── globals.css
     │── layout.tsx
     │── page.tsx
