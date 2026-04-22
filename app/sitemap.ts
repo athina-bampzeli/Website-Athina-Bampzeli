@@ -16,5 +16,9 @@ export default function sitemap() {
       url: "https://athinabampzeli.com/research/lexicon",
       lastModified: new Date(),
     },
+    {
+      url: "https://athinabampzeli.com/photos",
+      lastModified: new Date(),
+    },
   ];
 }

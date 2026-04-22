@@ -54,6 +54,9 @@ export default function Header() {
           <Link href="/news" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>
             News
           </Link>
+          <Link href="/photos" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>
+            Photos
+          </Link>
           <a href="/#contact" className="hover:text-gray-500" onClick={() => setOpenResearch(false)}>Contact</a>
         </nav>
       </div>
@@ -102,6 +105,11 @@ export default function Header() {
             <li>
               <Link href="/news" onClick={() => setOpen(false)}>
                 News
+              </Link>
+            </li>
+            <li>
+              <Link href="/photos" onClick={() => setOpen(false)}>
+                Photos
               </Link>
             </li>
             <li><a href="/#contact" onClick={() => setOpen(false)}>Contact</a></li>
