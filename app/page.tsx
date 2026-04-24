@@ -78,14 +78,14 @@ export default function Home() {
   return (
     <>
       {/* Home screen */}
-      <main id="home" className="px-6 py-30 flex flex-col md:flex-row md:items-center justify-start md:justify-center pt-6 md:pt-24 px-6">
+      <section id="home" className="px-6 py-30 flex flex-col md:flex-row md:items-center justify-start md:justify-center pt-6 md:pt-24 px-6">
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
           
           {/* Home screen left image */}
           <div className="flex justify-center">
             <Image
               src="/profile.jpg"
-              alt="Profile"
+              alt="Portrait of Athina Bampzeli"
               width={300}
               height={300}
               className="rounded-2xl shadow-lg"
@@ -104,7 +104,7 @@ export default function Home() {
 
             <p className="text-gray-600 mb-6">
               Hello! Welcome to my website. I am Athina, a Chemical
-              Engineer from Thessaloniki looking for opportunities in research end education.
+              Engineer from Thessaloniki looking for opportunities in research and education.
             </p>
 
             {/* Home screen right icons */}
@@ -186,7 +186,7 @@ export default function Home() {
           </div>
 
         </div>
-      </main>
+      </section>
 
       {/* About me section */}
       <section id="about" className="px-6 py-30 scroll-mt-24">
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="mt-8 flex justify-center">
               <Image
                 src="/publication.png"   
-                alt="Publication figure"
+                alt="Publication methodology"
                 width={1000}
                 height={600}
                 className="rounded-xl shadow-md"
@@ -402,7 +402,7 @@ export default function Home() {
                   <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm text-center gap-3">
                     <img
                       src="/collaboration.png"
-                      alt="collaboration"
+                      alt=""
                     />
                     <h3 className="text-2xl font-semibold">
                       Research Collaboration
@@ -470,7 +470,7 @@ export default function Home() {
                   
                     <img
                       src="/career.png"
-                      alt="career"
+                      alt=""
                     />                    
                     <h3 className="text-2xl font-semibold">Career Development</h3>
                     
