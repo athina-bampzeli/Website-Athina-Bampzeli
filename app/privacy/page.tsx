@@ -6,10 +6,10 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="max-w-6xl mx-auto text-center px-6 py-30">
+    <section className="max-w-6xl mx-auto text-center px-6 py-30">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
 
-      <section className="space-y-6 mb-8 text-gray-700 leading-relaxed">
+      <div className="space-y-6 mb-8 text-gray-700 leading-relaxed">
 
         <p>
           This website uses Vercel Analytics to collect anonymous usage statistics,
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
           </a>
         </p>
 
-      </section>
-    </main>
+      </div>
+    </section>
   );
 }

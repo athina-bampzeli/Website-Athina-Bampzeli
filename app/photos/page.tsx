@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Photos() {
   return (
-    <main className="px-6 py-30">
+    <section className="px-6 py-30">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Photos</h2>
 
@@ -26,7 +26,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/graduation.jpg"
-                    alt="Graduation"
+                    alt="Graduation oath"
                     className="w-full h-full object-contain"
                   />
 
@@ -114,7 +114,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/TVAC.jpg"
-                    alt="TVAC"
+                    alt="Payload Thermal Vacuum Chamber Campaign"
                     className="w-full h-full object-contain"
                   />
 
@@ -153,7 +153,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/spacestandards.jpg"
-                    alt="Space Standards"
+                    alt="Space Standards Training Course"
                     className="w-full h-full object-contain"
                   />
 
@@ -193,7 +193,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/cybersecurity.jpg"
-                    alt="Cybersecurity"
+                    alt="Cybersecurity and Mathematics presentation"
                     className="w-full h-full object-contain"
                   />
 
@@ -232,7 +232,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/ecotrophelia.jpg"
-                    alt="Ecotrophelia"
+                    alt="Ecotrophelia team"
                     className="w-full h-full object-contain"
                   />
 
@@ -273,7 +273,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/UAE.jpg"
-                    alt="UAE"
+                    alt="Civil engineering trip in UAE"
                     className="w-full h-full object-contain"
                   />
 
@@ -313,7 +313,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/turin.jpg"
-                    alt="Turin"
+                    alt="Space Economy Course by BEST Torino"
                     className="w-full h-full object-contain"
                   />
 
@@ -354,7 +354,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/JobFair.jpg"
-                    alt="JobFair"
+                    alt="JobFair by BEST Thessaloniki"
                     className="w-full h-full object-contain"
                   />
 
@@ -393,7 +393,7 @@ export default function Photos() {
 
                   <img
                     src="/photos/euroscola.jpg"
-                    alt="Euroscola"
+                    alt="European parliament talk during Euroscola"
                     className="w-full h-full object-contain"
                   />
 
@@ -428,7 +428,7 @@ export default function Photos() {
         </div>
 
       </div>
-    </main>
+    </section>
   );
 }
 

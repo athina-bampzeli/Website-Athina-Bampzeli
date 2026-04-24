@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function News() {
   return (
-    <main className="px-6 py-30">
+    <section className="px-6 py-30">
       <div className="max-w-6xl mx-auto text-center">
 
         <h2 className="text-3xl font-bold mb-6">News</h2>
@@ -25,12 +25,13 @@ export default function News() {
                 <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm group-hover:shadow-md p-4 text-center">
                   <h3 className="text-2xl font-semibold">
                     15th Panhellenic Scientific Conference on Chemical Engineering
+                  </h3>
 
                     <div className="mt-3 text-lg font-normal text-gray-600">
                       3-5 June 2026 <br />
                       Technical University of Crete, Chania, Greece
                     </div>
-                  </h3>
+                  
                 </div>
               }
               back={
@@ -69,6 +70,6 @@ export default function News() {
         
 
       </div>
-    </main>
+    </section>
   );
 }

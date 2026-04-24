@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Projects() {
   return (
-    <main className="px-6 py-30">
+    <section className="px-6 py-30">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Research Projects</h2>
 
@@ -26,7 +26,7 @@ export default function Projects() {
 
                   <img
                     src="/thesis.png"
-                    alt="Thesis"
+                    alt="Diagram from diploma thesis"
                     className="w-full h-full object-contain"
                   />
 
@@ -75,7 +75,7 @@ export default function Projects() {
 
                   <img
                     src="/technoeconomic.png"
-                    alt="Technoeconomic"
+                    alt="Diagram from capstone design project"
                     className="w-full h-full object-contain"
                   />
 
@@ -123,7 +123,7 @@ export default function Projects() {
 
                   <img
                     src="/thermal.png"
-                    alt="Thermal Engineer"
+                    alt="AcubeSAT ESATAN thermal model"
                     className="w-full h-full object-contain"
                   />
 
@@ -188,7 +188,7 @@ export default function Projects() {
 
                   <img
                     src="/ecotrophelia.jpeg"
-                    alt="Ecotrophelia"
+                    alt="Effervescent coffee tablet for ecotrophelia"
                     className="w-full h-full object-contain"
                   />
 
@@ -218,7 +218,7 @@ export default function Projects() {
         </div>
 
       </div>
-    </main>
+    </section>
   );
 }
 
