@@ -25,9 +25,9 @@ export const metadata = {
     template: "%s | Athina Bampzeli",
   },
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   description:
     "Official portfolio of Athina Bampzeli, Chemical Engineer specializing in process systems engineering, machine learning, and research projects.",
