@@ -25,7 +25,6 @@ website/
             │── page.tsx
         │── layout.
     │── globals.css
-    │── icon.png
     │── layout.tsx
     │── page.tsx
     │── sitemap.ts
