@@ -15,6 +15,8 @@ const ContentSecurityPolicy = `
   font-src 'self';
   connect-src 'self'
     https://www.google-analytics.com
+    https://www.google-analytics.com/g/collect
+    https://www.google-analytics.com/debug/collect
     https://www.googletagmanager.com
     https://vitals.vercel-insights.com
     https://va.vercel-scripts.com;
