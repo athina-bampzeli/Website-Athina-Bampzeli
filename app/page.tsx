@@ -55,6 +55,10 @@ const skillssoft = [
   "Ethical research",
 ];
 
+const user = "athbabzeli";
+const domain = "gmail.com";
+const email = `${user}@${domain}`;
+
 export default function Home() {
 
   useEffect(() => {
@@ -506,12 +510,14 @@ export default function Home() {
 
           <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
           <p>
-            Reach me at{' '}
+            Reach me at{" "}
             <a
-              href="mailto:athbabzeli@gmail.com"
+              href={`mailto:${email}`}
               className="text-blue-600 hover:underline"
             >
-              athbabzeli@gmail.com
+              {user}
+              {"@"}
+              {domain}
             </a>
             {' '} or{' '}
 
