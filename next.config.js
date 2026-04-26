@@ -6,21 +6,39 @@ const ContentSecurityPolicy = `
     ${isDev ? "'unsafe-eval'" : ""}
     'unsafe-inline'
     https://www.googletagmanager.com
+    https://tagassistant.google.com
     https://www.google-analytics.com
+    https://www.googletagservices.com
+    https://www.gstatic.com
+    https://www.google.com
     https://va.vercel-scripts.com;
+
   style-src 'self' 'unsafe-inline';
-  img-src 'self' data: 
+
+  img-src 'self' data:
     https://www.google-analytics.com
-    https://www.googletagmanager.com;
-  font-src 'self';
+    https://www.googletagmanager.com
+    https://www.gstatic.com;
+
+  font-src 'self'
+    https://fonts.gstatic.com;
+
   connect-src 'self'
     https://www.google-analytics.com
     https://www.google-analytics.com/g/collect
     https://www.google-analytics.com/debug/collect
+    https://region1.google-analytics.com
     https://www.googletagmanager.com
+    https://tagassistant.google.com
+    https://www.googletagservices.com
     https://vitals.vercel-insights.com
     https://va.vercel-scripts.com;
-  frame-src https://www.googletagmanager.com;
+
+  frame-src
+    https://tagassistant.google.com
+    https://www.googletagmanager.com
+    https://www.google.com;
+
   object-src 'none';
   base-uri 'self';
   form-action 'self';
