@@ -20,5 +20,13 @@ export default function sitemap() {
       url: "https://athinabampzeli.com/photos",
       lastModified: new Date(),
     },
+    {
+      url: "https://athinabampzeli.com/qa/publication",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://athinabampzeli.com/qa/educational",
+      lastModified: new Date(),
+    },
   ];
 }
