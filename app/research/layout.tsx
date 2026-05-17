@@ -1,5 +1,4 @@
 // app/research/layout.tsx
-import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Research",
