@@ -24,9 +24,87 @@ const publications = [
 
     qa: [
       {
-        question: "first question",
+        question: "Why did you choose to work on the dairy industry? Is this study useful for industry? Can it be applied to other units or processes?",
         answer:
-          "first answer",
+          "answer",
+      },
+      {
+        question: "What was your main goal in this work? What is your main conclusion?",
+        answer:
+          "answer",
+      },
+      {
+        question: "What types of models did you use? Were the equations ordinary (ODEs) or partial differential (PDEs)? Which solver did you use for optimization?",
+        answer:
+          "answer",
+      },
+      {
+        question: "Did you modify the default gPROMS equations and implement your own models?",
+        answer:
+          "answer",
+      },
+      {
+        question: "Did you encounter errors during simulation or optimization? Why did they occur? How did you manage them?",
+        answer:
+          "answer",
+      },
+      {
+        question: "Were the kinetic parameters taken from literature, estimated, or fitted in some other way?",
+        answer:
+          "answer",
+      },
+      {
+        question: "Which temperature did you actually measure and use in your calculations: bulk fluid temperature, wall temperature, or another reference temperature?",
+        answer:
+          "answer",
+      },
+      {
+        question: "Did you calculate the Biot number? Did you assume a uniform temperature distribution in the milk?",
+        answer:
+          "answer",
+      },
+      {
+        question: "Did you consider using ulta high temperature (UHT) pasteurization instead of high-temperature short-time (HTST)?",
+        answer:
+          "answer",
+      },
+      {
+        question: "What is diafiltration water? Why is it used? What properties did you assume for it??",
+        answer:
+          "answer",
+      },
+      {
+        question: "What type of membrane did you use? What were its characteristics, material, key properties?",
+        answer:
+          "answer",
+      },
+      
+      {
+        question: "Was fouling modeled in the membrane filtration process?",
+        answer:
+          "answer",
+      },
+      
+      {
+        question: "Was the equipment order based on literature, industrial practice, or was it a novel design?",
+        answer:
+          "answer",
+      },
+      
+      {
+        question: "Did you test different equipment sequences, for example placing the membrane before pasteurization?",
+        answer:
+          "answer",
+      },
+      {
+        question: "What were the quality criteria in your study? How did you evaluate them and include them in the model?",
+        answer:
+          "answer",
+      },
+      {
+        question: "If experimental data were available, how would you validate the model?",
+        answer:
+          "answer",
       },
       
     ],

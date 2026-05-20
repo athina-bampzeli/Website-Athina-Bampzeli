@@ -18,12 +18,20 @@ website/
         │── page.tsx
     │── privacy/
         │── page.tsx
+    │── qa/
+        │── educational/
+            │── EducationalQAClient.tsx
+            │── page.tsx
+        │── publication/
+            │── page.tsx
+            │── PublicationQAClient.tsx
+        │── layout.tsx
     │── research/
         │── lexicon/
             │── page.tsx
         │── projects/
             │── page.tsx
-        │── layout.
+        │── layout.tsx
     │── globals.css
     │── layout.tsx
     │── page.tsx
@@ -157,6 +165,60 @@ Route:
 ### `app/privacy/page.tsx`
 
 Privacy policy page. Read more on Privacy & Cookie Compliance.
+
+---
+
+### `app/qa/educational/EducationalQAClient.tsx`
+
+Defines the **Educational Q&A page**, which provides answers on several questions that might interest a high school or undergraduate student.
+
+Route:
+
+```bash
+/qa/educational
+```
+
+---
+
+### `app/qa/educational/page.tsx`
+
+Defines the metadata of the **Educational QA page**.
+
+Route:
+
+```bash
+/qa/educational
+```
+
+---
+
+### `app/qa/publication/PublicationQAClient.tsx`
+
+Defines the **Publication Q&A page**, which provides answers on several questions relative to my publications.
+
+Route:
+
+```bash
+/qa/publication
+```
+
+---
+
+### `app/qa/publication/page.tsx`
+
+Defines the metadata of the **Publication Q&A page**.
+
+Route:
+
+```bash
+/qa/publication
+```
+
+---
+
+### `app/qa/layout.tsx`
+
+Defines the layout shared by the Educational Q&A and Publication Q&A pages.
 
 ---
 
