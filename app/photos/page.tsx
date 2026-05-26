@@ -12,9 +12,8 @@ export default function Photos() {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Photos</h2>
 
-        <div className="break-inside-avoid mb-6">
-          <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
-
+        <div className="flex justify-center">
+          <div className="columns-1 md:columns-2 gap-6 space-y-6 max-w-4xl">
         
             
             <FlipCard
