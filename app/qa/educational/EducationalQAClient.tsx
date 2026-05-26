@@ -13,8 +13,8 @@ const qanda1 = [
         <p>
           It depends on your personal goals, your interests, your character, your background, and the things
           you are naturally good at. A general piece of advice I would give is, if you have the opportunity,
-          choose something that you genuinely like rather than something others expect you to do. At the same
-          time, it is important to consider practical aspects such as financial prospects, working hours and the
+          choose something that you <strong>genuinely like</strong> rather than something others expect you to do. At the same
+          time, it is important to consider <strong>practical aspects</strong> such as financial prospects, working hours and the
           lifestyle associated with a particular profession.
         </p>
         <p>
@@ -25,7 +25,7 @@ const qanda1 = [
         <p>
           Keep in mind that we live in an era where many people eventually work in fields different from the ones they originally studied. 
           Even if you later decide to change direction, the skills, experiences, and way of thinking you gain from your studies will still be valuable. 
-          There is no need to stress excessively about making the “perfect” choice. Instead, try to make the most informed decision possible by using
+          There is no need to stress excessively about making the “perfect” choice. Instead, try to make the most <strong>informed decision</strong> possible by using
           the many sources of information available to you.
         </p>
         <p>
@@ -70,11 +70,45 @@ const qanda1 = [
             <strong>d) Technological skills</strong>, at least at a basic level, are also necessary. This includes understanding how to use digital tools effectively and being aware of potential dangers. From using e-class platforms to find homework, to learning how to use social media and YouTube in an efficient and safe way, technology can support personal growth when used wisely.
           </li>
         </ul>        
-        <p className="pt-2 border-t border-gray-100">
-          Learning these skills through experience is often more effective than learning them only in theory. I would suggest taking part
+        <p>
+          Learning these skills <strong>through experience</strong> is often more effective than learning them only in theory. I would suggest taking part
           in team activities and projects outside the classroom so that you can practice collaboration, take initiative, and work toward
           goals beyond school assignments. Working on projects related to technology, with guidance from teachers, can also help you learn
           how to use these tools effectively.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to focus on studying? How should I study?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          This can be different from person to person. What helps me is <strong>minimizing distractions</strong> while studying, for example by keeping my
+          phone in another room, muting notifications, and having a quiet personal space. It also helps to start with shorter periods of
+          focused study and gradually increase them over time. Setting a <strong>clear goal</strong> with a specific time limit can make studying feel more
+          manageable and help you stay motivated.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
         </p>
       </div>
     ),
@@ -131,40 +165,6 @@ const qanda1 = [
     ),
   },
   {
-    question: "How to focus on studying? How should I study?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-          This can be different from person to person. What helps me is minimizing distractions while studying, for example by keeping my
-          phone in another room, muting notifications, and having a quiet personal space. It also helps to start with shorter periods of
-          focused study and gradually increase them over time. Setting a clear goal with a specific time limit can make studying feel more
-          manageable and help you stay motivated.
-        </p>
-        <p>
-          For personalized advice, you can explore the{" "}
-          <a
-            href="https://athinabampzeli.com/#services"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            services
-          </a>{" "}
-          I provide and{" "}
-          <a
-            href="https://athinabampzeli.com/#contact"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            contact
-          </a>{" "}
-          me.
-        </p>
-      </div>
-    ),
-  },
-  {
     question: "Should I travel abroad?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -194,9 +194,9 @@ const qanda1 = [
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
           A first question might be: does it really matter to stand out, and what does that actually mean?
-          In school, I think the most important thing is to develop yourself and better understand who you are
+          In school, I think the most important thing is to <strong>develop yourself</strong> and better understand who you are
           and what you enjoy. Standing out is not always only about what you do. It can also depend on the environment,
-          the situation, and timing, things you cannot always control. High grades can often help create opportunities,
+          the situation, and timing, things you cannot always control. High grades can often help <strong>create opportunities</strong>,
           especially in competitive environments where only a limited number of people can be selected. At the same time,
           many students and adults succeed without necessarily having what society considers high grades.
         </p>
@@ -294,7 +294,7 @@ const qanda2 = [
         <p>
           A final-year student may know themselves better, understand how they work, and have a clearer idea of what they want. 
           A first-year student is still discovering these things and adapting to a new environment. However, first-year students
-          have more time and freedom to explore. At that stage, there is usually less pressure to specialize, make career decisions,
+          have more <strong>time and freedom to explore</strong>. At that stage, there is usually less pressure to specialize, make career decisions,
           or find a job. This gives students the opportunity to try different experiences, meet people, and discover what they enjoy.
         </p>
         <p>
@@ -325,7 +325,7 @@ const qanda2 = [
           Transitioning from school to university can be challenging. In Greece, the school system often focuses on learning
           a relatively smaller amount of material in depth over a long period of time, especially in preparation for Panhellenic exams. 
           At university you need to process large amounts of information in a much shorter time. These are different types of learning,
-          and each develops different skills. Being flexible and adaptable becomes very important. Some practical advice:
+          and each develops different skills. Being <strong>flexible and adaptable</strong> becomes very important. Some practical advice:
         </p>
         <ul className="space-y-4">
           <li>
@@ -354,6 +354,62 @@ const qanda2 = [
         </p>
         <p>
           For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "When should I focus on studying in university? In the first years or the last years?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         If you have ambitious goals, such as maintaining good grades, pursuing research, or making the most of university opportunities, I would suggest
+         trying to stay engaged with studying <strong>from the beginning</strong>, not only in the final years. Many students become more focused later in university, especially
+         when they start specializing, but postponing everything can increase stress, pressure, and reduce performance. In the first years, courses are often more
+         general, especially in fields such as engineering, where students study subjects like mathematics, physics, and chemistry. These foundational
+         subjects may feel less exciting at first, but they often become important later on. If students postpone them for too long, they may find it harder
+         to stay motivated when more specialized courses arrive.
+        </p>
+        <p>
+          That said, the beginning of university is also a transition period, and it is normal to need time to adjust. Some helpful habits from the beginning are:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Attending classes regularly.
+          </li>
+          <li>
+            b) Understanding which topics the professor emphasizes.
+          </li>
+          <li>
+            c) Taking notes.
+          </li>
+          <li>
+            d) Meeting classmates and building a support network.
+          </li>
+          <li>
+            e) Collaborating and helping each other.
+          </li>
+        </ul> 
+        <p>
+          University is not a sprint. It is usually easier when you build consistency over time. For personalized advice, you can explore the{" "}
           <a
             href="https://athinabampzeli.com/#services"
             target="_blank"
@@ -423,6 +479,494 @@ const qanda2 = [
     ),
   },
   {
+    question: "When should I start my thesis?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          This depends on the type of project and your circumstances. For example, experimental work may require more time than theoretical work, 
+          computational work may require development/debugging/validation, literature-based work may require extensive reading and synthesis. 
+          Other questions to consider:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Do you already have <strong>background</strong> knowledge in the topic?
+          </li>
+          <li>
+            b) Are you familiar with reading scientific literature?
+          </li>
+          <li>
+            c) Will you work on the thesis <strong>full-time</strong> or alongside courses?
+          </li>
+          <li>
+            d) Do you want a basic completion, or a higher-quality and more <strong>ambitious project</strong>?
+          </li>
+        </ul>
+
+      <p>
+        In general, <strong>starting earlier</strong> usually gives you more flexibility, reduces pressure and allows more time for unexpected problems, revisions, and deeper learning.
+      </p>
+       
+      </div>
+    ),
+  },
+  {
+    question: "How to decide on an undergraduate or master's thesis?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          A good starting point is to think about which fields or topics genuinely <strong>interest</strong> you. You can reflect on courses you enjoyed, 
+          think about projects or assignments you completed and what you liked or disliked, consider whether there is a field you would like
+          to specialize in after graduation.
+        </p>
+        <p>
+          Once you identify some areas of interest, you can search for <strong>professors</strong> in your department who
+          work on those topics. It can help to read about their research areas, look at previous theses they have supervised, explore publications
+          or projects from their research group. This can give you a better idea of whether their work matches your interests. You can then contact
+          professors to ask about available thesis topics, or in some cases propose your own idea. It is usually better to contact them early, 
+          for example at least one semester before you plan to begin, because available positions may be limited, professors may organize student projects in advance,
+          in experimental or laboratory work physical space and equipment may also be limited.
+        </p>
+        <p>
+          A thesis can also become an important first project that represents your <strong>independent work</strong>. Depending on your next steps after graduation,
+          the topic, the final document, and the skills you gain may help present your profile to future employers, supervisors, or academic programs.
+          It is also useful from the beginning to think practically whether there are data available for development or validation, whether the project
+          is feasible within the available time and whether the methods and resources are accessible. 
+        </p>
+        <p>
+          You can read my{" "}
+          <a
+            href="https://github.com/athina-bampzeli/Diploma-Thesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            diploma thesis
+          </a>{" "}
+          as part of my undergraduate studies in chemical engineering.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to choose a supervising professor for a thesis?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Choosing a supervisor is often as important as choosing the topic of the thesis. You may consider whether their current/past work, research area and <strong>expertise</strong> are 
+         in a field you would like to specialize in. What is their level of experience and their <strong>network</strong> with industry, research groups or other universities? 
+         What is their <strong>style of supervision and communication</strong>? More specifically, how often do they meet with students, how do they provide feedback, 
+         do they encourage independence? A good supervisor is not only an expert in the topic, but also someone whose working style helps you develop and matches your needs.
+
+        </p>
+       
+      </div>
+    ),
+  },
+  {
+    question: "How to contact professors? Why and when?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          The way you approach professors, and people in general as an adult, can influence your future. These interactions shape how others
+          perceive you, and some of these people may later become colleagues, supervisors, mentors, or provide recommendations. This does not
+          mean you should be afraid to contact people. It means that it is good to approach such situations with <strong>awareness, responsibility and respect</strong>.
+        </p>
+        <p>
+          You can approach professors <strong>in person or by email</strong>. Speaking in person may feel more direct and immediate, while email allows you to organize your
+          thoughts more carefully. It is also helpful to check whether they have specific office hours for student meetings.
+          Some general advice I would give is to be respectful of their time, to be polite and professional, to be clear about why you are contacting them.
+        </p>
+        <p>
+          Professors can often support students in ways that go beyond teaching a course. They may offer advice about studying, academic life, research,
+          career paths, or opportunities in their field. Some examples of things you might ask them:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) How to approach a difficult course or lecture?
+          </li>
+          <li>
+            b) What are effective study strategies?
+          </li>
+          <li>
+            c) What is their experience in academia or industry?
+          </li>
+          <li>
+            d) What do they see as the future of their scientific field?
+          </li>
+          <li>
+            e) What activities or opportunities would they recommend for students?
+          </li>
+        </ul>
+        <p>
+          In some universities, there may also be professors, advisors, or support services specifically dedicated to helping students with academic,
+          career, or psychological concerns, so it is worth checking the <strong>university website</strong>.
+          Different professors will also have different perspectives, so do not limit yourself to only one conversation.
+        </p>
+        <p>
+          It is also important to remember that you do not have to wait until your final years of university, or until you have everything figured out,
+          to contact professors. You do not need to have top grades or a fully formed career plan. 
+          
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to email professors?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Learning how to email professors is also good practice for future communication with colleagues, supervisors, employers, or academics from other institutions. 
+         Written communication does not include tone of voice or body language, so being <strong>clear, polite and professional</strong> helps avoid misunderstandings. Some practical tips:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Use a clear subject line.
+          </li>
+          <li>
+            b) Use a polite opening and closing. Start by introducing yourself briefly. Explain why you are contacting them.
+          </li>
+          <li>
+            c) Keep your message concise and respectful. <strong>Proofread</strong> before sending.
+          </li>
+          <li>
+            d) Use your academic email address when contacting professors or make sure your email address looks professional and includes your name.
+          </li>
+          <li>
+            e) If you use a profile photo, make sure it is appropriate for academic or professional communication.
+          </li>
+          <li>
+            f) You may also include a formal email signature with relevant contact information.
+          </li>
+        </ul> 
+        <p>
+          If you are contacting professors from abroad, use <strong>english</strong>, unless you know another language is appropriate. 
+          It can also be useful to pay attention to <strong>timing</strong>. If needed, you can schedule an email to be sent at a more appropriate hour. 
+          Remember that professors receive many emails, so if they do not reply, it is acceptable to send a polite <strong>reminder</strong> after a reasonable amount of time 
+          depending on the urgency, usually from a few days to a week or more.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What are possible problems during a thesis? How to approach them?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         A thesis is often a student's first real experience with independent research, so difficulties are common. Some challenges may include lack of motivation, 
+         burnout, stress, uncertainty about how to proceed, technical problems, unsolved research questions, time management difficulties...Being aware that
+         these <strong>challenges are common</strong> can make them easier to manage. It helps to:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Communicate with classmates or your support network.
+          </li>
+          <li>
+            b) Ask for feedback.
+          </li>
+          <li>
+            c) Seek advice when needed.
+          </li>
+          <li>
+            d) Break problems into smaller steps.
+          </li>
+          <li>
+            e) Give yourself time and organize the work from the beginnin.
+          </li>
+        </ul> 
+        <p>
+          Your supervisor can be very important in helping with research-related difficulties. At the same time, trying to think independently about
+          a problem before asking for help can also be a valuable learning experience.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is a general methodology for working on a thesis?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Good organization can make a major difference. Some helpful habits are to keep a <strong>work diary</strong> or research log (hand-written notes, digital notes, git version control)
+         and organize files so you can easily find past work. To <strong>manage literature</strong> you can take notes while reading so you do not need to reread everything in a later stage. 
+         As for the collaboration with your supervisor and any other involved collaborators, keep <strong>communication organized</strong> (e.g. email threads with relevant naming) and 
+         write down their advice, feedback and expectations so you can refer to later. Schedule meetings to discuss progress and receive guidance.
+        </p>
+        <p>
+         A <strong>steady rhythm</strong> of work usually helps more than long periods of inactivity followed by intense work close to deadlines. Good documentation
+         helps later when writing the final thesis, reproducing results, or explaining your work to others. Ask people with experience in your
+         specific type of project for practical advice.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is a general methodology for working on a computational project?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          For research work, computational or not, it helps to begin by <strong>understanding</strong> what research question you are trying to answer, why this problem is important, 
+          what is already known in the field, what approach you will use. Some practical advice for computational projects:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Start familiarizing with <strong>literature</strong>. Read an initial set of relevant papers, take notes and categorize information. Write comments
+            about what may be useful for your work.
+          </li>
+          <li>
+            b) Choose <strong>tools</strong> appropriately. Try to choose software or methods based on what best fits the problem (e.g. type of modeling approach, data availability, funding), not only
+            based on what you already know.
+          </li>
+          <li>
+            c)  Build an <strong>initial simplified model</strong> first to understand the main variables, identify possible problems early, estimate required data, 
+            check feasibility and computational cost. Develop the model step by step to save time. If you make too many changes at once, debugging becomes harder. When
+            transitioning from the high level to the more detailed approach, check the robustness of the model. 
+          </li>
+          <li>
+            d) <strong>Documenting</strong> the work will help later when analyzing results, writing the thesis/report or making the presentation. Write down parameter values, 
+            assumptions, data sources, versions of models, naming conventions for files.
+          </li>
+          <li>
+            e) Even if a model runs without errors, check the <strong>results critically</strong>. Do the results make physical or practical sense? Can you verify them with
+            simple hand calculations? Can you compare them with literature or expert feedback? A working simulation is not automatically a correct simulation.
+          </li>
+          <li>
+            f)  Focus on <strong>impactful parameters</strong> to avoid spending too much time on variables that do not meaningfully affect the results. For uncertain values 
+            estimate ranges and test sensitivity where possible.
+          </li>
+        </ul> 
+        <p>
+          You can read my{" "}
+          <a
+            href="https://github.com/athina-bampzeli/Diploma-Thesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            diploma thesis
+          </a>{" "}
+          as part of my undergraduate studies in chemical engineering, in which I used the gPROMS FormulatedProducts tool to model, simulate and optimize processes.
+        </p>
+      </div>
+    ),
+  },
+   {
+    question: "Should I participate in conferences, seminars and courses as a student?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          In my experience, participating in conferences and seminars as a student can be very valuable. For example, attending the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_pesxm14-chemeng-engineering-activity-7204479932616368128-l1ZY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            14th Panhellenic Scientific Conference on Chemical Engineering
+          </a>{" "}
+          during my fourth year helped me better understand the broad applications and specializations within
+          my field. It exposed me to topics and innovations that I had not considered before and gave me a clearer picture of the wider scientific community. 
+          Experiences like these can <strong>broaden your perspective</strong>, expose you to new ideas and technologies, help you understand possible career paths, 
+          introduce you to researchers and professionals, motivate you to engage more deeply with your field.
+        </p>
+        <p>
+         If you have worked on a research project, <strong>presenting your work</strong> at a conference can be even more impactful, as it gives you an opportunity
+         to discuss your project with others and gain experience in scientific communication. Conference participation can also be something
+         valuable to include in your CV. Keep in mind that some conferences require registration fees, even for student attendees. In some cases, 
+         volunteering as part of the organizing team may provide free participation or reduced costs. Major conferences and relevant opportunities 
+         on chemical engineering are provided by the{" "}
+          <a
+            href="https://www.aiche.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            AIChE
+          </a>{" "}
+          and the{" "}
+          <a
+            href="https://www.icheme.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            IChemE
+          </a>.
+        </p>
+        <p>
+          There are also many other opportunities beyond conferences, such as seminars, courses, workshops and summer schools. Depending on the organizer
+          and the topic, these experiences may contribute differently to your learning and CV, but in general they can help you meet new people, 
+          learn interdisciplinary topics, experience different teaching styles, understand what interests you, explore future directions.
+        </p>
+        <p>
+          You can read about the workshop I participated on{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_optimization-modeling-chemicalengineering-activity-7218930335378489345-3YWN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            "Optimization Methods for Energy Systems Engineering"
+          </a>{" "}
+          taught by professor Christos Maravelias. You can explore (and apply to) upcoming events/opportunities in my{" "}
+          <a
+            href="https://athinabampzeli.com/news"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            website
+          </a>.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "Is volunteering worth spending time? Scientific student teams or event organizing?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          Every experience changes you, not only because of its title or structure, but also because of the timing, the people you meet,
+          and the way you engage with it. I would say it is rarely too early to participate in student teams or organizations. There will
+          always be reasons to think you are too busy, too inexperienced, or not ready enough. If you feel comfortable exploring different
+          experiences, this can be a very valuable period to do so, especially before feeling pressure to specialize. Before joining, it is
+          important to ask about the <strong>time commitment and responsibilities</strong> involved, just like in a job interview. This helps avoid
+          misunderstandings and ensures that you can commit responsibly. The positive side is that the more effort you invest, the more you
+          usually gain in terms of skills, confidence, and personal growth. This is not wasted time, even if it is not directly connected to
+          your degree. University is not only about courses and exams. It is also about <strong>understanding yourself</strong> better and preparing for <strong>future work</strong> and life. 
+        </p>
+        <p>
+         A <strong>scientific student team</strong> may give you research and technical experience, expose you to interdisciplinary work, help you collaborate with
+         people working toward a common goal, introduce you to passionate people who may inspire you. This can be especially useful if you are
+         considering specializing in that field. 
+        </p>
+        <p>
+          An <strong>event organizing student team</strong> may help you develop responsibility and teamwork, teach you practical organization and communication skills,
+          give you experience in leadership and coordination, help you understand how complex projects happen behind the scenes. One thing I personally
+          learned from event organizing was that, as a participant, I only saw the final result. I did not realize the amount of planning, effort
+          and coordination happening behind the scenes. That experience helped me understand why some events run smoothly and where others may have room for improvement. 
+        </p>
+        <p>
+          Another advantage of student teams is that they involve many different roles, from human resources and marketing to technical work and operations. 
+          Even if you are mainly interested in one role, you can learn a lot by observing and talking to people in other positions. Volunteering also allows
+          you to meet people who are motivated by more than personal gain. These are often people who want to contribute, grow, collaborate, and support
+          a shared goal. Building relationships with such people can become an important <strong>networking opportunity</strong> far beyond the team itself. 
+        </p>
+        <p>
+          You can explore the{" "}
+          <a
+            href="https://gitlab.com/acubesat/thermal/esatan-model/-/work_items/30"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Payload thermal model
+          </a>{" "}
+          I developed as a Thermal Engineer at{" "}
+          <a
+            href="https://spacedot.gr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            SpaceDot
+          </a>{" "}
+          and the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_organizing-responsible-communicating-activity-7039996733040275456-XiKt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            JobFair
+          </a>{" "}
+          I coordinated as the Corporate Relations responsible at{" "}
+          <a
+            href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=th"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            BEST Thessaloniki
+          </a>.
+        </p>
+        <p>
+          You can explore one of the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_represented-interviewed-folkdance-activity-7014554612498100225-B7_J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            festivals
+          </a>{" "}
+          I participated as a volunteer dancer at{" "}
+          <a
+            href="https://likhelthes.gr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Lyceum Club of Greek Women of Thessaloniki
+          </a>. Participating in such cultural activities is about engaging with tradition, history, and collective memory. 
+          Respecting and sharing the traditions of my country is something I see as closely connected to education and self-awareness. 
+          For me education is not limited to academic knowledge. It also includes understanding where you come from, how history and culture shapes identity.
+        </p>
+      </div>
+    ),
+  },
+    {
+    question: "When should I start thinking about my next career steps after university?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         In life, there is a balance between focusing on the present and planning for the future. My view is that by the <strong>middle years</strong> of university,
+         most students have gained a basic understanding of their degree, explored some opportunities, and started to understand what they enjoy and
+         what they are good at. At that point, it becomes easier to think more intentionally about possible next steps. Depending on your goals,
+         this may influence choices such as elective courses, research projects, conferences and seminars, internships, exchange programs or opportunities abroad.
+        </p>
+        <p>
+        For applications to master's or PhD programs, factors such as grades, research experience, publications, conference participation and recommendations
+        from professors matter. For industry roles, internships, practical experience, projects and extracurricular involvement may be especially valuable. 
+        Many of these opportunities require preparation and time, so it can help to think ahead rather than wait until graduation approaches. That does not 
+        mean you need to have everything figured out early. It means that exploring possibilities sooner can help you make more informed decisions later.
+        </p>
+        {/* <p>
+          You can read about how{" "}
+          <a
+            href="linkedinpost"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            mentoring
+          </a>{" "}
+          helped me shape my own plan.{" "}
+        </p> */}
+        
+      </div>
+    ),
+  },
+    {
     question: "What should I know or have achieved by the time I finish university? Where should I focus?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -485,100 +1029,6 @@ const qanda2 = [
       </div>
     ),
   },
-  {
-    question: "Is volunteering worth spending time? Scientific student teams or event organizing?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-          Every experience changes you, not only because of its title or structure, but also because of the timing, the people you meet,
-          and the way you engage with it. I would say it is rarely too early to participate in student teams or organizations. There will
-          always be reasons to think you are too busy, too inexperienced, or not ready enough. If you feel comfortable exploring different
-          experiences, this can be a very valuable period to do so, especially before feeling pressure to specialize. Before joining, it is
-          important to ask about the time commitment and responsibilities involved, just like in a job interview. This helps avoid
-          misunderstandings and ensures that you can commit responsibly. The positive side is that the more effort you invest, the more you
-          usually gain in terms of skills, confidence, and personal growth. This is not wasted time, even if it is not directly connected to
-          your degree. University is not only about courses and exams. It is also about understanding yourself better and preparing for future work and life. 
-        </p>
-        <p>
-         A scientific student team may give you research and technical experience, expose you to interdisciplinary work, help you collaborate with
-         people working toward a common goal, introduce you to passionate people who may inspire you. This can be especially useful if you are
-         considering specializing in that field. 
-        </p>
-        <p>
-          An event organizing student team may help you develop responsibility and teamwork, teach you practical organization and communication skills,
-          give you experience in leadership and coordination, help you understand how complex projects happen behind the scenes. One thing I personally
-          learned from event organizing was that, as a participant, I only saw the final result. I did not realize the amount of planning, effort
-          and coordination happening behind the scenes. That experience helped me understand why some events run smoothly and where others may have room for improvement. 
-        </p>
-        <p>
-          Another advantage of student teams is that they involve many different roles, from human resources and marketing to technical work and operations. 
-          Even if you are mainly interested in one role, you can learn a lot by observing and talking to people in other positions. Volunteering also allows
-          you to meet people who are motivated by more than personal gain. These are often people who want to contribute, grow, collaborate, and support
-          a shared goal. Building relationships with such people can become an important networking opportunity far beyond the team itself. 
-        </p>
-        <p>
-          You can explore the{" "}
-          <a
-            href="https://gitlab.com/acubesat/thermal/esatan-model/-/work_items/30"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            Payload thermal model
-          </a>{" "}
-          I developed as a Thermal Engineer at{" "}
-          <a
-            href="https://spacedot.gr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            SpaceDot
-          </a>{" "}
-          and the{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_organizing-responsible-communicating-activity-7039996733040275456-XiKt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            JobFair
-          </a>{" "}
-          I coordinated as the Corporate Relations responsible at{" "}
-          <a
-            href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=th"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            BEST Thessaloniki
-          </a>.
-        </p>
-        <p>
-          You can explore one of the{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_represented-interviewed-folkdance-activity-7014554612498100225-B7_J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            festivals
-          </a>{" "}
-          I participated as a volunteer dancer at{" "}
-          <a
-            href="https://likhelthes.gr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            Lyceum Club of Greek Women of Thessaloniki
-          </a>. Participating in such cultural activities is about engaging with tradition, history, and collective memory. 
-          Respecting and sharing the traditions of my country is something I see as closely connected to education and self-awareness. 
-          Education is not limited to academic knowledge. It also includes understanding where you come from, how history and culture shapes identity.
-        </p>
-      </div>
-    ),
-  },
 
 ];
 
@@ -588,16 +1038,17 @@ const qanda3 = [
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
-          As I do not work in academia, I do not have direct personal insight into the current PhD application landscape. My understanding is based on my applications, my personal research, and opinions from professors and PhD candidates. In recent years, due to geopolitical and economic instability, there has been increased pressure on research funding. This often results in fewer available positions, higher competitiveness, and more strict selection criteria.
+          As I do not work in academia, I do not have direct personal insight into the current PhD application landscape. My understanding is based on my applications, my personal research, and opinions from professors and PhD candidates. In recent years, due to geopolitical and economic instability, there has been increased pressure on <strong>research funding</strong>. This often results in fewer available positions, higher competitiveness, and more strict selection criteria.
         </p>
         <p>
-          The PhD application process differs significantly between regions. In the United States, applicants typically apply to a department rather than a specific project. If accepted, there is usually a later process of matching with a supervisor and defining a research topic. In Europe, the system varies by country and institution. In some cases, you apply for a specific PhD project that is already defined, similar to a job position. In other cases, you contact a professor with an open position or propose a research topic yourself. Networking can be important in this context, as it helps you learn about available positions and connect with research groups.
+          The PhD <strong>application process</strong> differs significantly between regions. In the United States, applicants typically apply to a department rather than a specific project. If accepted, there is usually a later process of matching with a supervisor and defining a research topic. In Europe, the system varies by country and institution. In some cases, you apply for a specific PhD project that is already defined, similar to a job position. In other cases, you contact a professor with an open position or propose a research topic yourself. Networking can be important in this context, as it helps you learn about available positions and connect with research groups.
         </p>
         <p>
-          There are also differences in funding structures. For example, in countries such as Denmark, PhD candidates are considered employees and receive a salary. In contrast, in countries like the UK, PhD candidates are considered students and need to pay tuition fees. These fees are covered through scholarships or funded positions that also provide a stipend. After Brexit, some fully funded PhD positions in the UK have become more limited for non-UK students. The duration of PhD studies also varies. In the United States, they often last around five years, while in Europe they typically range from three to four years, depending on the country and program structure.
+          There are also differences in <strong>funding structures</strong>. For example, in countries such as Denmark, PhD candidates are considered employees and receive a salary. In contrast, in countries like the UK, PhD candidates are considered students and need to pay tuition fees. These fees are covered through scholarships or funded positions that also provide a stipend. After Brexit, some fully funded PhD positions in the UK have become more limited for non-UK students.
+          In Greece, some PhD projects are not funded, while others are supported through collaborations with industry, research institutions, or European Union funding programs. Many candidates combine research with teaching or assistant duties depending on the institution. Some also take part-time jobs to cover their living expenses.
         </p>
         <p>
-           In Greece, some PhD projects are not funded, while others are supported through collaborations with industry, research institutions, or European Union funding programs. Many candidates combine research with teaching or assistant duties depending on the institution. Some also take part-time jobs to cover their living expenses.
+          The <strong>duration</strong> of PhD studies also varies. In the United States, they often last around five years, while in Europe they typically range from three to four years, depending on the country and program structure.
         </p>
         <p>
           Overall, the PhD application process is highly dependent on the country, institution, and field. For the most accurate and up-to-date information, it is always best to consult individual university websites and official program descriptions.
