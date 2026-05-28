@@ -165,6 +165,143 @@ const qanda1 = [
     ),
   },
   {
+    question: "Should I participate in competitions?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          Participating in student competitions broadened the way I understand and approach challenges. Most of the competitions I joined 
+          during school were focused on solving STEM-related problems in{" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%CE%B1%CF%83%CE%B7%CE%BC%CE%AD%CE%BD%CE%B9%CE%BF-%CE%BC%CE%B5%CF%84%CE%AC%CE%BB%CE%BB%CE%B9%CE%BF-%CF%83%CF%84%CE%B7%CE%BD-34%CE%B7-%CE%B5%CE%B8%CE%BD%CE%B9%CE%BA%CE%AE-%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            mathematics
+          </a>,{" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%CE%B2%CF%81%CE%B1%CE%B2%CE%B5%CE%AF%CE%B1-%CE%BA%CF%8D%CF%80%CE%B5%CE%BB%CE%BB%CE%B1-%CE%BA%CE%B1%CE%B9-%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B5%CE%AF%CE%B1-%CF%83%CE%B5-95-%CE%BC%CE%B1%CE%B8%CE%B7/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            physics
+          </a>, chemistry and biology.
+        </p>
+        <p>
+          Preparing for these competitions taught me much more than the subjects themselves. I developed <strong>discipline</strong> through studying 
+          consistently toward a goal beyond regular school assignments. I learned <strong>persistance</strong> by gradually improving my skills and 
+          knowledge over time. I also learned how to deal with mistakes and failures, how to manage success with humility, and how 
+          to continue working consistently regardless of the outcome.
+        </p>
+        <p>
+          During competitions, I had to <strong>manage time</strong> effectively, stay concentrated under pressure, and combine different pieces of 
+          knowledge to <strong>solve unfamiliar problems</strong>. Beyond individual competitions, I also participated in an{" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%ce%b2%cf%81%ce%b1%ce%b2%ce%b5%ce%af%ce%b1-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%b9%cf%83%ce%bc%ce%bf%cf%8d%cf%82-%cf%80%ce%b5%ce%b9%cf%81%ce%b1%ce%bc%ce%ac%cf%84/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            experimental science
+          </a>{" "}competition as part of a team. This experience challenged me in different ways: communicating ideas clearly, listening to 
+          different perspectives, deciding collectively on the best approach, and collaborating efficiently to solve a problem.{" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1-%ce%b5%cf%80%ce%b9%cf%84%cf%85%cf%87%ce%b9%cf%8e%ce%bd-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b7%ce%bd-%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1-%cf%83%ce%ba%ce%ac%ce%ba/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Chess tournaments
+          </a>{" "}also played an important role in shaping my way of thinking. They strengthened my concentration, <strong>strategic thinking</strong>, and 
+          ability to learn from past mistakes and continue improving, both individually and as part of a team.
+        </p>
+        <p>
+          At the same time, I pursued competitions outside the STEM field, including essay,{" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%ce%bc%ce%b5%ce%b3%ce%ac%ce%bb%ce%b7-%ce%b5%cf%80%ce%b9%cf%84%cf%85%cf%87%ce%af%ce%b1-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%b1%ce%b3%cf%8e%ce%bd%ce%b5%cf%82-%ce%b5%cf%80%ce%b9%cf%87%ce%b5%ce%b9%cf%81/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            debate
+          </a>{" "}and {" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%ce%b4%ce%b9%ce%ac%ce%ba%cf%81%ce%b9%cf%83%ce%b7-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%b1%ce%b3%cf%8e%ce%bd%ce%b5%cf%82-%cf%81%ce%b7%cf%84%ce%bf%cf%81%ce%b9%ce%ba%ce%ae%cf%82/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            public speaking
+          </a>{" "} competitions, 
+          because I always valued a more holistic education during my school years. These experiences helped me develop <strong>creative thinking</strong>, adaptability, 
+          and the ability to <strong>communicate</strong> and support my arguments effectively.
+
+        </p>
+        <p>
+          Today, many new forms of competitions exist, reflecting the advancement of technology and the needs of the modern era, such as robotics, 
+          artificial intelligence, programming, and entrepreneurship. Although the methods and topics may differ, I believe the core skills developed 
+          through participation remain similar: independent preparation, discipline, persistence, teamwork, collaboration, and learning how to handle 
+          both failure and success. For this reason, I believe participating in such activities is worthwhile, even when they are outside the standard curriculum. 
+        </p>
+        <p>
+          Read about the full-circle experience of volunteering to{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_mathematics-chemicalengineering-engineering-activity-7459632977690558464-Cb8W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            organize a competition
+          </a>{" "}
+          as a graduate.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "Should I participate in interdisciplinary and extracurricular projects?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          Working on projects outside your specialization, or on projects that combine different fields, is an excellent 
+          first step toward understanding how real-world work often happens. People with <strong>different backgrounds and skills</strong> collaborate 
+          toward a common goal. Such experiences teach you how to approach problems creatively and from multiple perspectives. How to
+          make decisions while considering different constraints and thinking more holistically. On a personal level, 
+          they can also help you become more open-minded and realize that many important issues are rarely simply black or white.
+        </p>
+        <p>
+          Regarding my own experiences, during the{" "}
+          <a
+            href="https://youtu.be/1Zlnx-vJlQM?si=vSW8zo4JFjIJjW9o"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Ecomobility
+          </a>{" "}
+          project our team developed creative ways to raise awareness 
+          about environmental issues. Through {" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%ce%bc%ce%b5%ce%b3%ce%ac%ce%bb%ce%b7-%ce%b5%cf%80%ce%b9%cf%84%cf%85%cf%87%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%ce%b5%ce%bb%ce%bb%ce%b7%ce%bd%ce%b9%ce%ba%ce%bf%cf%8d-%ce%ba%ce%bf%ce%bb%ce%bb%ce%b5%ce%b3-2/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            EUropa S.T.E.EN.S.
+          </a>,{" "}
+          we participated in discussions as representatives defending national interests while also considering 
+          broader global well-being. We also worked on raising awareness about the importance of participating in democratic processes 
+          such as elections. During{" "}
+          <a
+            href="https://hellenic-college.gr/gumnasio-lukeio/%ce%b4%ce%b9%ce%ac%ce%ba%cf%81%ce%b9%cf%83%ce%b7-%cf%84%ce%bf%cf%85-%ce%b5%ce%bb%ce%bb%ce%b7%ce%bd%ce%b9%ce%ba%ce%bf%cf%8d-%ce%ba%ce%bf%ce%bb%ce%bb%ce%b5%ce%b3%ce%af%ce%bf%cf%85-%cf%83%cf%84%ce%bf-2/"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Euroscola
+          </a>,{" "}
+          we discussed possible approaches to real-world global challenges together with students from different backgrounds and countries.
+
+        </p>
+        <p>
+          I believe that being an engineer with political, social, and environmental awareness is important, because the problems 
+          engineers solve and the decisions they make often affect a wide range of people and communities.
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "Should I travel abroad?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -524,13 +661,13 @@ const qanda2 = [
           or projects from their research group. This can give you a better idea of whether their work matches your interests. You can then contact
           professors to ask about available thesis topics, or in some cases propose your own idea. It is usually better to contact them early, 
           for example at least one semester before you plan to begin, because available positions may be limited, professors may organize student projects in advance,
-          in experimental or laboratory work physical space and equipment may also be limited.
+          in laboratory work physical space and equipment may also be limited.
         </p>
         <p>
-          A thesis can also become an important first project that represents your <strong>independent work</strong>. Depending on your next steps after graduation,
-          the topic, the final document, and the skills you gain may help present your profile to future employers, supervisors, or academic programs.
-          It is also useful from the beginning to think practically whether there are data available for development or validation, whether the project
-          is feasible within the available time and whether the methods and resources are accessible. 
+          A thesis can also become an important first project that represents your <strong>independent work</strong>. The topic, the final document and the skills 
+          you gain through this project, may help present your profile to future employers, supervisors or academic programs, depending on your plans after graduation.
+          It is also useful to think from the beginning whether there are data available for development or validation, whether the project
+          is feasible within the available time, whether the methods and resources are accessible. 
         </p>
         <p>
           You can read my{" "}
@@ -552,8 +689,9 @@ const qanda2 = [
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
-         Choosing a supervisor is often as important as choosing the topic of the thesis. You may consider whether their current/past work, research area and <strong>expertise</strong> are 
-         in a field you would like to specialize in. What is their level of experience and their <strong>network</strong> with industry, research groups or other universities? 
+         Choosing a supervisor is often as important as choosing the topic of the thesis. Is their current/past work, 
+         research area and <strong>expertise</strong> in a field you would like to specialize in? What is their level of experience
+         and their <strong>network</strong> with industry, research groups or other universities? 
          What is their <strong>style of supervision and communication</strong>? More specifically, how often do they meet with students, how do they provide feedback, 
          do they encourage independence? A good supervisor is not only an expert in the topic, but also someone whose working style helps you develop and matches your needs.
 
@@ -769,7 +907,61 @@ const qanda2 = [
       </div>
     ),
   },
-   {
+  {
+    question: "Is an internship worth it? In Greece or abroad? In a big or small company?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Every internship is different, depending on your background, the responsibilities of the role, the company culture, the quality of supervision, the field itself.
+         For many students, an internship is one of the first experiences outside the university environment where they 
+         work as <strong>part of an organization</strong>. It often teaches 
+         skills that are difficult to learn in class, such as responsibility, workplace communication, completing tasks under deadlines, 
+         working with colleagues and supervisors, adapting to a professional environment. Internships may help you understand:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Whether you enjoy a certain work environment.
+          </li>
+          <li>
+            b) Whether a field suits you.
+          </li>
+          <li>
+            c) What <strong>professional work</strong> actually looks like.
+          </li>
+          <li>
+            d) What skills you still need to develop.
+          </li>
+        </ul>        
+        <p>
+          If you are interested in industry, internship experience is often seen positively by employers. However, the value usually comes more 
+          from <strong>what you actually did and learned</strong> than simply having the title of “intern”. During interviews, employers often ask about tasks you completed, 
+          challenges you faced, skills you developed, initiatives you took. So try to focus on gaining real experience, not only adding a line to your CV.
+        </p>
+        <p>
+          Internships abroad, such as Erasmus placements or other international opportunities, may also broaden your perspective and expose you to 
+          new professional cultures, although they often require more <strong>preparation and adaptability</strong>. As for choosing between a big or small 
+          company, there is no universal answer. Both can offer advantages and disadvantages. It is often more useful to evaluate the actual 
+          role, the people you will work with, the responsibilities you will have, the learning opportunities available. Do not be disappointed 
+          if you get your first rejections. It has happened to all. You might choose to exploit an opportunity that you get the chance, 
+          rather than waiting for the ideal one you had in mind, and still get value you did not expect.
+        </p>
+        <p>
+          You can read about my{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cybersecurity-presentation-activity-7426901388045049856-p-u1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            internship
+          </a>{" "}
+          in the field of cybersecurity.
+        </p>
+        
+      </div>
+    ),
+  },
+  {
     question: "Should I participate in conferences, seminars and courses as a student?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -934,7 +1126,85 @@ const qanda2 = [
       </div>
     ),
   },
-    {
+  {
+    question: "What is the point of networking? How can I do it effectively?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Building connections with people relevant to your interests and goals can be helpful for learning, problem-solving, gaining perspective, 
+         and finding support. Networking is not simply about “getting something” from more experienced people. At its best, it is about 
+         building genuine professional relationships through <strong>discussion, collaboration, shared interests and mutual support</strong>. As with all 
+         human relationships, strong connections are usually built through genuine interest, respect, honesty, consistency. 
+         Depending on your field, networking opportunities may come through conferences/seminars/courses, competitions, student organizations, 
+         volunteering, research collaborations, internships.
+        </p>
+        <p>
+          In practice, be open to <strong>communicate</strong> your work and interests, <strong>share</strong> your aspirations, <strong>ask</strong> thoughtful 
+          questions, seek feedback, <strong>offer</strong> help. 
+          If you plan to contact a specific person, it often helps to learn about their background beforehand and prepare relevant questions. 
+          Platforms such as LinkedIn can also help maintain professional connections over time. In my opinion, one of the most effective ways 
+          to build meaningful professional relationships is by <strong>working</strong> with people on real projects, because collaboration often reveals much 
+          more than brief conversations.
+        </p>        
+      </div>
+    ),
+  },
+  {
+    question: "When should I start preparing my CV? How to structure it?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Start preparing your CV…yesterday. Many students wait until they need to apply somewhere, but preparing a CV early can help 
+         you <strong>understand/organize</strong> what experiences you already have and what areas you may want to strengthen. 
+         It can also help you build <strong>confidence</strong>, set future goals and remember activities before time passes. Even before university, you may already 
+         have experiences worth reflecting on, such as projects, competitions, volunteering, leadership roles, hobbies or activities that developed your skills. 
+         Do not think that only very special awards and positions are worth adding. Search online what to include or ask peers for sections they have 
+         added.
+        </p>        
+        <p>
+         Some general advice is to <strong>keep it updated</strong> regularly and to <strong>adapt</strong> it depending on the application. 
+         For example, a CV for a research position, a master's application, an industrial job, a seminar, may emphasize different experiences and skills. 
+         Templates such as Europass can help, but many people also prefer creating their own structure or using tools such as LaTeX. Many 
+         positions use an AI system to initially filter CVs they receive, based on specific <strong>keywords</strong> relevant to the position/topic, so make sure to include them
+         in yours. In general, student CVs are often 1 page, while academic CVs can become longer over time.
+        </p>
+        <p>
+          You can read my{" "}
+          <a
+            href="https://athinabampzeli.com/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            CV
+          </a>{" "}
+          to get ideas.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "When should I start thinking about my next career steps after university?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -950,10 +1220,10 @@ const qanda2 = [
         Many of these opportunities require preparation and time, so it can help to think ahead rather than wait until graduation approaches. That does not 
         mean you need to have everything figured out early. It means that exploring possibilities sooner can help you make more informed decisions later.
         </p>
-        {/* <p>
+        <p>
           You can read about how{" "}
           <a
-            href="linkedinpost"
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_phd-processsystemsengineering-hybridmodeling-share-7465443054775263233-NOfX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline font-medium"
@@ -961,12 +1231,12 @@ const qanda2 = [
             mentoring
           </a>{" "}
           helped me shape my own plan.{" "}
-        </p> */}
+        </p>
         
       </div>
     ),
   },
-    {
+  {
     question: "What should I know or have achieved by the time I finish university? Where should I focus?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -993,10 +1263,10 @@ const qanda2 = [
           yourself for life after graduation. Reflecting on these questions can help you decide whether you want to
           continue on your current path or change direction.
         </p>
-        {/* <p>
+        <p>
           You can read about how{" "}
           <a
-            href="linkedinpost"
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_phd-processsystemsengineering-hybridmodeling-share-7465443054775263233-NOfX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline font-medium"
@@ -1004,7 +1274,7 @@ const qanda2 = [
             mentoring
           </a>{" "}
           helped me shape my own plan.{" "}
-        </p> */}
+        </p>
         <p>
           For personalized advice, you can explore the{" "}
           <a
