@@ -1205,6 +1205,175 @@ const qanda2 = [
     ),
   },
   {
+    question: "What is a motivational letter / cover letter? How do you write it?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         A cover letter or motivational letter is usually a short written document (1-2 pages) submitted alongside your CV. While the CV lists your 
+         experiences and achievements, the cover letter is more <strong>narrative</strong> and gives you an opportunity to explain:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Why you want the position. What motivates you.
+          </li>
+          <li>
+            b) Why you chose that specific organization or program.
+          </li>
+          <li>
+            c) What relevant experiences make you a strong candidate.
+          </li>
+        </ul>           
+        <p>
+          A strong cover letter is not simply a summary of your CV. It should <strong>connect</strong> your experiences with the specific role, 
+          organization, supervisor. It should be <strong>adapted</strong> for each application. Two people with similar CVs may still write 
+          very different letters because they have different motivations, ways of thinking, goals and communication styles. Writing a 
+          good cover letter requires understanding both yourself and the position or organization you are applying to. You could 
+          read examples online, learn common structure and style, ask for feedback.
+        </p>
+        <p>
+          What helped me personally when preparing cover letters for PhD applications was the experience I had gained from writing 
+          similar documents for the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cybersecurity-chemicalengineer-interdisciplinarity-activity-7333213758426710016-cvyl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            cybersecurity seminar
+          </a>, the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_optimization-modeling-chemicalengineering-activity-7218930335378489345-3YWN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            workshop
+          </a>{" "}“Optimization Methods for Energy Systems Engineering” and other applications earlier in my academic journey.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to prepare presentations?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         A good presentation should help the audience understand your message clearly. If you are free to design your own presentation, 
+         some useful elements are:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) A title slide with your name, topic and organization.
+          </li>
+          <li>
+            b) An outline or agenda.
+          </li>
+          <li>
+            c) Clear section structure, number of pages.
+          </li>
+          <li>
+            d) A summary or conclusions slide.
+          </li>
+          <li>
+            e) Future work or discussion points.
+          </li>
+        </ul>
+        <p>
+          You may want to skip the traditional “Thank you for your attention” slide at the end of your presentation. The final 
+          slide is often displayed during the <strong>discussion</strong> and Q&A session, so it can be more useful to leave your audience with a 
+          slide containing your main conclusions, a summary of the work, future directions, or your contact information and that of 
+          your collaborators. It is also worth dedicating a slide to <strong>acknowledging</strong> and thanking your collaborators and contributors. 
+          When including tables and figures, add titles where useful and cite sources appropriately. 
+          If your presentation is in greek, try to avoid unnecessarily mixing greek and english on your slides. Use 
+          english only when required, such as for technical terms, references, or concepts that are more commonly expressed in 
+          english. For more in-depth presentations, it can be helpful to clearly <strong>define the scope</strong> of your work at the beginning. 
+          Positioning your work within the broader field and explaining its boundaries can help the audience understand exactly 
+          what your contribution addresses and prevent misunderstandings about the extent of your results. <strong>Comparing</strong> your 
+          work with related studies or existing approaches can help highlight the significance of your contribution and 
+          explain why your work adds value to the field.</p>          
+        <p>
+          Some general advice is to keep slides <strong>visually clear</strong>. Avoid unnecessary formatting, excessive colors, 
+          decorative elements, or crowded slides. Visual simplicity often helps the audience focus on the content. Use readable text 
+          and figures considering that the audience may sit far away, lighting may affect readability, fancy fonts or small text may be difficult to 
+          read. Try to <strong>minimize text</strong>, as people cannot easily read and listen at the same time. Slides usually work better when they 
+          communicate key ideas visually and briefly, while the presenter explains the details. Developing the ability to transform ideas, 
+          methods and results into clear visual representations is a valuable skill in both academia and industry.
+        </p>
+        <p>
+          Good presentations are not about putting as much information as possible on the screen. Instead, they are about guiding the audience 
+          through a clear and coherent story. The audience should always understand where they are in the presentation, how the different 
+          topics connect to one another, and why each section is important. At the same time, speakers should be prepared to <strong>answer questions</strong> about 
+          anything included in their slides.
+        </p>
+        <p>
+          You can read about my{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_gproms-publication-phd-activity-7404163995844100097-D1PJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            diploma thesis
+          </a>{" "}presentation. My presentations on{" "}
+          <a
+            href="https://github.com/athina-bampzeli/Cybersecurity-Presentations"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            cybersecurity
+          </a>{" "}do not follow all of the above guidelines, as they are not intended to be presented but to be read asynchronously.
+          When preparing these, my main goals were to fully understand the content myself, disseminate the work I carried out as an 
+          intern, develop an effective presentation structure and respect copyright requirements. Because of the latter, I generally 
+          avoided using many images. However, for your own projects and personal work, I would encourage you to create original 
+          graphical content whenever possible to effectively transmit the information in multiple ways.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "When should I start thinking about my next career steps after university?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
