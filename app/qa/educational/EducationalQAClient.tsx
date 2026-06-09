@@ -138,7 +138,7 @@ const qanda1 = [
           >
             first time
           </a>{" "}
-          I spoke english in an international environment.
+          I spoke English in an international environment.
         </p>
       </div>
     ),
@@ -777,7 +777,7 @@ const qanda2 = [
           </li>
         </ul> 
         <p>
-          If you are contacting professors from abroad, use <strong>english</strong>, unless you know another language is appropriate. 
+          If you are contacting professors from abroad, use <strong>English</strong>, unless you know another language is appropriate. 
           It can also be useful to pay attention to <strong>timing</strong>. If needed, you can schedule an email to be sent at a more appropriate hour. 
           Remember that professors receive many emails, so if they do not reply, it is acceptable to send a polite <strong>reminder</strong> after a reasonable amount of time 
           depending on the urgency, usually from a few days to a week or more.
@@ -1305,9 +1305,9 @@ const qanda2 = [
           slide containing your main conclusions, a summary of the work, future directions, or your contact information and that of 
           your collaborators. It is also worth dedicating a slide to <strong>acknowledging</strong> and thanking your collaborators and contributors. 
           When including tables and figures, add titles where useful and cite sources appropriately. 
-          If your presentation is in greek, try to avoid unnecessarily mixing greek and english on your slides. Use 
-          english only when required, such as for technical terms, references, or concepts that are more commonly expressed in 
-          english. For more in-depth presentations, it can be helpful to clearly <strong>define the scope</strong> of your work at the beginning. 
+          If your presentation is in Greek, try to avoid unnecessarily mixing Greek and English on your slides. Use 
+          English only when required, such as for technical terms, references, or concepts that are more commonly expressed in 
+          English. For more in-depth presentations, it can be helpful to clearly <strong>define the scope</strong> of your work at the beginning. 
           Positioning your work within the broader field and explaining its boundaries can help the audience understand exactly 
           what your contribution addresses and prevent misunderstandings about the extent of your results. <strong>Comparing</strong> your 
           work with related studies or existing approaches can help highlight the significance of your contribution and 
@@ -1491,6 +1491,230 @@ const qanda3 = [
         </p>
         <p>
           Overall, the PhD application process is highly dependent on the country, institution, and field. For the most accurate and up-to-date information, it is always best to consult individual university websites and official program descriptions.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What documents and qualifications do they ask for in PhD applications?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         It depends on the case, but in general they ask for your <strong>CV</strong>, a <strong>cover letter</strong>, one or two <strong>recommendation letters</strong> from professors,
+         your bachelor's and master's <strong>diploma</strong>, <strong>transcripts</strong>, and proof of <strong>English proficiency</strong>. When applying to a department, 
+         you might also have to complete an <strong>application form</strong> with questions about your background and qualifications. In some cases, 
+         you may be asked to submit a <strong>research proposal</strong>. Some American universities also required <strong>GRE or GMAT</strong> examination results.
+        </p>   
+        <p>
+          From my experience, they value high grades, research experience relevant to the position, publications (even if you are not the 
+          first author), and strong recommendation letters. They also value cover letters that are tailored to the specific position, 
+          university, or professor, rather than generic or AI-generated ones.
+        </p>          
+        <p>
+          Make sure you have a clear overview of the application <strong>timeline</strong>, as deadlines and procedures differ between universities 
+          and countries. Even when it is not mandatory, it can be beneficial to contact a potential supervisor beforehand through 
+          a <strong>cold email</strong>. This gives you an overview of their work and any available positions, allows them to get to know you, and 
+          helps both sides evaluate whether there is a good fit before the official application process.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to request recommendation letters?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         I do not have experience writing recommendation letters, but I do have experience requesting them. 
+         First, it is useful to reflect on why universities ask for recommendation letters. They want to understand 
+         how people who have worked with you <strong>perceive you</strong>, independently of how you present yourself. Since your goal 
+         is to convince them that you are a good fit for the position, you want someone who has collaborated with you 
+         to discuss your skills, motivation, and ability to succeed in that role.
+        </p>   
+        <p>
+         The arguments in a recommendation letter are usually based on <strong>past collaborations and interactions</strong>. Therefore, 
+         it is important to ask for a letter from someone who has relevant experience working with you. Ideally, this 
+         would be a professor or researcher with whom you have collaborated closely on research projects. It can also 
+         help if the person has an established career and reputation in the field, as their opinion may carry additional 
+         weight. In some cases, the application committee may also value whether the professor has connections with the 
+         department, such as research collaborations or previous studies there. This is one reason why it is important to 
+         think about recommendation letters <strong>long before you start preparing applications</strong>. If you would like a recommendation 
+         from a specific professor, attend their courses, join their research group, volunteer in their laboratory, or 
+         choose them as a thesis supervisor.
+        </p>          
+        <p>
+          When contacting a professor, make sure to <strong>introduce yourself</strong>, explain <strong>why</strong> you are reaching out, provide information 
+          about the <strong>position</strong> you are applying for, remind them of your previous interactions, and ask whether they would be 
+          willing to write a recommendation letter. It is also important to communicate the <strong>deadline</strong> clearly. Application 
+          timelines are often strict, and you are responsible for requesting the letter early enough, ideally at least one 
+          week before the deadline. If the professor is unavailable, you should still have enough time to contact another 
+          referee. Some professors may send the recommendation letter directly to you, but in many cases they submit it 
+          themselves through the university platform.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to structure my CV?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         When applying for PhD positions, a concise (1 page) CV is usually sufficient. It is important to understand the 
+         difference between applying for industrial and academic positions. For academic applications, you should emphasize 
+         the experiences that demonstrate your <strong>research potential</strong>. Include your education, publications, conferences 
+         and seminars, research experience, and relevant work experience. Follow a chronological order, typically listing 
+         the most recent experiences first. Include accurate dates and contact information. Personally, I would not 
+         include a photograph or additional personal details such as age. If space allows, you can also mention relevant 
+         university courses, language qualifications, and soft or technical skills that are relevant to the position.
+        </p>           
+        <p>
+          My current{" "}
+          <a
+            href="https://athinabampzeli.com/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            CV
+          </a>{" "}
+          follows the structure expected after being accepted into a PhD position, so I would not necessarily recommend using it 
+          directly as a template for applications, as it is quite detailed. However, you may still find useful ideas from it, such 
+          as writing it in LaTeX.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to cold email professors?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+        The most important step before contacting professors is researching their work. This helps you 
+        understand whether their research interests align with yours, whether their methods match the skills 
+        you would like to develop, and how to tailor your application documents effectively. It may 
+        also help you identify <strong>open positions</strong> and determine whether they require a 
+        specific <strong>application process</strong>. You can explore their 
+        ORCID profile, Google Scholar profile, LinkedIn page, university webpage, or laboratory website.
+        </p>   
+        <p>
+          In a cold email, briefly <strong>introduce yourself</strong> and explain why you are contacting them. It 
+          is also useful to include a clear <strong>call to action</strong>. For example, you may ask whether they have available 
+          PhD positions or whether they would be willing to schedule a short video call to discuss their research 
+          opportunities. This makes it easier for the professor to understand how they can respond and what type 
+          of interaction you are seeking. You can attach <strong>supporting documents</strong> if you wish, 
+          such as your CV, cover letter, and optionally your transcripts. Before contacting professors, it is 
+          useful to have a general CV ready and <strong>adapt</strong> it slightly for each application. Similarly, you can prepare 
+          a cover letter template that highlights your background, skills, and research interests. The part that 
+          usually changes between applications is your motivation for the specific position and what attracts you 
+          to that particular research group or collaboration. Using your academic 
+          email address can help maintain a professional tone.
+
+        </p>          
+        
+        <p>
+          You can find more tips about contacting and emailing professors in my previous Q&As. For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What was one difficult aspect of the application process?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         One of the most challenging aspects was having to think deeply about the <strong>"why"</strong> and the <strong>"what"</strong> behind my 
+         decisions. Why did you apply to this position? Why did you take that course? Why did you choose that 
+         tool? Why should someone select you? What exactly were your responsibilities? What was the outcome? 
+         What did you learn from the experience? What value does it provide to society?
+        </p>   
+        <p>
+        At first, it was difficult to reflect on my past experiences at such a deep level and understand how 
+        they had shaped me. Over time, however, this process helped me <strong>evaluate</strong> advantages and disadvantages 
+        more critically, make more <strong>informed decisions</strong>, and better understand which skills I had developed, 
+        how I developed them, and which skills still needed <strong>improvement</strong>. Although I initially went through 
+        this reflection process because of job and PhD applications, I believe it is valuable to revisit it 
+        periodically. It helps ensure that you continue moving in the direction that is most meaningful to you.
+        </p>          
+      </div>
+    ),
+  },
+  {
+    question: "What was your motivation for pursuing a PhD?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">          
+        <p>
+          My motivation to pursue a PhD started while <strong>working</strong> on the{" "} 
+          <a
+            href="https://github.com/athina-bampzeli/Techno-economic-study"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Capstone Design Project
+          </a>{" "}
+          and my{" "}
+          <a
+            href="https://github.com/athina-bampzeli/Diploma-Thesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Diploma Thesis
+          </a>,{" "}
+          where I realized that I genuinely enjoyed research. After <strong>attending</strong> the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_circulareconomy-energysystems-processmodeling-ugcPost-7204479932196884481-Rn62/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Panhellenic Scientific Conference of Chemical Engineering
+          </a>,{" "}
+          I became particularly interested in machine learning and digital tools for process development 
+          and scale-up. Combined with my motivation to <strong>contribute</strong> to society by reducing pharmaceutical 
+          production costs, improving medicine affordability and supporting the development of new 
+          treatments, hybrid modeling of bioprocesses appeared to be a promising PhD topic. Finally, 
+          my <strong>passion</strong> for education and the dissemination of knowledge, which has been with me since 
+          childhood, has evolved into one of my core values. I would like this value to remain part 
+          of my professional life in the future.
         </p>
       </div>
     ),
