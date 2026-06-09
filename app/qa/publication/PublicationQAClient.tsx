@@ -399,7 +399,7 @@ export default function PublicationQAClient() {
               <div className="space-y-4 mt-3">
                 {pub.qa.map((item, qIndex) => (
                   <div key={qIndex} className="border-t pt-3">
-                    <p className="font-medium">
+                    <p className="font-medium text-left">
                       {qIndex + 1}. {item.question}
                     </p>
                     <div className="text-gray-700 space-y-4 text-justify leading-relaxed mt-5">{item.answer}</div>
