@@ -13,7 +13,7 @@ export default function Projects() {
         <h2 className="text-3xl font-bold mb-6">Research Projects</h2>
 
         <div className="flex justify-center">
-          <div className="grid md:grid-cols-2 gap-20 max-w-4xl w-full">
+          <div className="grid md:grid-cols-2 gap-20 max-w-4xl">
 
         
             {/* Thesis */}

@@ -58,16 +58,16 @@ const qanda1 = [
       <div className="space-y-4 text-justify leading-relaxed">
         <ul className="space-y-4">
           <li>
-            <strong>a) Teamwork and collaboration</strong> are very important because they are skills you will need throughout your life. We are all part of small and large communities, and in order to feel good, work effectively, achieve goals, and live harmoniously, we need to learn how to cooperate and interact with others.
+            a) <strong>Teamwork and collaboration</strong> are very important because they are skills you will need throughout your life. We are all part of small and large communities, and in order to feel good, work effectively, achieve goals, and live harmoniously, we need to learn how to cooperate and interact with others.
           </li>
           <li>
             b) Another important skill is the motivation to keep growing and <strong>learning</strong> throughout life, irrespective of the field each person chooses, from theoretical study to practical work. Personal growth and having long-term goals are important both for individual development and for society as a whole.
           </li>
           <li>
-            <strong>c) Research and independence</strong> are also essential skills in an era where so much information is freely available. This does not only mean academic research. It means being able to find the information you need, examine it critically, and make decisions based on it.
+            c) <strong>Research and independence</strong> are also essential skills in an era where so much information is freely available. This does not only mean academic research. It means being able to find the information you need, examine it critically, and make decisions based on it.
           </li>
           <li>
-            <strong>d) Technological skills</strong>, at least at a basic level, are also necessary. This includes understanding how to use digital tools effectively and being aware of potential dangers. From using e-class platforms to find homework, to learning how to use social media and YouTube in an efficient and safe way, technology can support personal growth when used wisely.
+            d) <strong>Technological skills</strong>, at least at a basic level, are also necessary. This includes understanding how to use digital tools effectively and being aware of potential dangers. From using e-class platforms to find homework, to learning how to use social media and YouTube in an efficient and safe way, technology can support personal growth when used wisely.
           </li>
         </ul>        
         <p>
@@ -425,31 +425,72 @@ const qanda2 = [
     ),
   },
   {
-    question: "What is the advantage of a first-year student compared to a final-year student, even without much knowledge or experience?",
+    question: "What are the 5 most important skills to develop during university? Why? How?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
-          A final-year student may know themselves better, understand how they work, and have a clearer idea of what they want. 
-          A first-year student is still discovering these things and adapting to a new environment. However, first-year students
-          have more <strong>time and freedom to explore</strong>. At that stage, there is usually less pressure to specialize, make career decisions,
-          or find a job. This gives students the opportunity to try different experiences, meet people, and discover what they enjoy.
-        </p>
+        This is a difficult question, as the answer depends heavily on the path someone chooses after university and 
+        there are many possible directions. I will answer based on the general skills that I believe are valuable 
+        throughout life, rather than for a specific profession.
+        </p> 
+        <ul className="space-y-4">
+          <li>
+            a) University is the home of ideas, discussions and self-growth. Undergraduate studies usually take place between 
+            the ages of 18 and 30, when you are more mature than during school years but often have fewer responsibilities than 
+            later in life. Therefore, it is a good opportunity to <strong>learn about yourself</strong>, evaluate your character in a more mature 
+            way, understand how you behave, identify your goals, and discover your passions. These are important things to know 
+            so that you can shape your life in a way that fits you by taking consistent steps toward your objectives. And what 
+            better way to do that than by meeting new people, exploring opportunities, and taking initiatives?
+          </li>
+          <li>
+            b) Knowing how to find information and make <strong>independent decisions</strong> is very important as an adult. Nowadays, 
+            we are overwhelmed with information, but we do not always know how to filter it or determine what is useful for 
+            making effective decisions aligned with our goals. University is a good place to develop this skill, as you are 
+            responsible for finding ways to pass your courses, taking advantage of the opportunities available to students, 
+            and building your own path toward a career that interests you.
+          </li>
+            <li>
+            c) Being <strong>flexible and adaptable</strong> to change, new environments, and new people is important in today's world, which never 
+            stops evolving. Transitioning from school to university and working your way toward graduation is already a good first 
+            step in learning how to adapt, in a more protected environment than the job market. By participating in extracurricular 
+            courses, projects, and teams, you develop these skills even further, as you need to balance the responsibilities of 
+            being a student with those of your additional activities. In practice, this means balancing relationships with supervisors, 
+            managing the expectations of collaborators, and handling your own personal expectations. It also means not being afraid to 
+            change your way of working or approaching problems if your previous approach does not fit a new situation. It means finding 
+            the necessary resources, managing your time, and working under pressure. At the same time, it means keeping your core values, 
+            redefining yourself when needed, while remaining true to who you are.
+          </li>
+          <li>
+            d) Undergraduate studies is also a time to learn how to <strong>build a network</strong> of people, which includes developing communication skills and 
+            emotional intelligence. We are part of a society and continuously depend on other people, just as they depend on us. 
+            By studying a specific field, even as an undergraduate, you are already becoming specialized. Your classmates, whether 
+            younger or older, your professors, and students from other departments may become future collaborators. They might 
+            inform you about an open position, or you might help them make a better decision based on your own experiences. 
+            Learning how to build and maintain professional relationships during university is a valuable first step in a 
+            relatively protected environment. Later, in the workplace, factors such as competition and financial interests can 
+            make these dynamics more challenging to navigate.
+          </li>
+          <li>
+            e) <strong>Collaboration</strong> is another important skill, and I separate it from networking, even though both are related to 
+            interacting with other people. Knowing how to collaborate goes deeper than knowing how to initiate and maintain 
+            a connection. It involves sharing your opinion, listening to the opinions of others, being willing to argue 
+            constructively for the benefit of the team, accepting feedback and criticism, and providing constructive feedback 
+            yourself. Sometimes it means taking the lead, while other times it means taking a step back. It means investing time 
+            in achieving a collective result, prioritizing tasks, and setting boundaries. It also means celebrating small successes 
+            with humility and accepting significant failures without assigning blame. As the saying goes, alone you can go fast, 
+            but together you can go far. 
+          </li>
+        </ul>       
         <p>
-          There are many opportunities available even for younger students, so do not fall into the trap of thinking you are not
-          capable enough because you are still at the beginning. Take the first step: search, ask, apply.
-        </p>
-        <p>
-          Read about the{" "}
+          You can read more about a successful teamwork effort regarding the launch of{" "}
           <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_logisticsresponsible-responsible-organisation-activity-7013916017437372416-5MWI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            href="https://www.linkedin.com/posts/aristotle-university-of-thessaloniki-auth-_auth-thessaloniki-space-ugcPost-7444397972274143232-ONrv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline font-medium"
           >
-            Cultural Exchange
-          </a>{" "}
-          event I organized as a 2nd year undergraduate student.
-         
+            PeakSat
+          </a>.
         </p>
       </div>
     ),
@@ -514,6 +555,36 @@ const qanda2 = [
     ),
   },
   {
+    question: "What is the advantage of a first-year student compared to a final-year student, even without much knowledge or experience?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          A final-year student may know themselves better, understand how they work, and have a clearer idea of what they want. 
+          A first-year student is still discovering these things and adapting to a new environment. However, first-year students
+          have more <strong>time and freedom to explore</strong>. At that stage, there is usually less pressure to specialize, make career decisions,
+          or find a job. This gives students the opportunity to try different experiences, meet people, and discover what they enjoy.
+        </p>
+        <p>
+          There are many opportunities available even for younger students, so do not fall into the trap of thinking you are not
+          capable enough because you are still at the beginning. Take the first step: search, ask, apply.
+        </p>
+        <p>
+          Read about the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_logisticsresponsible-responsible-organisation-activity-7013916017437372416-5MWI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Cultural Exchange
+          </a>{" "}
+          event I organized as a 2nd year undergraduate student.
+         
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "When should I focus on studying in university? In the first years or the last years?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -570,6 +641,38 @@ const qanda2 = [
     ),
   },
   {
+    question: "How much English do I need? At what level? Do I need a certificate?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          If you are reading this text in its original English version rather than a translated one, you already 
+          understand one reason why English is important. It is the most commonly used language for <strong>communication</strong> between
+          people from different countries. It is useful when travelling, watching movies, using your 
+          computer, and accessing information online.
+        </p>
+        <p>
+          For some professions, however, English is not only useful but necessary. Technical documents, scientific 
+          papers, conferences, multinational companies, and multicultural universities often operate primarily in 
+          English. When applying for <strong>master's or PhD programs</strong>, you are usually required to provide proof of 
+          English proficiency. In some cases, universities ask for specific certifications such as TOEFL or 
+          IELTS, and they may require the certificate to have been obtained within a certain period before 
+          the application. Therefore, always check the requirements of the specific program. Beyond the certificate 
+          itself, consider the actual value of knowing English. It allows your work to <strong>reach people</strong> all over the world, 
+          enables others to reproduce and build upon your work, and helps you understand what researchers and 
+          professionals are doing beyond the borders of your own country.
+        </p>
+        <p>
+          Watching movies in English without subtitles, reading books in English, speaking English while travelling, 
+          participating in multicultural events, writing your thoughts in English, and changing your phone or laptop 
+          settings to English are all ways to improve your listening, reading, speaking, and writing skills beyond 
+          the traditional classroom approach. For aspiring researchers, listening to scientific podcasts, watching 
+          technical videos, reading papers, and writing your own technical content in English are particularly useful 
+          for becoming familiar with the <strong>terminology</strong> of your field.    
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "How to reduce stress during exams?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -590,6 +693,64 @@ const qanda2 = [
         <p>
           Time management is different for each person. What helps me personally is having both short-term 
           and long-term goals and writing down my daily tasks so I can organize my time depending on the priorities of that day. 
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to maintain work-life balance?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+        That is a serious question and the answer varies from person to person. I cannot provide specific advice, 
+        but in general I believe that maintaining good communication with family and friends, spending time outside 
+        the house and office, exercising, staying connected with nature, eating healthily, sleeping well, and 
+        limiting excessive screen time are good practices. Remember that these habits are not only beneficial 
+        for your personal well-being. A productive mind and effective work also require balanced physical, mental and emotional health.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How can I identify my strengths and areas for improvement?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Since I started reading the work of philosophers in high school, I have shared Aristotle's view on the 
+         importance of <strong>self-knowledge</strong>. Understanding who you are and recognizing your personal characteristics is 
+         essential for making decisions, setting goals, and achieving them. This becomes particularly useful when 
+         preparing application documents, attending interviews, or taking on responsibilities in your professional 
+         life. Knowing yourself allows you to organize your efforts more effectively.
+        </p>
+        <p>
+          One approach is to <strong>write down</strong> your current thoughts about your strengths and weaknesses and revisit them 
+          periodically. As you gain new experiences, you can <strong>update</strong> your perspective based on facts and reflection. 
+          You can also <strong>ask</strong> people who know you well for their opinion and compare their observations with your own 
+          self-assessment. <strong>Searching online</strong> for common strengths and weaknesses, either in general or related to a 
+          specific position, may also help you identify areas where you already perform well or need further 
+          development. Another useful framework is the <strong>SWOT analysis</strong>, which is commonly used in projects and 
+          organizations but can also be applied to personal development and career planning.
         </p>
         <p>
           For personalized advice, you can explore the{" "}
@@ -680,6 +841,107 @@ const qanda2 = [
             diploma thesis
           </a>{" "}
           as part of my undergraduate studies in chemical engineering.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What are possible problems during a thesis? How to approach them?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         A thesis is often a student's first real experience with independent research, so difficulties are common. Some challenges may include lack of motivation, 
+         burnout, stress, uncertainty about how to proceed, technical problems, unsolved research questions, time management difficulties...Being aware that
+         these <strong>challenges are common</strong> can make them easier to manage. It helps to:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Communicate with classmates or your support network.
+          </li>
+          <li>
+            b) Ask for feedback.
+          </li>
+          <li>
+            c) Seek advice when needed.
+          </li>
+          <li>
+            d) Break problems into smaller steps.
+          </li>
+          <li>
+            e) Give yourself time and organize the work from the beginnin.
+          </li>
+        </ul> 
+        <p>
+          Your supervisor can be very important in helping with research-related difficulties. At the same time, trying to think independently about
+          a problem before asking for help can also be a valuable learning experience.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is a general methodology for working on a thesis?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Good organization can make a major difference. Some helpful habits are to keep a <strong>work diary</strong> or research log (hand-written notes, digital notes, git version control)
+         and organize files so you can easily find past work. To <strong>manage literature</strong> you can take notes while reading so you do not need to reread everything in a later stage. 
+         As for the collaboration with your supervisor and any other involved collaborators, keep <strong>communication organized</strong> (e.g. email threads with relevant naming) and 
+         write down their advice, feedback and expectations so you can refer to later. Schedule meetings to discuss progress and receive guidance.
+        </p>
+        <p>
+         A <strong>steady rhythm</strong> of work usually helps more than long periods of inactivity followed by intense work close to deadlines. Good documentation
+         helps later when writing the final thesis, reproducing results, or explaining your work to others. Ask people with experience in your
+         specific type of project for practical advice.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is a general methodology for working on a computational project?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          For research work, computational or not, it helps to begin by <strong>understanding</strong> what research question you are trying to answer, why this problem is important, 
+          what is already known in the field, what approach you will use. Some practical advice for computational projects:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Start familiarizing with <strong>literature</strong>. Read an initial set of relevant papers, take notes and categorize information. Write comments
+            about what may be useful for your work.
+          </li>
+          <li>
+            b) Choose <strong>tools</strong> appropriately. Try to choose software or methods based on what best fits the problem (e.g. type of modeling approach, data availability, funding), not only
+            based on what you already know.
+          </li>
+          <li>
+            c)  Build an <strong>initial simplified model</strong> first to understand the main variables, identify possible problems early, estimate required data, 
+            check feasibility and computational cost. Develop the model step by step to save time. If you make too many changes at once, debugging becomes harder. When
+            transitioning from the high level to the more detailed approach, check the robustness of the model. 
+          </li>
+          <li>
+            d) <strong>Documenting</strong> the work will help later when analyzing results, writing the thesis/report or making the presentation. Write down parameter values, 
+            assumptions, data sources, versions of models, naming conventions for files.
+          </li>
+          <li>
+            e) Even if a model runs without errors, check the <strong>results critically</strong>. Do the results make physical or practical sense? Can you verify them with
+            simple hand calculations? Can you compare them with literature or expert feedback? A working simulation is not automatically a correct simulation.
+          </li>
+          <li>
+            f)  Focus on <strong>impactful parameters</strong> to avoid spending too much time on variables that do not meaningfully affect the results. For uncertain values 
+            estimate ranges and test sensitivity where possible.
+          </li>
+        </ul> 
+        <p>
+          You can read my{" "}
+          <a
+            href="https://github.com/athina-bampzeli/Diploma-Thesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            diploma thesis
+          </a>{" "}
+          as part of my undergraduate studies in chemical engineering, in which I used the gPROMS FormulatedProducts tool to model, simulate and optimize processes.
         </p>
       </div>
     ),
@@ -803,349 +1065,6 @@ const qanda2 = [
           </a>{" "}
           me.
         </p>
-      </div>
-    ),
-  },
-  {
-    question: "What are possible problems during a thesis? How to approach them?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-         A thesis is often a student's first real experience with independent research, so difficulties are common. Some challenges may include lack of motivation, 
-         burnout, stress, uncertainty about how to proceed, technical problems, unsolved research questions, time management difficulties...Being aware that
-         these <strong>challenges are common</strong> can make them easier to manage. It helps to:
-        </p>
-        <ul className="space-y-4">
-          <li>
-            a) Communicate with classmates or your support network.
-          </li>
-          <li>
-            b) Ask for feedback.
-          </li>
-          <li>
-            c) Seek advice when needed.
-          </li>
-          <li>
-            d) Break problems into smaller steps.
-          </li>
-          <li>
-            e) Give yourself time and organize the work from the beginnin.
-          </li>
-        </ul> 
-        <p>
-          Your supervisor can be very important in helping with research-related difficulties. At the same time, trying to think independently about
-          a problem before asking for help can also be a valuable learning experience.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "What is a general methodology for working on a thesis?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-         Good organization can make a major difference. Some helpful habits are to keep a <strong>work diary</strong> or research log (hand-written notes, digital notes, git version control)
-         and organize files so you can easily find past work. To <strong>manage literature</strong> you can take notes while reading so you do not need to reread everything in a later stage. 
-         As for the collaboration with your supervisor and any other involved collaborators, keep <strong>communication organized</strong> (e.g. email threads with relevant naming) and 
-         write down their advice, feedback and expectations so you can refer to later. Schedule meetings to discuss progress and receive guidance.
-        </p>
-        <p>
-         A <strong>steady rhythm</strong> of work usually helps more than long periods of inactivity followed by intense work close to deadlines. Good documentation
-         helps later when writing the final thesis, reproducing results, or explaining your work to others. Ask people with experience in your
-         specific type of project for practical advice.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "What is a general methodology for working on a computational project?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-          For research work, computational or not, it helps to begin by <strong>understanding</strong> what research question you are trying to answer, why this problem is important, 
-          what is already known in the field, what approach you will use. Some practical advice for computational projects:
-        </p>
-        <ul className="space-y-4">
-          <li>
-            a) Start familiarizing with <strong>literature</strong>. Read an initial set of relevant papers, take notes and categorize information. Write comments
-            about what may be useful for your work.
-          </li>
-          <li>
-            b) Choose <strong>tools</strong> appropriately. Try to choose software or methods based on what best fits the problem (e.g. type of modeling approach, data availability, funding), not only
-            based on what you already know.
-          </li>
-          <li>
-            c)  Build an <strong>initial simplified model</strong> first to understand the main variables, identify possible problems early, estimate required data, 
-            check feasibility and computational cost. Develop the model step by step to save time. If you make too many changes at once, debugging becomes harder. When
-            transitioning from the high level to the more detailed approach, check the robustness of the model. 
-          </li>
-          <li>
-            d) <strong>Documenting</strong> the work will help later when analyzing results, writing the thesis/report or making the presentation. Write down parameter values, 
-            assumptions, data sources, versions of models, naming conventions for files.
-          </li>
-          <li>
-            e) Even if a model runs without errors, check the <strong>results critically</strong>. Do the results make physical or practical sense? Can you verify them with
-            simple hand calculations? Can you compare them with literature or expert feedback? A working simulation is not automatically a correct simulation.
-          </li>
-          <li>
-            f)  Focus on <strong>impactful parameters</strong> to avoid spending too much time on variables that do not meaningfully affect the results. For uncertain values 
-            estimate ranges and test sensitivity where possible.
-          </li>
-        </ul> 
-        <p>
-          You can read my{" "}
-          <a
-            href="https://github.com/athina-bampzeli/Diploma-Thesis"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            diploma thesis
-          </a>{" "}
-          as part of my undergraduate studies in chemical engineering, in which I used the gPROMS FormulatedProducts tool to model, simulate and optimize processes.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "Is an internship worth it? In Greece or abroad? In a big or small company?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-         Every internship is different, depending on your background, the responsibilities of the role, the company culture, the quality of supervision, the field itself.
-         For many students, an internship is one of the first experiences outside the university environment where they 
-         work as <strong>part of an organization</strong>. It often teaches 
-         skills that are difficult to learn in class, such as responsibility, workplace communication, completing tasks under deadlines, 
-         working with colleagues and supervisors, adapting to a professional environment. Internships may help you understand:
-        </p>
-        <ul className="space-y-4">
-          <li>
-            a) Whether you enjoy a certain work environment.
-          </li>
-          <li>
-            b) Whether a field suits you.
-          </li>
-          <li>
-            c) What <strong>professional work</strong> actually looks like.
-          </li>
-          <li>
-            d) What skills you still need to develop.
-          </li>
-        </ul>        
-        <p>
-          If you are interested in industry, internship experience is often seen positively by employers. However, the value usually comes more 
-          from <strong>what you actually did and learned</strong> than simply having the title of “intern”. During interviews, employers often ask about tasks you completed, 
-          challenges you faced, skills you developed, initiatives you took. So try to focus on gaining real experience, not only adding a line to your CV.
-        </p>
-        <p>
-          Internships abroad, such as Erasmus placements or other international opportunities, may also broaden your perspective and expose you to 
-          new professional cultures, although they often require more <strong>preparation and adaptability</strong>. As for choosing between a big or small 
-          company, there is no universal answer. Both can offer advantages and disadvantages. It is often more useful to evaluate the actual 
-          role, the people you will work with, the responsibilities you will have, the learning opportunities available. Do not be disappointed 
-          if you get your first rejections. It has happened to all. You might choose to exploit an opportunity that you get the chance, 
-          rather than waiting for the ideal one you had in mind, and still get value you did not expect.
-        </p>
-        <p>
-          You can read about my{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cybersecurity-presentation-activity-7426901388045049856-p-u1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            internship
-          </a>{" "}
-          in the field of cybersecurity.
-        </p>
-        
-      </div>
-    ),
-  },
-  {
-    question: "Should I participate in conferences, seminars and courses as a student?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-          In my experience, participating in conferences and seminars as a student can be very valuable. For example, attending the{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_pesxm14-chemeng-engineering-activity-7204479932616368128-l1ZY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            14th Panhellenic Scientific Conference on Chemical Engineering
-          </a>{" "}
-          during my fourth year helped me better understand the broad applications and specializations within
-          my field. It exposed me to topics and innovations that I had not considered before and gave me a clearer picture of the wider scientific community. 
-          Experiences like these can <strong>broaden your perspective</strong>, expose you to new ideas and technologies, help you understand possible career paths, 
-          introduce you to researchers and professionals, motivate you to engage more deeply with your field.
-        </p>
-        <p>
-         If you have worked on a research project, <strong>presenting your work</strong> at a conference can be even more impactful, as it gives you an opportunity
-         to discuss your project with others and gain experience in scientific communication. Conference participation can also be something
-         valuable to include in your CV. Keep in mind that some conferences require registration fees, even for student attendees. In some cases, 
-         volunteering as part of the organizing team may provide free participation or reduced costs. Major conferences and relevant opportunities 
-         on chemical engineering are provided by the{" "}
-          <a
-            href="https://www.aiche.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            AIChE
-          </a>{" "}
-          and the{" "}
-          <a
-            href="https://www.icheme.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            IChemE
-          </a>.
-        </p>
-        <p>
-          There are also many other opportunities beyond conferences, such as seminars, courses, workshops and summer schools. Depending on the organizer
-          and the topic, these experiences may contribute differently to your learning and CV, but in general they can help you meet new people, 
-          learn interdisciplinary topics, experience different teaching styles, understand what interests you, explore future directions.
-        </p>
-        <p>
-          You can read about the workshop I participated on{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_optimization-modeling-chemicalengineering-activity-7218930335378489345-3YWN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            "Optimization Methods for Energy Systems Engineering"
-          </a>{" "}
-          taught by professor Christos Maravelias. You can explore (and apply to) upcoming events/opportunities in my{" "}
-          <a
-            href="https://athinabampzeli.com/news"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            website
-          </a>.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "Is volunteering worth spending time? Scientific student teams or event organizing?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-          Every experience changes you, not only because of its title or structure, but also because of the timing, the people you meet,
-          and the way you engage with it. I would say it is rarely too early to participate in student teams or organizations. There will
-          always be reasons to think you are too busy, too inexperienced, or not ready enough. If you feel comfortable exploring different
-          experiences, this can be a very valuable period to do so, especially before feeling pressure to specialize. Before joining, it is
-          important to ask about the <strong>time commitment and responsibilities</strong> involved, just like in a job interview. This helps avoid
-          misunderstandings and ensures that you can commit responsibly. The positive side is that the more effort you invest, the more you
-          usually gain in terms of skills, confidence, and personal growth. This is not wasted time, even if it is not directly connected to
-          your degree. University is not only about courses and exams. It is also about <strong>understanding yourself</strong> better and preparing for <strong>future work</strong> and life. 
-        </p>
-        <p>
-         A <strong>scientific student team</strong> may give you research and technical experience, expose you to interdisciplinary work, help you collaborate with
-         people working toward a common goal, introduce you to passionate people who may inspire you. This can be especially useful if you are
-         considering specializing in that field. 
-        </p>
-        <p>
-          An <strong>event organizing student team</strong> may help you develop responsibility and teamwork, teach you practical organization and communication skills,
-          give you experience in leadership and coordination, help you understand how complex projects happen behind the scenes. One thing I personally
-          learned from event organizing was that, as a participant, I only saw the final result. I did not realize the amount of planning, effort
-          and coordination happening behind the scenes. That experience helped me understand why some events run smoothly and where others may have room for improvement. 
-        </p>
-        <p>
-          Another advantage of student teams is that they involve many different roles, from human resources and marketing to technical work and operations. 
-          Even if you are mainly interested in one role, you can learn a lot by observing and talking to people in other positions. Volunteering also allows
-          you to meet people who are motivated by more than personal gain. These are often people who want to contribute, grow, collaborate, and support
-          a shared goal. Building relationships with such people can become an important <strong>networking opportunity</strong> far beyond the team itself. 
-        </p>
-        <p>
-          You can explore the{" "}
-          <a
-            href="https://gitlab.com/acubesat/thermal/esatan-model/-/work_items/30"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            Payload thermal model
-          </a>{" "}
-          I developed as a Thermal Engineer at{" "}
-          <a
-            href="https://spacedot.gr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            SpaceDot
-          </a>{" "}
-          and the{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_organizing-responsible-communicating-activity-7039996733040275456-XiKt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            JobFair
-          </a>{" "}
-          I coordinated as the Corporate Relations responsible at{" "}
-          <a
-            href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=th"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            BEST Thessaloniki
-          </a>.
-        </p>
-        <p>
-          You can explore one of the{" "}
-          <a
-            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_represented-interviewed-folkdance-activity-7014554612498100225-B7_J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            festivals
-          </a>{" "}
-          I participated as a volunteer dancer at{" "}
-          <a
-            href="https://likhelthes.gr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            Lyceum Club of Greek Women of Thessaloniki
-          </a>. Participating in such cultural activities is about engaging with tradition, history, and collective memory. 
-          Respecting and sharing the traditions of my country is something I see as closely connected to education and self-awareness. 
-          For me education is not limited to academic knowledge. It also includes understanding where you come from, how history and culture shapes identity.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "What is the point of networking? How can I do it effectively?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-         Building connections with people relevant to your interests and goals can be helpful for learning, problem-solving, gaining perspective, 
-         and finding support. Networking is not simply about “getting something” from more experienced people. At its best, it is about 
-         building genuine professional relationships through <strong>discussion, collaboration, shared interests and mutual support</strong>. As with all 
-         human relationships, strong connections are usually built through genuine interest, respect, honesty, consistency. 
-         Depending on your field, networking opportunities may come through conferences/seminars/courses, competitions, student organizations, 
-         volunteering, research collaborations, internships.
-        </p>
-        <p>
-          In practice, be open to <strong>communicate</strong> your work and interests, <strong>share</strong> your aspirations, <strong>ask</strong> thoughtful 
-          questions, seek feedback, <strong>offer</strong> help. 
-          If you plan to contact a specific person, it often helps to learn about their background beforehand and prepare relevant questions. 
-          Platforms such as LinkedIn can also help maintain professional connections over time. In my opinion, one of the most effective ways 
-          to build meaningful professional relationships is by <strong>working</strong> with people on real projects, because collaboration often reveals much 
-          more than brief conversations.
-        </p>        
       </div>
     ),
   },
@@ -1374,6 +1293,436 @@ const qanda2 = [
     ),
   },
   {
+    question: "Is an internship worth it? In Greece or abroad? In a big or small company?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Every internship is different, depending on your background, the responsibilities of the role, the company culture, the quality of supervision, the field itself.
+         For many students, an internship is one of the first experiences outside the university environment where they 
+         work as <strong>part of an organization</strong>. It often teaches 
+         skills that are difficult to learn in class, such as responsibility, workplace communication, completing tasks under deadlines, 
+         working with colleagues and supervisors, adapting to a professional environment. Internships may help you understand:
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) Whether you enjoy a certain work environment.
+          </li>
+          <li>
+            b) Whether a field suits you.
+          </li>
+          <li>
+            c) What <strong>professional work</strong> actually looks like.
+          </li>
+          <li>
+            d) What skills you still need to develop.
+          </li>
+        </ul>        
+        <p>
+          If you are interested in industry, internship experience is often seen positively by employers. However, the value usually comes more 
+          from <strong>what you actually did and learned</strong> than simply having the title of “intern”. During interviews, employers often ask about tasks you completed, 
+          challenges you faced, skills you developed, initiatives you took. So try to focus on gaining real experience, not only adding a line to your CV.
+        </p>
+        <p>
+          Internships abroad, such as Erasmus placements or other international opportunities, may also broaden your perspective and expose you to 
+          new professional cultures, although they often require more <strong>preparation and adaptability</strong>. As for choosing between a big or small 
+          company, there is no universal answer. Both can offer advantages and disadvantages. It is often more useful to evaluate the actual 
+          role, the people you will work with, the responsibilities you will have, the learning opportunities available. Do not be disappointed 
+          if you get your first rejections. It has happened to all. You might choose to exploit an opportunity that you get the chance, 
+          rather than waiting for the ideal one you had in mind, and still get value you did not expect.
+        </p>
+        <p>
+          You can read about my{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cybersecurity-presentation-activity-7426901388045049856-p-u1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            internship
+          </a>{" "}
+          in the field of cybersecurity.
+        </p>
+        
+      </div>
+    ),
+  },
+  {
+    question: "Should I do an Erasmus study exchange or internship?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         I have not personally participated in an Erasmus study exchange or internship. However, based on the experiences 
+         of other people and my participation in a seven-day Erasmus{" "}
+         <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_course-entrepreneurship-business-activity-7013938283537698816-z4vs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            training course
+          </a>,{" "}I believe it is a valuable opportunity to <strong>step outside your comfort zone and develop yourself</strong> in ways you may not currently imagine.
+        </p>     
+        <p>
+          You can experience how a university or company in another country is structured and operates. At the same 
+          time, you will need to handle various <strong>challenges independently</strong>, from submitting application documents and 
+          finding accommodation to contacting professors and matching courses with those of your home university. 
+          If you are in the later years of your studies, an Erasmus exchange may also provide the opportunity to 
+          complete your thesis with a co-supervisor from the host institution. These experiences can also <strong>strengthen 
+          your CV</strong>, as they demonstrate independence, flexibility, adaptability, and the ability to study or work in 
+          an international environment.
+        </p>
+        <p>
+          A summer internship may not interfere with your university courses during 
+          the semester, although it can overlap with examination periods. An Erasmus study exchange, especially 
+          when not all courses can be fully recognized by your home institution, may require additional effort 
+          after your return to balance the remaining obligations of your degree.
+        </p>        
+      </div>
+    ),
+  },
+  {
+    question: "Should I participate in conferences, seminars and courses as a student?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          In my experience, participating in conferences and seminars as a student can be very valuable. For example, attending the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_pesxm14-chemeng-engineering-activity-7204479932616368128-l1ZY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            14th Panhellenic Scientific Conference on Chemical Engineering
+          </a>{" "}
+          during my fourth year helped me better understand the broad applications and specializations within
+          my field. It exposed me to topics and innovations that I had not considered before and gave me a clearer picture of the wider scientific community. 
+          Experiences like these can <strong>broaden your perspective</strong>, expose you to new ideas and technologies, help you understand possible career paths, 
+          introduce you to researchers and professionals, motivate you to engage more deeply with your field.
+        </p>
+        <p>
+         If you have worked on a research project, <strong>presenting your work</strong> at a conference can be even more impactful, as it gives you an opportunity
+         to discuss your project with others and gain experience in scientific communication. Conference participation can also be something
+         valuable to include in your CV. Keep in mind that some conferences require registration fees, even for student attendees. In some cases, 
+         volunteering as part of the organizing team may provide free participation or reduced costs. Major conferences and relevant opportunities 
+         on chemical engineering are provided by the{" "}
+          <a
+            href="https://www.aiche.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            AIChE
+          </a>{" "}
+          and the{" "}
+          <a
+            href="https://www.icheme.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            IChemE
+          </a>.
+        </p>
+        <p>
+          There are also many other opportunities beyond conferences, such as seminars, courses, workshops and summer schools. Depending on the organizer
+          and the topic, these experiences may contribute differently to your learning and CV, but in general they can help you meet new people, 
+          learn interdisciplinary topics, experience different teaching styles, understand what interests you, explore future directions.
+        </p>
+        <p>
+          You can read about the workshop I participated on{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_optimization-modeling-chemicalengineering-activity-7218930335378489345-3YWN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            "Optimization Methods for Energy Systems Engineering"
+          </a>{" "}
+          taught by professor Christos Maravelias. You can explore (and apply to) upcoming events/opportunities in my{" "}
+          <a
+            href="https://athinabampzeli.com/news"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            website
+          </a>.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "Is volunteering worth spending time? Scientific student teams or event organizing?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          Every experience changes you, not only because of its title or structure, but also because of the timing, the people you meet,
+          and the way you engage with it. I would say it is rarely too early to participate in student teams or organizations. There will
+          always be reasons to think you are too busy, too inexperienced, or not ready enough. If you feel comfortable exploring different
+          experiences, this can be a very valuable period to do so, especially before feeling pressure to specialize. Before joining, it is
+          important to ask about the <strong>time commitment and responsibilities</strong> involved, just like in a job interview. This helps avoid
+          misunderstandings and ensures that you can commit responsibly. The positive side is that the more effort you invest, the more you
+          usually gain in terms of skills, confidence, and personal growth. This is not wasted time, even if it is not directly connected to
+          your degree. University is not only about courses and exams. It is also about <strong>understanding yourself</strong> better and preparing for <strong>future work</strong> and life. 
+        </p>
+        <p>
+         A <strong>scientific student team</strong> may give you research and technical experience, expose you to interdisciplinary work, help you collaborate with
+         people working toward a common goal, introduce you to passionate people who may inspire you. This can be especially useful if you are
+         considering specializing in that field. 
+        </p>
+        <p>
+          An <strong>event organizing student team</strong> may help you develop responsibility and teamwork, teach you practical organization and communication skills,
+          give you experience in leadership and coordination, help you understand how complex projects happen behind the scenes. One thing I personally
+          learned from event organizing was that, as a participant, I only saw the final result. I did not realize the amount of planning, effort
+          and coordination happening behind the scenes. That experience helped me understand why some events run smoothly and where others may have room for improvement. 
+        </p>
+        <p>
+          Another advantage of student teams is that they involve many different roles, from human resources and marketing to technical work and operations. 
+          Even if you are mainly interested in one role, you can learn a lot by observing and talking to people in other positions. Volunteering also allows
+          you to meet people who are motivated by more than personal gain. These are often people who want to contribute, grow, collaborate, and support
+          a shared goal. Building relationships with such people can become an important <strong>networking opportunity</strong> far beyond the team itself. 
+        </p>
+        <p>
+          You can explore the{" "}
+          <a
+            href="https://gitlab.com/acubesat/thermal/esatan-model/-/work_items/30"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Payload thermal model
+          </a>{" "}
+          I developed as a Thermal Engineer at{" "}
+          <a
+            href="https://spacedot.gr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            SpaceDot
+          </a>{" "}
+          and the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_organizing-responsible-communicating-activity-7039996733040275456-XiKt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            JobFair
+          </a>{" "}
+          I coordinated as the Corporate Relations responsible at{" "}
+          <a
+            href="https://www.best.eu.org/aboutBEST/structure/lbgView.jsp?lbginfo=th"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            BEST Thessaloniki
+          </a>.
+        </p>
+        <p>
+          You can explore one of the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_represented-interviewed-folkdance-activity-7014554612498100225-B7_J?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx6YDUBc0-qX57jBY3JmoEyhcmnyPBLPgA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            festivals
+          </a>{" "}
+          I participated as a volunteer dancer at{" "}
+          <a
+            href="https://likhelthes.gr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Lyceum Club of Greek Women of Thessaloniki
+          </a>. Participating in such cultural activities is about engaging with tradition, history, and collective memory. 
+          Respecting and sharing the traditions of my country is something I see as closely connected to education and self-awareness. 
+          For me education is not limited to academic knowledge. It also includes understanding where you come from, how history and culture shapes identity.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "Are teamwork and independence mutually exclusive skills?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Both skills are essential to develop, regardless of the profession you choose. I have already mentioned 
+         their importance and suggested ways to cultivate them. Here, I would simply like to offer a thought. These 
+         skills are not as independent from one another as we sometimes assume.
+        </p>
+        <p>
+          When we work in a team, <strong>we remain individuals</strong> with our own responsibilities. We still need to organize 
+          ourselves, complete our tasks, and contribute independently. Think about a team sport: each athlete must 
+          train individually, maintain their physical condition, and take personal initiative in order to perform 
+          well as part of the team. On the other hand, when we think of independent work, such as a PhD project, are we ever completely independent? 
+          We still communicate with supervisors, universities, collaborators, and external partners. We may <strong>rely on</strong> data 
+          provided by others or <strong>seek advice</strong> from more experienced colleagues. 
+        </p> 
+        <p>
+         As members of society, it is difficult to achieve even personal goals entirely alone. Independence and 
+         collaboration are therefore not opposing qualities, they often complement one another.
+        </p>       
+      </div>
+    ),
+  },
+  {
+    question: "Is interdisciplinarity important?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         I have already mentioned how much I value interdisciplinary thinking and why. Here, I would like to share a few 
+         examples from my own experiences that demonstrate why interdisciplinarity is a defining characteristic of our era.
+        </p>
+        <p>
+          Cybersecurity is often viewed primarily as a field of <strong>computer science</strong>, and indeed mathematics and computing are 
+          essential components of it. However, cybersecurity is also closely connected to <strong>law</strong>, which constantly evolves to 
+          keep pace with rapid technological developments. It is also connected to <strong>education</strong>, as informing people about 
+          simple ways to protect themselves remains one of the most effective forms of defense. In this sense,{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cybersecurity-chemicalengineer-interdisciplinarity-activity-7333213758426710016-cvyl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            legal and educational professions
+          </a>{" "} are also relevant to cybersecurity. There are also cybersecurity attacks that target 
+          industrial systems, interfere with sensors, or manipulate the data used to train models. In such cases,
+          a <strong>chemical engineer</strong> could contribute to designing systems that are more resilient to these attacks and better 
+          able to withstand the effects of such tampering.
+        </p>  
+        <p>
+         Another example is aerospace. I fully appreciated this during the{" "}
+         <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_esaacademy-management-controlengineering-activity-7337820309938434048-HPEb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Space Standards training course
+          </a>{" "} by the European Space Agency Academy. Before that experience, 
+         I mostly associated aerospace with <strong>electrical and mechanical engineering</strong>. However, chemical engineers can contribute 
+         to propulsion systems, materials and chemicals,{" "}
+         <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_modeling-thermalanalysis-orbitalanalysis-activity-7381032172549406720-Pvl9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            thermal modeling
+          </a>, and the transition from manufacturing satellites 
+         individually to producing them at an industrial scale. With additional specialized training, there are likely many 
+         more opportunities.
+        </p>   
+        <p>
+          My visits to the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_distinguish-europeanparliament-energy-activity-7028716189241466880-U_pr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            European Parliament
+          </a>{" "}in Strasbourg and the United Nations Office at Geneva, although at a younger age, also gave me valuable 
+          insights into the importance of decision-making at a high level. <strong>Politicians</strong> with an engineering or STEM background, 
+          for example, may bring a practical perspective and greater awareness of issues related to the environment, 
+          healthcare, food production, and water resources.
+        </p>   
+        <p>
+          These are only a few examples from everyday life that demonstrate how important it is to collaborate across 
+          disciplines or to develop an interdisciplinary mindset yourself. Doing so can lead to a more holistic understanding 
+          of problems and more effective decision-making.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is the point of networking? How can I do it effectively?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Building connections with people relevant to your interests and goals can be helpful for learning, problem-solving, gaining perspective, 
+         and finding support. Networking is not simply about “getting something” from more experienced people. At its best, it is about 
+         building genuine professional relationships through <strong>discussion, collaboration, shared interests and mutual support</strong>. As with all 
+         human relationships, strong connections are usually built through genuine interest, respect, honesty, consistency. 
+         Depending on your field, networking opportunities may come through conferences/seminars/courses, competitions, student organizations, 
+         volunteering, research collaborations, internships.
+        </p>
+        <p>
+          In practice, be open to <strong>communicate</strong> your work and interests, <strong>share</strong> your aspirations, <strong>ask</strong> thoughtful 
+          questions, seek feedback, <strong>offer</strong> help. 
+          If you plan to contact a specific person, it often helps to learn about their background beforehand and prepare relevant questions. 
+          Platforms such as LinkedIn can also help maintain professional connections over time. In my opinion, one of the most effective ways 
+          to build meaningful professional relationships is by <strong>working</strong> with people on real projects, because collaboration often reveals much 
+          more than brief conversations.
+        </p>        
+      </div>
+    ),
+  },
+  {
+    question: "Should I take part in mentorship programs as a mentee?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Mentoring has been an important part of my personal development from my school years until today. 
+         I have always tried to ask people for advice and listen to their <strong>perspectives</strong>, because I believe that 
+         having multiple sources of information helps you make better-informed decisions. Mentoring has helped me 
+         make important choices, explore paths I would not have otherwise considered, and learn from the 
+         experiences and mistakes of others. The critical part is understanding <strong>who you are talking to</strong>. 
+         Consider their background, experiences and achievements, and try to connect those factors with the 
+         advice they provide. At the same time, think about whether their experiences are relevant to your 
+         own situation, personality, and aspirations. In the end, you are responsible for your own decisions.
+        </p>      
+        <p>
+          I would not say that I have formally mentored someone, but I have certainly tried to help people 
+          who asked for my opinion or advice. I greatly admire education and the work of professors, as they 
+          help shape the minds of <strong>future generations</strong>. They communicate innovative ideas, evidence-based knowledge, 
+          and the value of lifelong learning. Because I value this work so highly, I have always tried to develop 
+          my own skills in explaining complex concepts, presenting ideas, and continuously improving through 
+          reading, writing, listening, and learning. 
+        </p>
+        <p>
+          You can read about how{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_phd-processsystemsengineering-hybridmodeling-share-7465443054775263233-NOfX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            mentoring
+          </a>{" "}
+          helped me shape my own plan.{" "}
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "Is social media engagement important? ",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+        I believe that social media can be a powerful tool when used effectively and with caution. Like many 
+        modern technologies, it creates opportunities to make your content available to people around the world, 
+        free of charge, whenever you decide, and in whatever format best serves your purpose. This is already 
+        widely used in <strong>entrepreneurship and marketing</strong>. From what I have observed, platforms such as LinkedIn 
+        are often used in <strong>academia</strong> to promote publications, books, and other aspects of someone's work. They 
+        can also be used to advertise available positions and opportunities for collaboration. Social media 
+        can help you build a network of people with similar interests and professional backgrounds. It can 
+        also help you stay informed and inspired by experts in your field without having to search for them actively.   
+        </p>
+        <p>
+          However, it is important to be careful about what you publish and how much time you spend on these 
+          platforms. They are primarily tools for communicating ideas and information. They provide access to 
+          resources, but not necessarily to knowledge itself. Through them, you can develop skills related 
+          to <strong>communication and self-promotion</strong>, but genuine learning still requires dedicated study and practice.     
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "When should I start thinking about my next career steps after university?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -1402,6 +1751,160 @@ const qanda2 = [
           helped me shape my own plan.{" "}
         </p>
         
+      </div>
+    ),
+  },
+  {
+    question: "Should I pursue a master's degree? Another bachelor's degree?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          The answer depends on your background, previous decisions, career goals, whether you want to transition to 
+          a different field, and whether you can invest the required time and financial resources. In general, we 
+          live in an era of <strong>increasing specialization</strong>. Modern working environments often require people to develop 
+          deep expertise in their field, perform their specific tasks effectively, and then collaborate with other 
+          specialists to achieve broader goals.
+        </p>   
+        <p>
+          A bachelor's degree is usually designed to provide a broad foundation in a discipline, whereas a 
+          master's degree allows you to begin specializing in a particular area. It is also worth considering 
+          that a bachelor's degree typically requires a larger time commitment than a master's program. 
+          In my opinion, master's programs should help <strong>connect students</strong> with potential employers through 
+          industrial collaborations, internships, practical projects, and networking opportunities. The primary 
+          goal of a bachelor's degree, on the other hand, is usually to <strong>teach the fundamentals</strong> of the discipline 
+          rather than provide direct exposure to the job market. A master's degree is also required for many PhD applications.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What should I do during university if I want to pursue an industrial career and become more competitive?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          As I am not currently working in industry, my perspective is limited. However, based on my experiences and interactions, 
+          I would recommend taking on both <strong>personal and team projects</strong> to develop problem-solving, independence, communication, 
+          and teamwork skills. I have often heard that industry tends to place less emphasis on high grades and more emphasis on practical 
+          experience. This is one reason why work experience, internships, and volunteering are often valued.
+          Participating in teams helps you build a network, learn how to 
+          collaborate in a more structured way, and potentially work with external organisations and partners. Internships 
+          provide practical experience outside the relatively protected environment of the university. You can find more 
+          about internships and vollunteering in my previous Q&As.       
+        </p>
+        <p>
+          It is also important to remember that during university you <strong>cannot realistically learn every tool</strong> or process 
+          required for a junior position. There are countless software tools and workflows, and different organisations 
+          use different solutions depending on their needs. However, if you already know that you want to pursue a specific industrial 
+          career, you can align your activities accordingly. For example, in computational fields, you can work on projects 
+          involving relevant software tools. For laboratory-oriented careers, you may benefit from pursuing an experimental 
+          thesis. For research and development (R&D) positions, developing your research potential through research projects or 
+          even a PhD may be useful.       
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to prepare for industrial applications and interviews?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+        My experience with industrial applications and interviews is relatively limited and mainly comes from my internship 
+        as a{" "}
+        <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cybersecurity-presentation-activity-7426901388045049856-p-u1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            cybersecurity intern
+          </a>{" "}
+          at Olympia Electronics. From my observations, companies are primarily interested in your skills, the value 
+          you can bring through your work, and your <strong>reliability and trustworthiness</strong>. I also believe that practical 
+          experience and completed projects are often valued more highly than grades alone. That being said, strong 
+          academic performance combined with communication skills and collaborative experiences can demonstrate dedication, 
+          discipline, and the ability to adapt to challenges and perform well.
+        </p>
+        <p>
+          When preparing your CV, cover letter, or interview answers, take time to reflect on the <strong>specific tasks</strong> you 
+          performed during previous projects, internships, or work experiences. If the project was collaborative, 
+          be clear about your own contribution to the team. It is also useful to explain which <strong>skills</strong> you developed 
+          through these experiences and how those skills <strong>connect to the position</strong> you are applying for.
+
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What should I do during university if I want to pursue an academic career and become more competitive? ",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Based on my experience applying for PhD positions, I believe that <strong>research experience</strong> is highly valued, as it 
+         demonstrates both your motivation for research and your ability to succeed in it. Publications are particularly 
+         important, especially when you are the first author, because they allow evaluators to read your work and 
+         understand your way of thinking, conducting research, and communicating ideas. Research experiences are especially 
+         useful when they are related to the field you are applying to, but in general you can take advantage of opportunities 
+         such as undergraduate or master's theses, voluntary work in a professor's laboratory, research internships, 
+         research-oriented student teams, and personal research projects.       
+        </p>
+        <p>
+          Participation in <strong>academic conferences</strong> is also valuable, particularly when you present your work 
+          through an oral presentation or a poster. <strong>Networking</strong> with people in your field can also help you 
+          learn about relevant opportunities, obtain recommendations, receive feedback, and gain useful advice and insights.     
+        </p>
+        <p>
+          As a PhD is mandatory for pursuing an academic career, there is a separate Q&A section below specialized in PhD applications.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is the Technical Chamber of Greece (TEE) registration process?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+        You can register with the Technical Chamber of Greece (TEE) after graduation, if you plan to work 
+        as an <strong>engineer in Greece</strong> and undertake projects that require your professional signature. In this 
+        way, you secure your professional rights as an engineer.
+        </p>
+        <p>
+          The process is relatively straightforward. You can find the relevant instructions on the
+          TEE <strong>website</strong>, where the application procedure is explained in detail. After submitting the required 
+          documents and paying the relevant fee, you wait for your application to be verified. Once approved, 
+          you are invited to select an examination date. You can choose to be examined either on your <strong>diploma 
+          thesis</strong> or on a set of <strong>modules provided by TEE</strong>. I chose to be examined on my diploma thesis, as it 
+          was a topic I already knew very well.
+        </p>
+        <p>
+          Detailed information about the examination process is available on the website. On the examination day, 
+          you first wait in a video-call lobby with other candidates while your identity is verified. You are then 
+          admitted to a video call with three examiners, who are typically university professors and TEE members. 
+          They ask you to summarize your thesis and answer a few questions about it, such as why you chose the 
+          topic, what your main results were, and what conclusions you reached. In my experience, the discussion 
+          lasted approximately 5-10 minutes. Keep in mind that after being accepted, you will also need to pay 
+          an annual <strong>membership fee</strong> of approximately 20 euros.
+        </p>
       </div>
     ),
   },
@@ -1465,6 +1968,34 @@ const qanda2 = [
           </a>{" "}
           me.
         </p>
+      </div>
+    ),
+  },
+  {
+    question: "In which ways could university enhance the student experience?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Additional support during the <strong>transition</strong> from school to university, and later, from university to employment would be valuable. 
+         Many universities already offer resources such as career offices, professors willing to mentor students, and career events 
+         that connect companies with students. One positive aspect of these opportunities is that students must actively search for 
+         and take advantage of them, which is itself an important skill to develop.
+        </p>
+        <p>
+          More collaborations with <strong>industry</strong> and more company visits would also help students gain a clearer and more practical 
+          understanding of potential career paths, something that is particularly important for engineers. The Technical Chamber 
+          of Greece (TEE) could also play a stronger role in informing students about their <strong>professional rights</strong> and how they 
+          can benefit from being part of the engineering community.
+        </p> 
+        <p>
+         Working with software tools through case studies and projects often leads to deeper learning 
+         than studying theory alone. Universities and professors should continue exploring new teaching approaches that take 
+         advantage of <strong>modern technologies</strong> and the opportunities they provide.
+        </p>   
+        <p>
+         Equally important is helping students transition from purely individual learning and problem-solving toward working 
+         effectively in <strong>teams</strong> with their classmates.  
+        </p>    
       </div>
     ),
   },
