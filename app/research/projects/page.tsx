@@ -38,7 +38,7 @@ export default function Projects() {
               }
               back={
 
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                <div className="absolute inset-0 flex items-center border rounded-xl bg-gray-100 p-4 text-justify">
                   <p className="text-gray-700">This thesis presents a dynamic, integrated process design 
                   and simulation framework for the pasteurization and membrane filtration sections of a
                   dairy plant producing milk powder. The aim is to evaluate how key physicochemical and
@@ -87,7 +87,7 @@ export default function Projects() {
               }
               back={
 
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                <div className="absolute inset-0 flex items-center border rounded-xl bg-gray-100 p-4 text-justify">
                   <p className="text-gray-700">This techno-economic study investigates the production
                     of high-purity propylene ({'>'}99 wt%) from methanol using the Lurgi MTP process.
                     The proposed plant, located in Sindos Industrial Area, processes 252,500 kg/h of methanol
@@ -135,7 +135,7 @@ export default function Projects() {
               }
               back={
 
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                <div className="absolute inset-0 flex items-center border rounded-xl bg-gray-100 p-4 text-justify">
                   <p className="text-gray-700">As a Thermal Engineer at the AcubeSAT project of{" "}
 
                     <a
@@ -200,7 +200,7 @@ export default function Projects() {
               }
               back={
 
-                <div className="absolute inset-0 flex items-center justify-center border rounded-xl bg-gray-100 p-4 text-center">
+                <div className="absolute inset-0 flex items-center border rounded-xl bg-gray-100 p-4 text-justify">
                   <p className="text-gray-700">The competition organised by Hellenic Food Industries Association
                   was about developing innovative food and beverages that are produced, packaged and transported
                   in an eco-friendly and economic way. The product that we developed was an effervescent tonic

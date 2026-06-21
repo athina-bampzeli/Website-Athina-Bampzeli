@@ -9,7 +9,7 @@ export default function PrivacyPage() {
     <section className="max-w-6xl mx-auto text-center px-6 py-30">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
 
-      <div className="space-y-6 mb-8 text-gray-700 leading-relaxed">
+      <div className="space-y-6 mb-8 text-gray-700 leading-relaxed text-justify">
 
         <p>
           This website uses Vercel Analytics to collect anonymous usage statistics,

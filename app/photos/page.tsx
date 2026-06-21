@@ -13,7 +13,7 @@ export default function Photos() {
         <h2 className="text-3xl font-bold mb-6">Photos</h2>
 
         <div className="flex justify-center">
-          <div className="columns-1 md:columns-2 gap-6 space-y-6 max-w-4xl">
+          <div className="columns-1 md:columns-2 gap-6 space-y-3 max-w-4xl">
         
             
             <FlipCard
