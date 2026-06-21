@@ -31,7 +31,7 @@ export default function Lexicon() {
             <tbody>
               <tr>
                 <td className="border px-4 py-2">Chemical Engineering</td>
-                <td className="border px-4 py-2">Chemical engineering is an engineering field which
+                <td className="border px-4 py-2 text-justify">Chemical engineering is an engineering field which
                   deals with the study of the operation and design of chemical plants as well as methods
                   of improving production. Chemical engineers develop economical commercial processes
                   to convert raw materials into useful products. Chemical engineering uses principles
@@ -47,7 +47,7 @@ export default function Lexicon() {
                     Wikipedia
                   </a>
                 </td>
-                <td className="border px-4 py-2">Chemical engineering uses knowledge from physics,
+                <td className="border px-4 py-2 text-justify">Chemical engineering uses knowledge from physics,
                   chemistry, and biology to understand how processes work at the microscopic (molecular)
                   level and apply this understanding to large-scale industrial production. It studies how
                   small-scale phenomena change when they are scaled up, helping design and operate pilot
@@ -59,7 +59,7 @@ export default function Lexicon() {
             <tbody>
               <tr>
                 <td className="border px-4 py-2">Model</td>
-                <td className="border px-4 py-2">A model is an informative representation of an object, person, or system.
+                <td className="border px-4 py-2 text-justify">A model is an informative representation of an object, person, or system.
                   Models can be divided into physical models and abstract/conceptual models. While a model seeks only to represent reality
                   with the purpose of better understanding or predicting the world, a theory claims to be an explanation of reality.</td>
                 <td className="border px-4 py-2">
@@ -72,7 +72,7 @@ export default function Lexicon() {
                     Wikipedia
                   </a>
                 </td>
-                <td className="border px-4 py-2">Models are ways to mimic/represent the real world in order to enhance our understanding on how it works.
+                <td className="border px-4 py-2 text-justify">Models are ways to mimic/represent the real world in order to enhance our understanding on how it works.
                   By making predictions using a model, it can be tested how different conditions lead to different outcomes without changing the real system.
                   Thus, less money, time and effort is needed compared to experimenting with the real system.  </td>
               </tr>
@@ -81,7 +81,7 @@ export default function Lexicon() {
             <tbody>
               <tr>
                 <td className="border px-4 py-2">Conceptual Model</td>
-                <td className="border px-4 py-2">The term conceptual model refers to any model that is the direct output of a conceptualization
+                <td className="border px-4 py-2 text-justify">The term conceptual model refers to any model that is the direct output of a conceptualization
                   or generalization process. Conceptual models are often abstractions of things in the real world, whether physical or social. 
                   Types of conceptual models are scientific models, statistical models, economic models, business process models, mathematical models... </td>
                 <td className="border px-4 py-2">
@@ -94,7 +94,7 @@ export default function Lexicon() {
                     Wikipedia
                   </a>
                 </td>
-                <td className="border px-4 py-2">The attempt to describe a real system theoretically is a conceptual model. This representation can either
+                <td className="border px-4 py-2 text-justify">The attempt to describe a real system theoretically is a conceptual model. This representation can either
                   develop into a physical model, where the geometry between the model and the system is similar, or remain theoretical. In the latter case
                   the model might represent phenomena and physical processes (scientific models), probabilities (statistical models), economic processes (economic models)
                   anticipation of what a process should look like (business process models).   </td>
@@ -104,7 +104,7 @@ export default function Lexicon() {
             <tbody>
               <tr>
                 <td className="border px-4 py-2">Mathematical Model</td>
-                <td className="border px-4 py-2">A mathematical model is an abstract description of a concrete system using mathematical concepts
+                <td className="border px-4 py-2 text-justify">A mathematical model is an abstract description of a concrete system using mathematical concepts
                   and language. Mathematical models are used in many fields, including applied mathematics, natural sciences, social sciences, engineering, 
                   operations research studies. Mathematical modeling problems are often classified into black box or white box models, according
                   to how much a priori information on the system is available. </td>
@@ -118,7 +118,7 @@ export default function Lexicon() {
                     Wikipedia
                   </a>
                 </td>
-                <td className="border px-4 py-2">Mathematical models are a type of conceptual models which uses math to describe the real system. They include
+                <td className="border px-4 py-2 text-justify">Mathematical models are a type of conceptual models which uses math to describe the real system. They include
                   equations, assumptions and constraints. They may describe how a system evolves in time, the rate of change of a property, probabilities.
                   In order to build an accurate model (a representation close to the real system), we want to use as much information from the real system as possible (white-box
                   models). Lack of data leads to building black-box models.</td>
