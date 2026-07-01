@@ -32,14 +32,14 @@ export default function News() {
                       17-18 June 2026 <br />
                       ETH, Zurich, Switzerland
                     </div>
-                    {/* <a
-                          href="https://www.linkedin.com/posts/"
+                    <a
+                          href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_hybridmodeling-machinelearning-research-ugcPost-7474760603518152704-ptZY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center justify-center hover:opacity-80 transition text-[#0A66C2]"
                       >
                           <FaLinkedin size={24} />
-                    </a> */}
+                    </a>
                   
                 </div>
               }
@@ -86,14 +86,14 @@ export default function News() {
                       15-17 June 2026 <br />
                       ETH, Zurich, Switzerland
                     </div>
-                    {/* <a
-                          href="https://www.linkedin.com/posts/"
+                    <a
+                          href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_hybridmodeling-machinelearning-research-ugcPost-7474760603518152704-ptZY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center justify-center hover:opacity-80 transition text-[#0A66C2]"
                       >
                           <FaLinkedin size={24} />
-                    </a> */}
+                    </a>
                   
                 </div>
               }

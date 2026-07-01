@@ -1069,7 +1069,7 @@ const qanda2 = [
     ),
   },
   {
-    question: "When should I start preparing my CV? How to structure it?",
+    question: "When should I start preparing my resume/CV? How to structure it?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
@@ -2106,7 +2106,7 @@ const qanda3 = [
     ),
   },
   {
-    question: "How to structure my CV?",
+    question: "How to structure my resume/CV?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
