@@ -362,7 +362,7 @@ const qanda1 = [
     ),
   },
   {
-    question: "Should students use Artificial Intelligence?",
+    question: "Should students use Artificial Intelligence (AI)?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
@@ -408,6 +408,46 @@ const qanda2 = [
           </a>{" "}
           student at Aristotle University of Thessaloniki, Greece.
          
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What are the main fields in Chemical Engineering?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          As I do not yet have many years of professional experience as a chemical engineer, I can only 
+          answer based on what I learned during my studies and from conversations with more experienced engineers.
+        </p>
+        <p>
+          At its core, chemical engineering <strong>combines principles</strong> from chemistry, physics, biology, and mathematics 
+          to enable the efficient scale-up and industrial production of products such as food, pharmaceuticals, 
+          plastics and fuels. It is therefore a discipline that naturally collaborates with many others. Chemists 
+          may focus on developing pharmaceutical compounds, agronomists on food quality, and mechanical engineers 
+          on materials and manufacturing. What chemical engineers contribute is the ability to transform laboratory-scale 
+          processes into efficient, safe, and economically viable industrial production.
+        </p>
+        <p>
+          A chemical engineer considers <strong>many aspects simultaneously</strong>. How can a product be produced efficiently at a 
+          large scale? How can raw materials and energy consumption be minimized? Which equipment should be used and 
+          how should it be arranged? How can the process remain safe for workers while respecting environmental, legal, 
+          and economic constraints? How can the desired product quality be maintained even when unexpected situations occur?
+        </p>
+        <p>
+          From this foundation, chemical engineers can <strong>specialize</strong> in areas such as process design, process modeling, 
+          optimization, process control, reaction engineering, materials science, transport phenomena, or thermodynamics. 
+          Depending on the specialization, typical roles include production engineer, plant manager, quality engineer, 
+          research and development engineer, laboratory engineer, or consultant. Regarding <strong>industrial sectors</strong>, 
+          chemical engineers work in areas such as pharmaceuticals, food production, fuels, waste management, 
+          environmental engineering, energy, biotechnology, and biomedicine. Some of these fields require additional 
+          specialization beyond the undergraduate curriculum.
+        </p>
+        <p>
+          One thing I have learned is that <strong>solving real-world engineering problems</strong> involves much more than scientific 
+          knowledge alone. Even when a scientific solution exists, factors such as cost, available resources, energy 
+          consumption, legislation, ethics, environmental impact, and public policy all influence the final decision. This 
+          multidisciplinary way of thinking is, in my opinion, one of the defining characteristics of chemical engineering.
         </p>
       </div>
     ),
@@ -673,6 +713,47 @@ const qanda2 = [
     ),
   },
   {
+    question: "Should I use Artificial Intelligence (AI)? Which tools to use for studying and applications?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          As an undergraduate student, I did not use AI very much for studying. The period between 2020 and 2025 marked 
+          the beginning of the widespread adoption of large language models (LLMs). Therefore, I do not feel 
+          that I can give definitive recommendations on which tools to use, as I still consider myself a typical 
+          user rather than an expert. However, I would like to share a few general thoughts that I believe are 
+          worth considering.
+        </p>
+        <p>
+          Just as our body needs regular exercise, our brain also needs <strong>continuous training</strong>. If we let LLMs 
+          search for information, generate arguments, reason through problems and make decisions for us, how 
+          will we develop our own research skills, critical thinking and decision-making abilities? If we let 
+          them write all our texts, how will we practice expressing our thoughts clearly, organizing our ideas 
+          logically and communicating effectively with other people? Similarly, if we let AI complete our 
+          assignments, write our code, or solve our mathematical problems, how will we learn the foundations 
+          of our discipline? How will we build the knowledge required to tackle more complex problems, generate 
+          creative ideas, and make high-level decisions? If someone else always does the difficult work for us, 
+          how will we train ourselves to concentrate, persevere and adapt when challenges arise?
+        </p>
+        <p>
+          We cannot avoid difficulties, complexity, or human relationships in life. At best, we can postpone 
+          them. So how will we develop these abilities if we do not practice them step by step? And when is a 
+          better time to do so than during our <strong>student years</strong>, when we are developing our character and building 
+          our core skills? For these reasons, I believe that professors, educators, and policymakers should 
+          carefully evaluate the opportunities and challenges that AI brings. Education systems, curricula, 
+          teaching methods, and the training of both current and future educators will inevitably need to evolve. 
+          We should neither fear AI nor avoid it. Instead, we should learn to use it consciously, ethically, and 
+          in ways that support our learning rather than replace it.
+        </p>
+        <p>
+          PS: Artificial intelligence is a broad field that extends far beyond large language models and 
+          also includes areas such as robotics, machine learning...Here I mainly discuss LLMs from the 
+          perspective of an everyday user. As I gain more experience during my PhD, I may revise or expand 
+          these thoughts to include other areas of AI.
+        </p>
+      </div>
+    ),
+  },
+  {
     question: "How to reduce stress during exams?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -714,6 +795,34 @@ const qanda2 = [
             contact
           </a>{" "}
           me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to organise my emails?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          Today we receive a <strong>huge amount of information</strong> every day. Some messages require immediate attention, 
+          others need to be processed later, and many are simply unnecessary. Organizing this information is 
+          therefore an important skill. There are many ways to organize your work, and the best system depends on the person, 
+          their goals and their profession. Regarding emails, which become an increasingly important part of professional 
+          communication during university, here are a few practices that have helped me.
+        </p>
+        <p>
+          One useful feature is creating <strong>filters and labels</strong>. Emails related to a specific topic or sent by particular organizations 
+          can automatically be placed into dedicated folders, making them much easier to find later. It is also worth <strong>deleting</strong> unnecessary 
+          emails and <strong>unsubscribing</strong> from mailing lists that no longer provide value. Many of us are automatically 
+          subscribed to newsletters that eventually become a source of distraction. Legitimate organizations usually make unsubscribing 
+          straightforward. At the same time, be careful before deleting emails, as they may contain information you will need in the future. 
+          Fortunately, emails generally occupy very little storage space compared to photos or videos. I also prefer receiving <strong>notifications</strong> for
+          new emails, as professional communication sometimes requires a timely response.
+        </p>
+        <p>
+          PS: The same principle of organization applies to my phone and laptop. I like grouping files and applications into folders 
+          because I only use a small subset of them every day. Keeping my workspace organized helps <strong>reduce distractions</strong> and makes it 
+          easier to focus on what is important.
         </p>
       </div>
     ),
@@ -892,6 +1001,39 @@ const qanda2 = [
          A <strong>steady rhythm</strong> of work usually helps more than long periods of inactivity followed by intense work close to deadlines. Good documentation
          helps later when writing the final thesis, reproducing results, or explaining your work to others. Ask people with experience in your
          specific type of project for practical advice.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "Why use LaTeX?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         LaTeX is a document preparation system that allows you to create documents using markup commands rather than 
+         a graphical interface. I have mainly used it for writing documents, although it can also be used to prepare presentations.
+        </p>
+        <p>
+         I chose LaTeX for my{" "}
+          <a
+            href="https://github.com/athina-bampzeli/Diploma-Thesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            diploma thesis
+          </a>{" "}because it offers significant advantages when managing long technical 
+         documents. It makes it easier to maintain consistent formatting, organize figures and tables, generate tables 
+         of contents, manage references, write equations, and handle bibliography. In my experience, word processors 
+         sometimes move figures unexpectedly, alter document formatting, or change equations after reopening a file. 
+         LaTeX avoids many of these issues because the document structure is <strong>defined explicitly through commands</strong>.
+        </p>
+        <p>
+          Instead of clicking formatting buttons, you write simple commands. For example, instead of pressing Bold, 
+          you use the command <code>\textbf</code> to format the text. This makes LaTeX more flexible, as solutions to almost any formatting 
+          problem can be found by searching for the appropriate command online. Typically, you write the source code 
+          in one window, compile the document, and immediately preview the output in another. LaTeX can be installed 
+          locally or used online through platforms such as Overleaf, which also allows multiple people to collaborate on the same document.
         </p>
       </div>
     ),
@@ -1452,6 +1594,61 @@ const qanda2 = [
     ),
   },
   {
+    question: "Should I participate in competitions?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         I have already mentioned how much I value participating in activities beyond the school or 
+         university curriculum, such as seminars and student teams. Competitions are another excellent 
+         way to develop yourself. The competitions I participated in as an undergraduate student were 
+         quite different from those I joined during school. I am not sure whether this was because of my specialization, 
+         the level of study, or simply because the skills society values evolve over time.
+        </p>
+        <p>
+          Most of the university competitions I joined were team-based rather than individual. In both{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_problems-ideas-answers-activity-7139321955039584257-8HOY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Creative Shock
+          </a>{" "} and {" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_cooperate-idea-brainstorming-activity-7176287045986697217-ujv8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Invent for the Planet
+          </a>{" "} competitions, our goal was to develop solutions to real-world problems, such as textile 
+          waste and the lack of electricity in certain communities. One competition focused more on marketing 
+          and social businesses, while the other emphasized entrepreneurship and financial viability. 
+        </p> 
+        <p>
+         I also helped organize the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_organising-cooperate-volunteers-activity-7066360884335452160-jx26?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            EBEC challenge
+          </a>{" "} as a member of BEST Thessaloniki. The competition included both 
+         case study solving and engineering design challenges. Students interested in programming can also participate in 
+         hackathons, where teams develop software solutions to specific problems within a limited time. In cybersecurity, 
+         there are competitions such as Capture the Flag (CTF), while in the space sector there are competitions dedicated 
+         to designing space-related applications.
+        </p>
+        <p>
+          All these competitions expose you to the types of challenges that today's society is trying to solve. They 
+          help you understand <strong>which skills are valued</strong>, identify areas where you can improve, and meet people who 
+          share your curiosity and passion for continuous learning.
+        </p>       
+      </div>
+    ),
+  },
+  {
     question: "Is volunteering worth spending time? Scientific student teams or event organizing?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -1569,6 +1766,51 @@ const qanda2 = [
       </div>
     ),
   },
+   {
+    question: "How to lead a team?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         There are many effective ways to lead a team, depending on the people involved, the 
+         working conditions and the project's objectives. My main leadership experiences 
+         were as the coordinator of the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_organizing-responsible-communicating-activity-7039996733040275456-XiKt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Corporate Relations
+          </a>{" "}team at BEST Thessaloniki and during the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_chemicalengineering-processdesign-processmodelling-activity-7344297001091543040-_5KJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Capstone Design Project
+          </a>. Both teams consisted of approximately six members.
+        </p>
+        <ul className="space-y-4">
+          <li>
+            a) One essential aspect is fostering <strong>effective communication</strong>. Especially at the beginning of a project, team members may not yet know each other's working styles. The team's objectives, expectations, and practical way of working should therefore be communicated clearly. It is equally important for everyone to agree on what success means for the project so that all members work toward the same goal. Although each person has a different personality, some core values should be discussed, agreed upon, and respected throughout the collaboration.
+          </li>
+          <li>
+            b) Another important aspect of leadership is <strong>recognizing the strengths</strong> of each team member and making the best use of them. In this way, everyone contributes with their own abilities, and the benefits of collaboration are fully utilized.
+          </li>
+          <li>
+            c) <strong>Task delegation</strong> is also fundamental. As projects become larger, trying to do everything yourself is neither effective nor sustainable. Trusting the abilities of your teammates allows everyone to contribute meaningfully. Good communication helps clarify responsibilities, expected quality, and deadlines.
+          </li>
+          <li>
+            d) <strong>Organization</strong> is another important skill. The team should have a realistic plan that balances productivity without overwhelming its members. At the same time, responsibilities such as planning and organization do not necessarily have to belong exclusively to the team leader, they can also be delegated when appropriate.
+          </li>
+        </ul>
+        <p>
+          All these elements might contribute to a successful team. However, I believe the most important factor is that every member understands and values these principles, and creates a respectful environment where both individual and collective growth can take place. I do not see the team leader as someone standing above everyone else. The leader is simply another member of the team, sharing the same goals, but with the additional responsibility of maintaining an overview of the team's direction and progress.
+        </p>     
+      </div>
+    ),
+  },
   {
     question: "Is interdisciplinarity important?",
     answer: (
@@ -1640,6 +1882,37 @@ const qanda2 = [
     ),
   },
   {
+    question: "What is your opinion on entrepreneurship?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Entrepreneurship is not a field in which I have worked professionally, but I find it very interesting. My interest 
+         started after participating in an Erasmus+ course on{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_course-entrepreneurship-business-activity-7013938283537698816-z4vs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            women entrepreneurship
+          </a>. Since economics was not a major part of my school education, this was my first real exposure 
+        to concepts such as budgeting, investment, business models...
+        </p>
+        <p>
+          One lesson that particularly stayed with me is that success does not always come from solving the most 
+          complicated problem with the most sophisticated solution. Sometimes it comes from <strong>identifying a small 
+          gap</strong> in the current system that many people overlook. Solving that problem may require determination, 
+          practical thinking, and a simple but effective solution. Of course, there are also cases where highly 
+          advanced scientific and engineering knowledge is essential, especially given the rapid pace of technological development.
+        </p>
+        <p>
+          I look forward to seeing whether, in the future, I will have the opportunity to apply my knowledge 
+          and skills to an entrepreneurial project, either independently or as part of a team.
+        </p>     
+      </div>
+    ),
+  },
+  {
     question: "What is the point of networking? How can I do it effectively?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -1700,7 +1973,7 @@ const qanda2 = [
     ),
   },
   {
-    question: "Is social media engagement important? ",
+    question: "Is social media engagement (SoMe) important? ",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
         <p>
@@ -1718,6 +1991,143 @@ const qanda2 = [
           platforms. They are primarily tools for communicating ideas and information. They provide access to 
           resources, but not necessarily to knowledge itself. Through them, you can develop skills related 
           to <strong>communication and self-promotion</strong>, but genuine learning still requires dedicated study and practice.     
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to use social media (SoMe) effectively?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          My experience using social media for marketing purposes started when I was one of the{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_personalbrand-activity-7071924371530878976-gHP-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            coordinators
+          </a>{" "} 
+          of the Public Relations team at BEST Thessaloniki and continued through managing my personal accounts. 
+          My experience is mainly with LinkedIn, Instagram, and Facebook. I have not yet used social media for 
+          financial profit, but below I share some of the tips I have learned through experience or from{" "}
+          <a
+            href="https://www.linkedin.com/posts/athina-bampzeli-53197b243_communicating-companies-details-activity-7022512947373457408-Wc36?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD55CrwB-SAus2rff0cl1VMhrcOYKZYxhng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            experts
+          </a>{" "}  
+          on how to use these platforms more effectively when your goal is to promote yourself, your work, or an idea.
+        </p>   
+        <p>
+          <strong>LinkedIn:</strong>
+        </p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/athina-bampzeli-53197b243/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            LinkedIn
+          </a>{" "} can serve as both your professional identity and a way to maintain and expand your professional network. 
+          You can think of it as an <strong>active CV</strong> that is continuously updated and publicly available to anyone who visits 
+          your profile. For this reason, it is worth keeping it focused on what you want to promote. Just as we do not 
+          include every achievement in a CV, but only those relevant to a specific position, your LinkedIn profile and 
+          posts should highlight the experiences and accomplishments that best support your professional goals. I believe 
+          everyone can shape their profile according to their own style and purpose, as this also reflects creativity 
+          and personality. However, if you frequently change the field or message you promote, your target audience 
+          may become confused about your professional identity.
+        </p>
+        <p>
+          Your profile <strong>header</strong> is one of the first things visitors notice, so choose an image 
+          that reflects the field or message you want to communicate. Structure your profile in a way that 
+          clearly demonstrates how your experiences and qualifications make you capable of performing the type 
+          of work you are interested in. Use a formal profile photo.
+        </p>
+        <p>
+          <strong>Keywords</strong> are important because they improve the chances of your profile appearing in recruiter searches. 
+          Include keywords related to your specialization and the positions you are targeting, both in your profile 
+          and in your posts. Relevant hashtags can also help your content reach the appropriate audience.
+          Complete your <strong>skills section</strong> with the core technical and professional skills relevant to your field. 
+          This can improve your visibility in recruiter searches. 
+        </p>
+        <p>
+          <strong>Consistency</strong> is another important factor. If you want to actively promote your work, decide 
+          how often you are realistically able to post (whether daily, weekly or monthly) and try to 
+          follow that schedule. Planning your content in advance allows you to evaluate it from a broader 
+          perspective, ensure it aligns with your goals, and make improvements before publishing.
+        </p>
+        <p>
+          Be mindful of the posts you <strong>like and engage</strong> with. These interactions may remain visible to 
+          other users long after they happen and can influence how others perceive your professional 
+          profile. If you use LinkedIn professionally, consider whether the content you interact with reflects 
+          the image you want to project.
+        </p>
+        <p>
+          <strong>Connecting</strong> with people in your field is also valuable, as it helps you stay informed 
+          about new opportunities, publications, and developments. If you do not know someone personally, 
+          consider including a short introductory message when sending a connection request.
+        </p>
+        <p>
+          When I first started building my profile, I found it very helpful to look at the profiles of other 
+          professionals and <strong>gather ideas</strong> about how they presented their experiences.
+        </p>
+        <p>
+          <strong>Instagram and Facebook:</strong>
+        </p>
+        <p>
+          Many of the principles mentioned above also apply to{" "}
+          <a
+            href="https://www.instagram.com/athina_bampzeli/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            Instagram
+          </a>{" "} and Facebook, such as consistency, planning, the use of keywords and hashtags, and being mindful of the content you engage with.
+        </p>
+        <p>
+          One trend I have noticed is that <strong>short videos</strong> (reels) are generally promoted more than static posts. This likely 
+          reflects changes in user behavior, as short videos tend to capture attention more effectively. Reels that feature 
+          real people speaking or interacting often perform better than those consisting only of graphics and text.
+        </p>
+        <p>
+          If you use a professional or creator account, you can access <strong>analytics</strong> that provide useful information about 
+          your audience and your content's performance. These insights can help you decide what type of content works best 
+          and identify the times when your audience is most active.
+        </p>
+
+        <p>
+          <strong>Final thoughts:</strong>
+        </p>
+        <p>
+          Like any new skill, using social media effectively requires <strong>practice</strong>. Even if you start using these platforms 
+          before you have a clear purpose, you will gradually discover how they best serve your personal or professional goals.
+        </p>
+        <p>
+          However, it is important to remember the difference between experimenting in the real world and experimenting online. 
+          What you publish on the internet may <strong>remain accessible indefinitely</strong>. Even if you delete a post later, you cannot be 
+          certain that copies do not still exist or that someone has not already saved your content. Therefore, think carefully 
+          before publishing anything, especially on public accounts. This is particularly important for younger students, who 
+          may also benefit from seeking advice on online safety
+          {" "}
+          <a
+            href="https://cyber.gov.gr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            online safety
+          </a>{" "} from more experienced people.
+        </p>
+        <p>
+          Finally, be mindful of the <strong>time you devote</strong> to social media. Unless creating content is your profession, remember that 
+          your knowledge and skills are primarily developed outside these platforms. Social media are excellent tools for sharing 
+          your work, networking, and staying informed, but they should complement and not replace learning and real-world experience.
         </p>
       </div>
     ),
@@ -2027,6 +2437,79 @@ const qanda3 = [
     ),
   },
   {
+    question: "How to plan my PhD applications?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         One thing that helped me stay organized during my PhD applications was keeping an <strong>online document</strong> with 
+         all the important information in one place. At the beginning, it included the available positions, the 
+         corresponding universities, application deadlines, required documents, potential supervisors, and links 
+         to the position announcements and university websites. This helped me <strong>prioritize applications</strong> with earlier 
+         deadlines or those that matched my interests and background better.
+        </p>   
+        <p>
+          As I started applying, I created another document to track which applications I had submitted, when I sent them, 
+          and to whom. Since my cover letter and sometimes my CV was tailored to each position, I also kept different versions 
+          organized to avoid sending the wrong documents. Likewise, I <strong>kept a record</strong> of the cold emails I sent to professors, together 
+          with their contact details and the responses I received.
+        </p>          
+        <p>
+          Having a clear system saved me time, reduced unnecessary stress, and allowed me to focus more on preparing strong 
+          applications rather than managing files and deadlines. Before being accepted to a fully funded PhD position, I had 
+          applied to about 12 other PhD positions and contacted <strong>13 professors</strong> via cold emails. I received responses to 77% of 
+          the cold emails. During the process, I completed <strong>15 interviews</strong>, both with prospective supervisors and as part of departmental 
+          application processes. I received positive responses from three applications, but without a scholarship. I also applied for 
+          two scholarships that required separate applications in addition to the PhD application. In general, I contacted professors 
+          and applied for positions at <strong>13 universities</strong> in Europe and the USA.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to choose a PhD topic?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         I believe that <strong>consistency</strong> over the long term is one of the most important ingredients for success. 
+         Many people who achieve remarkable things do so because they remain committed to their work for many 
+         years. One of the best ways to sustain that commitment is to genuinely <strong>enjoy</strong> what you are doing. A 
+         PhD is a demanding commitment that usually lasts at least three years. Choosing a topic that genuinely 
+         interests you makes that journey much more enjoyable and sustainable. It is also worth remembering that, 
+         after your PhD, you will likely continue working in areas related to your specialization. Even if a topic 
+         is currently popular or highly funded, ask yourself whether you would still enjoy working on it years from 
+         now. At the same time, it is perfectly normal not to know exactly what you want. You can <strong>explore</strong> different 
+         fields through Master's courses, smaller research projects, internships, or work experience before committing to a specialization.
+        </p>   
+        <p>
+          Besides choosing a topic you enjoy, another perspective is to choose a problem you genuinely <strong>care about 
+          solving</strong>. Ask yourself what skills you would like to develop and how you would like to use those skills 
+          to <strong>contribute to society</strong> in the long term.
+        </p>          
+      </div>
+    ),
+  },
+  {
     question: "What documents and qualifications do they ask for in PhD applications?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -2046,6 +2529,120 @@ const qanda3 = [
           and countries. Even when it is not mandatory, it can be beneficial to contact a potential supervisor beforehand through 
           a <strong>cold email</strong>. This gives you an overview of their work and any available positions, allows them to get to know you, and 
           helps both sides evaluate whether there is a good fit before the official application process.
+        </p>
+        <p>
+          Before being accepted to a fully funded PhD position, I had 
+          applied to about 12 other PhD positions and contacted <strong>13 professors</strong> via cold emails. I received responses to 77% of 
+          the cold emails. During the process, I completed <strong>15 interviews</strong>, both with prospective supervisors and as part of departmental 
+          application processes. I received positive responses from three applications, but without a scholarship. I also applied for 
+          two scholarships that required separate applications in addition to the PhD application. In general, I contacted professors 
+          and applied for positions at <strong>13 universities</strong> in Europe and the USA.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to structure my resume/CV?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         When applying for PhD positions, a concise (1 page) CV is usually sufficient. It is important to understand the 
+         difference between applying for industrial and academic positions. For academic applications, you should emphasize 
+         the experiences that demonstrate your <strong>research potential</strong>. Include your education, publications, conferences 
+         and seminars, research experience, and relevant work experience. Follow a chronological order, typically listing 
+         the most recent experiences first. Include accurate dates and contact information. Personally, I would not 
+         include a photograph or additional personal details such as age. If space allows, you can also mention relevant 
+         university courses, language qualifications, and soft or technical skills that are relevant to the position.
+        </p>           
+        <p>
+          My current{" "}
+          <a
+            href="https://athinabampzeli.com/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            CV
+          </a>{" "}
+          follows the structure expected after being accepted into a PhD position, so I would not necessarily recommend using it 
+          directly as a template for applications, as it is quite detailed. However, you may still find useful ideas from it, such 
+          as writing it in LaTeX.
+        </p>
+        <p>
+          Before being accepted to a fully funded PhD position, I had 
+          applied to about 12 other PhD positions and contacted <strong>13 professors</strong> via cold emails. I received responses to 77% of 
+          the cold emails. During the process, I completed <strong>15 interviews</strong>, both with prospective supervisors and as part of departmental 
+          application processes. I received positive responses from three applications, but without a scholarship. I also applied for 
+          two scholarships that required separate applications in addition to the PhD application. In general, I contacted professors 
+          and applied for positions at <strong>13 universities</strong> in Europe and the USA.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "How to write a cover letter for a PhD application?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          In addition to the general advice I shared earlier about writing cover letters, here are a few suggestions 
+          that are specific to PhD applications. I find it helpful for each paragraph to have a clear purpose. For 
+          example, you could begin by introducing yourself, explaining why you want to pursue a PhD, and why you 
+          are applying to that specific position. Then continue by presenting your most relevant experiences and achievements, 
+          highlighting how your background can contribute to the project. Finally, explain your aspirations: what you hope 
+          to gain from the PhD, the university, and the supervision, and how they align with your long-term goals. If your 
+          cover letter is addressed to a specific professor or is sent as part of a cold email, you can also mention aspects 
+          of their research that genuinely interest you, explain why you would like to work with them, and describe how your 
+          interests align with their work.
+        </p>           
+        <p>
+          Before being accepted to a fully funded PhD position, I had 
+          applied to about 12 other PhD positions and contacted <strong>13 professors</strong> via cold emails. I received responses to 77% of 
+          the cold emails. During the process, I completed <strong>15 interviews</strong>, both with prospective supervisors and as part of departmental 
+          application processes. I received positive responses from three applications, but without a scholarship. I also applied for 
+          two scholarships that required separate applications in addition to the PhD application. In general, I contacted professors 
+          and applied for positions at <strong>13 universities</strong> in Europe and the USA.
         </p>
         <p>
           For personalized advice, you can explore the{" "}
@@ -2106,36 +2703,6 @@ const qanda3 = [
     ),
   },
   {
-    question: "How to structure my resume/CV?",
-    answer: (
-      <div className="space-y-4 text-justify leading-relaxed">
-        <p>
-         When applying for PhD positions, a concise (1 page) CV is usually sufficient. It is important to understand the 
-         difference between applying for industrial and academic positions. For academic applications, you should emphasize 
-         the experiences that demonstrate your <strong>research potential</strong>. Include your education, publications, conferences 
-         and seminars, research experience, and relevant work experience. Follow a chronological order, typically listing 
-         the most recent experiences first. Include accurate dates and contact information. Personally, I would not 
-         include a photograph or additional personal details such as age. If space allows, you can also mention relevant 
-         university courses, language qualifications, and soft or technical skills that are relevant to the position.
-        </p>           
-        <p>
-          My current{" "}
-          <a
-            href="https://athinabampzeli.com/cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline font-medium"
-          >
-            CV
-          </a>{" "}
-          follows the structure expected after being accepted into a PhD position, so I would not necessarily recommend using it 
-          directly as a template for applications, as it is quite detailed. However, you may still find useful ideas from it, such 
-          as writing it in LaTeX.
-        </p>
-      </div>
-    ),
-  },
-  {
     question: "How to cold email professors?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -2159,9 +2726,15 @@ const qanda3 = [
           usually changes between applications is your motivation for the specific position and what attracts you 
           to that particular research group or collaboration. Using your academic 
           email address can help maintain a professional tone.
-
-        </p>          
-        
+        </p>
+        <p>
+          Before being accepted to a fully funded PhD position, I had 
+          applied to about 12 other PhD positions and contacted <strong>13 professors</strong> via cold emails. I received responses to 77% of 
+          the cold emails. During the process, I completed <strong>15 interviews</strong>, both with prospective supervisors and as part of departmental 
+          application processes. I received positive responses from three applications, but without a scholarship. I also applied for 
+          two scholarships that required separate applications in addition to the PhD application. In general, I contacted professors 
+          and applied for positions at <strong>13 universities</strong> in Europe and the USA.
+        </p>      
         <p>
           You can find more tips about contacting and emailing professors in my previous Q&As. For personalized advice, you can explore the{" "}
           <a
@@ -2187,6 +2760,88 @@ const qanda3 = [
     ),
   },
   {
+    question: "How to prepare for PhD interviews?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         Every PhD interview is different in terms of structure, duration, and purpose. In many cases, the interviewers 
+         will inform you beforehand about the format and any preparation they expect. You may be asked to give a <strong>presentation</strong> about 
+         your background, motivation, and the research topic, or to present one of your previous research
+         projects. <strong>Questions</strong> will usually focus on your presentation as well as more general topics, such as why you chose that university, 
+         why you are interested in the project, or what challenges you expect during your PhD. Many examples of these common 
+         interview questions can be found online, making them crucial to practice beforehand. Some interviews also include <strong>practical 
+         assessments</strong>, such as discussing a scientific paper, writing code, solving a technical problem, or completing a task related to the position.
+
+        </p>   
+        <p>
+          The <strong>duration</strong> can range from around 15 minutes to one hour. Formal departmental interviews often follow a standardized format 
+          for all candidates, whereas meetings with potential supervisors or research groups tend to be more conversational and depend 
+          on the available time and the level of discussion they wish to have. Once you receive the interview invitation, take some 
+          time to learn about the people <strong>who will be interviewing you</strong>. Understanding their research background can provide useful 
+          insight into the types of questions they may ask. It is equally important to be familiar with the department, the university, 
+          the advertised project, and the recent work of your potential supervisors. Prepare one or two thoughtful <strong>questions to ask</strong> at 
+          the end of the interview about the position, the project, or the selection process. This shows genuine interest and also helps 
+          you evaluate whether the position is a good fit for you.
+        </p>          
+        <p>
+          Whether the interview is online or in person, I personally prefer <strong>dressing formally</strong>. In my experience, it is usually better 
+          to appear slightly more formal than too informal. Finally, prepare thoroughly, be yourself, and try not to let nervousness 
+          affect your performance. Remember that if you have been invited for an interview, the committee has already seen potential in your application.
+        </p>
+        <p>
+          Before being accepted to a fully funded PhD position, I had 
+          applied to about 12 other PhD positions and contacted <strong>13 professors</strong> via cold emails. I received responses to 77% of 
+          the cold emails. During the process, I completed <strong>15 interviews</strong>, both with prospective supervisors and as part of departmental 
+          application processes. I received positive responses from three applications, but without a scholarship. I also applied for 
+          two scholarships that required separate applications in addition to the PhD application. In general, I contacted professors 
+          and applied for positions at <strong>13 universities</strong> in Europe and the USA.
+        </p>
+        <p>
+          For personalized advice, you can explore the{" "}
+          <a
+            href="https://athinabampzeli.com/#services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            services
+          </a>{" "}
+          I provide and{" "}
+          <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline font-medium"
+          >
+            contact
+          </a>{" "}
+          me.
+        </p>
+      </div>
+    ),
+  },
+  {
+    question: "What is a research proposal?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+         A research proposal explains why the research topic you chose is important, the questions you aim 
+         to answer, the methodology you plan to follow, the expected timeline, and the resources required to 
+         complete the work. Some PhD applications require applicants to submit a research proposal, while others simply 
+         allow it as an optional supporting document. Once you begin your PhD, you will usually be required to develop 
+         a more detailed proposal together with your supervisor, which serves as a <strong>roadmap for your research</strong>.
+        </p>   
+        <p>
+         My own experience with research proposals comes from writing three proposals for PhD applications. Since I have 
+         not yet written the proposal for my current PhD project, I recommend consulting additional resources for detailed 
+         guidance on proposal writing. Nevertheless, I found that preparing research proposals helped me <strong>understand</strong> the 
+         research topics more deeply, read the relevant literature more critically, and further <strong>develop</strong> both my research 
+         and scientific writing skills.
+        </p>          
+      </div>
+    ),
+  },
+  {
     question: "What was one difficult aspect of the application process?",
     answer: (
       <div className="space-y-4 text-justify leading-relaxed">
@@ -2197,12 +2852,52 @@ const qanda3 = [
          What did you learn from the experience? What value does it provide to society?
         </p>   
         <p>
-        At first, it was difficult to reflect on my past experiences at such a deep level and understand how 
-        they had shaped me. Over time, however, this process helped me <strong>evaluate</strong> advantages and disadvantages 
-        more critically, make more <strong>informed decisions</strong>, and better understand which skills I had developed, 
-        how I developed them, and which skills still needed <strong>improvement</strong>. Although I initially went through 
-        this reflection process because of job and PhD applications, I believe it is valuable to revisit it 
-        periodically. It helps ensure that you continue moving in the direction that is most meaningful to you.
+          At first, it was difficult to reflect on my past experiences at such a deep level and understand how 
+          they had shaped me. Over time, however, this process helped me <strong>evaluate</strong> advantages and disadvantages 
+          more critically, make more <strong>informed decisions</strong>, and better understand which skills I had developed, 
+          how I developed them, and which skills still needed <strong>improvement</strong>. Although I initially went through 
+          this reflection process because of job and PhD applications, I believe it is valuable to revisit it 
+          periodically. It helps ensure that you continue moving in the direction that is most meaningful to you.
+        </p>          
+      </div>
+    ),
+  },
+  {
+    question: "Academic vs. Industrial PhD",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          An <strong>academic PhD</strong> is typically carried out within a university research group under the supervision of university 
+          faculty members. The work often has a stronger emphasis on fundamental or theoretical research, although this 
+          depends on the field. An <strong>industrial PhD</strong> is still formally awarded by a university, but it is carried out in 
+          close collaboration with an industrial partner, research institute, or company. The project is usually co-supervised 
+          by both academic and industrial researchers. Depending on the arrangement, you may spend time working within the 
+          company, collaborate on industrial challenges, or use data and resources provided by the industrial partner.
+        </p>   
+        <p>
+         Since every PhD position is different, it is important to carefully read the position announcement and understand 
+         the roles of the university, supervisors, and collaborating partners before applying.
+        </p>          
+      </div>
+    ),
+  },
+  {
+    question: "What are available scholarships?",
+    answer: (
+      <div className="space-y-4 text-justify leading-relaxed">
+        <p>
+          There are many scholarships that support Master's and PhD studies. Some are linked to a specific university, such 
+          as the UCL's research excellence scholarship, while others are available to applicants from particular countries or 
+          backgrounds. The <strong>selection criteria</strong> vary considerably. Some scholarships place greater emphasis on academic 
+          performance, others on the university or program you are applying to, while some also consider financial circumstances. 
+          The level of <strong>competition</strong> and the amount of <strong>funding</strong> also differ. Depending on the scholarship, it may cover all or 
+          part of the tuition fees, living expenses, or both. Before applying, carefully read the eligibility criteria, 
+          required documents, and deadlines.
+        </p>   
+        <p>
+         For Greek students, some well-known scholarship providers include the Onassis Foundation, Bodosakis Foundation, 
+         Hellenic Energy, Stavros Niarchos Foundation, A.G. Leventis Foundation, the Union of Greek Shipowners, and 
+         IKY (State Scholarships Foundation).
         </p>          
       </div>
     ),
@@ -2318,7 +3013,7 @@ export default function EducationalQAClient() {
         Educational Q&A
       </h2>
       
-      <p className="text-gray-700 mb-8">
+      <p className="text-gray-700 mb-8 text-justify">
           Below, I share my personal thoughts on several questions that have crossed my mind along the way and that may help
           students, from school to university, as well as researchers at different stages of their journey. These opinions are
           based on my personal experiences, studies and the perspectives of people I have met so far. I encourage you to use

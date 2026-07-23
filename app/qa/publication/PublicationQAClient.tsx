@@ -380,7 +380,7 @@ export default function PublicationQAClient() {
           <div key={pubIndex} className="border rounded-xl p-5">
 
             {/* Publication header */}
-            <p className="text-gray-700 text-center leading-relaxed">
+            <p className="text-gray-700 text-center leading-relaxed text-justify">
               {pub.citation}
             </p>
 

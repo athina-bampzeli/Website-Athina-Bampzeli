@@ -19,7 +19,7 @@ export default function FlipCard({
 
   return (
     <div
-      className="[perspective:1000px] cursor-pointer"
+      className="break-inside-avoid mb-6 [perspective:1000px] cursor-pointer"
       onClick={() => setFlipped(!flipped)}
     >
       <div
