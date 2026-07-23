@@ -198,7 +198,7 @@ export default function Home() {
           
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
 
-          <p className="text-gray-700 mb-8 leading-relaxed ">
+          <p className="text-gray-700 mb-8 leading-relaxed text-justify">
             I hold an Integrated Master's degree in Chemical Engineering with first-class honours 
             from Aristotle University of Thessaloniki, Greece. I am passionate about research and
             the dissemination of knowledge, and I aspire to pursue a career in academia, while
@@ -267,7 +267,7 @@ export default function Home() {
 
             <h2 className="text-3xl font-bold mb-6">Publications</h2>
 
-            <ul className="text-gray-700 space-y-3 text-center">
+            <ul className="text-gray-700 space-y-3 text-center text-justify">
               <li>
               Bampzeli, A., Charakleias, E., & Georgiadis, M. C. (2026). Modeling, simulation and optimization of integrated milk pasteurization and membrane filtration processes. <i>Food and Bioproducts Processing</i>, <i>157</i>, 583-599. 
               <a 
