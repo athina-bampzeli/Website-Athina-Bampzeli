@@ -103,12 +103,12 @@ export default function Home() {
             </h1>
 
             <h2 className="text-1xl font-bold mb-4">
-              Chemical Engineer | Researcher | Hybrid Modeling
+              PhD student | Hybrid Modeling of Bioprocesses | Chemical Engineer
             </h2>
 
             <p className="text-gray-600 mb-6">
-              Hello! Welcome to my website. I am Athina, a Chemical
-              Engineer from Thessaloniki looking for opportunities in research and education.
+              Welcome to my website! I am Athina, a Chemical
+              Engineer from Thessaloniki currently pursuing an industrial PhD at DataHow as part of the ELEGANCE MSCA Doctoral Network.
             </p>
 
             {/* Home screen right icons */}
@@ -199,15 +199,13 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
 
           <p className="text-gray-700 mb-8 leading-relaxed text-justify">
-            I hold an Integrated Master's degree in Chemical Engineering with first-class honours 
-            from Aristotle University of Thessaloniki, Greece. I am passionate about research and
+            I hold an Integrated Master’s degree in Chemical Engineering and I am currently pursuing an industrial PhD 
+            at DataHow, as part of the ELEGANCE MSCA Doctoral Network. I am passionate about research and
             the dissemination of knowledge, and I aspire to pursue a career in academia, while
             remaining open to the diverse opportunities that may arise along the way.
 
             My interests lie in the application of technology to industrial production systems,
-            particularly in computer-aided modeling, simulation, and optimization. I am
-            especially interested in hybrid modeling of bioprocesses, a field I am currently
-            exploring in greater depth and aim to specialize in during my PhD.
+            particularly in computer-aided modeling, simulation, and optimization.
             
             I strongly value lifelong learning and interdisciplinarity, and I am driven by
             intellectual curiosity. You can explore my work through my{" "}

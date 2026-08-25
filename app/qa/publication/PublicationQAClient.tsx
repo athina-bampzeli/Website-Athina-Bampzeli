@@ -364,8 +364,18 @@ export default function PublicationQAClient() {
         Publication Q&A
       </h2>
       
-      <p className="text-gray-700 mb-8">
-          Here you can find questions that I was asked about my publication during presentations and interviews, along with my answers.
+      <p className="text-gray-700 mb-8 text-justify">
+          Here you can find questions that I was asked about my publication during presentations and interviews, along with my answers. If you identify important questions that have not yet been addressed here, you are
+          welcome to{" "}
+
+            <a
+            href="https://athinabampzeli.com/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+            >
+            contact
+            </a> me so that I can add more content.
         </p>
 
       <button

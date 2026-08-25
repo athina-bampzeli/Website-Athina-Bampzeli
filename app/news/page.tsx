@@ -18,6 +18,54 @@ export default function News() {
           <div className="grid md:grid-cols-2 gap-6 space-y-6 max-w-4xl">
 
         
+            {/* elegance kick off meeting */}
+            <FlipCard
+              front={
+                
+                
+                <div className="absolute inset-0 flex flex-col items-center justify-center border rounded-xl shadow-sm group-hover:shadow-md p-4 text-center">
+                  <h3 className="text-2xl font-semibold">
+                    ELEGANCE Kick-off meeting
+                  </h3>
+
+                    <div className="mt-3 text-lg font-normal text-gray-600">
+                      1-4 September 2026 <br />
+                      DTU, Copenhagen, Denmark
+                    </div>
+                    {/* <a
+                          href="https"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center hover:opacity-80 transition text-[#0A66C2]"
+                      >
+                          <FaLinkedin size={24} />
+                    </a> */}
+                  
+                </div>
+              }
+              back={
+
+                
+                <div className="absolute inset-0 flex items-center bg-gray-100 border rounded-xl p-4 text-justify">
+                  <p className="text-gray-700">The aim of the meeting is to learn: a) ELEGANCE members, b) fundamental aspects of
+                    basic and applied biocatalysis, c) important elements to succeed in doctoral program.
+                    Visit{" "}
+                    <a
+                      href="https://elegance.dtu.dk/"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline font-medium"
+                    >
+                      ELEGANCE website
+                    </a>{" "}
+                    for more.
+                  </p>
+
+                  
+                </div>
+
+              }
+            />
+            
             {/* datahow symposium */}
             <FlipCard
               front={

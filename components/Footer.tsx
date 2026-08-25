@@ -27,13 +27,13 @@ export default function Footer() {
         </p>
 
         {/* Share row */}
-        <div className="flex items-center gap-3">
+        {/* <div className="flex items-center gap-3">
           <span className="text-sm text-gray-600">
             Share on:
           </span>
 
           <ShareButtons />
-        </div>
+        </div> */}
 
         {/* Privacy Policy */}
         <Link href="/privacy" className="text-sm text-gray-600 hover:underline">
