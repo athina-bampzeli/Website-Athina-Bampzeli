@@ -11,9 +11,10 @@ export default function Lexicon() {
 
         <h2 className="text-3xl font-bold mb-6">Lexicon</h2>
 
-        <p className="text-gray-700 mb-8">
+        <p className="text-gray-700 mb-8 text-justify">
           Find definitions of technical terminology relevant to my research and studies
-          in both formal/technical ways and simple ways for a non-expert to understand!
+          in both formal ways and simpler ways for a non-expert to understand. Over time, more and more concepts are added, providing a valuable resource
+          for anyone who wants to explore chemical engineering, mechanistic and data-driven modeling in greater depth.
         </p>
 
         {/* Table */}
